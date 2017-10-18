@@ -22,7 +22,7 @@ typedef short     SHORT;
 
 class CDescRec {
 public:
-	CDescRec(SQLSMALLINT ODBCDataType, SQLSMALLINT m_DescUnsigned);
+	CDescRec();
 	~CDescRec();
 
 	SQLSMALLINT	m_DescType;
@@ -79,10 +79,10 @@ public:
  //	CHAR		*m_TranslatedDataPtr; // Used by SQLGetData - 10-090119-8521
 
 };
-
+/*
 class ICUConverter {
 public:
     ICUConverter();
 };
-
+*/
 #endif

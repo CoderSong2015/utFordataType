@@ -1,5 +1,5 @@
 #include "commonFunction.h"
-#include "testData/NumberToNumber/testData.h"
+#include "testData.h"
 //#include "functionList.h"
 void testE(){
     EXPECT_EQ(1, 2);

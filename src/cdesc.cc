@@ -1,7 +1,7 @@
 #include "cdesc.h"
 
-CDescRec::CDescRec(SQLSMALLINT ODBCDataType, SQLSMALLINT m_DescUnsigned)
-    :m_ODBCDataType(ODBCDataType),m_DescUnsigned(m_DescUnsigned)
+/*
+CDescRec::CDescRec()
 {
 	m_DescType = 0;
 	m_DescConciseType = 0;
@@ -27,8 +27,8 @@ CDescRec::CDescRec(SQLSMALLINT ODBCDataType, SQLSMALLINT m_DescUnsigned)
 	m_SQLMaxLength = 0;
 
 	m_DescReturnedLength = 0;
-}
-
+}*/
+/*
 ICUConverter::ICUConverter()
 {
-}
+}*/

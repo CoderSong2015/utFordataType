@@ -75,5 +75,8 @@ $(USER_DIR)/lib/gtest_main.a : ${OBJ_DIR}/gtest-all.o ${OBJ_DIR}/gtest_main.o
 ${OBJ_DIR}/%.o : ${SRC_DIR}/*.cc
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -c $< -o $@ 
 
-unitTest : ${OBJ_DIR}/cdesc.o $(USER_DIR)/lib/gtest_main.a
+unitTest : ${OBJ_DIR}/cdesc.o \
+	       ${OBJ_DIR}/typeTest.o \
+		   ${OBJ_DIR}/commonFunction.o \
+	       $(USER_DIR)/lib/gtest_main.a
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -lpthread $^ -o $@
