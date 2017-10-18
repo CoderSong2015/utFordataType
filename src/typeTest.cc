@@ -54,7 +54,7 @@ class Num : public testing::TestWithParam<int>{
   protected:  
   virtual void SetUp() {  
       
-      tmpDesc = new CDescRec(0, 0);
+      tmpDesc = new CDescRec();
   }
 
   CDescRec * tmpDesc;  
@@ -76,7 +76,7 @@ TEST_F(NumberToNumberTest, Size) {
 */
 TEST_P(Num, Testmultiple){
     int n = GetParam();
-    
+   
     callSub(n, tmpDesc);
     
 }

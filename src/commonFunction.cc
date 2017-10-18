@@ -8,7 +8,7 @@ void testE(){
 void initDesc(CDescRec *cdr, TESTDATA_TABLE  map){
 
     cdr->m_ODBCDataType                 = map.m_ODBCDataType;
-    cdr->m_DescUnsigned                  = map.m_SQLUnsigned;
+    cdr->m_DescUnsigned                 = map.m_DescUnsigned;
     cdr->m_DescType                     = map.m_DescType;     
     cdr->m_DescConciseType              = map.m_DescConciseType;
     cdr->m_DescDatetimeIntervalCode     = map.m_DescDatetimeIntervalCode;

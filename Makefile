@@ -72,11 +72,12 @@ $(USER_DIR)/lib/gtest_main.a : ${OBJ_DIR}/gtest-all.o ${OBJ_DIR}/gtest_main.o
 # gtest_main.a, depending on whether it defines its own main()
 # function.
 
-${OBJ_DIR}/%.o : ${SRC_DIR}/*.cc
+${OBJ_DIR}/%.o : ${SRC_DIR}/%.cc
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -c $< -o $@ 
 
 unitTest : ${OBJ_DIR}/cdesc.o \
 	       ${OBJ_DIR}/typeTest.o \
 		   ${OBJ_DIR}/commonFunction.o \
+		   ${OBJ_DIR}/sqltocconv.o \
 	       $(USER_DIR)/lib/gtest_main.a
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -lpthread $^ -o $@
