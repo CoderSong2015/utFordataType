@@ -14,20 +14,22 @@
 
 # Points to the root of Google Test, relative to where this file is.
 # Remember to tweak this if you move this file.
-GTEST_DIR =/home/haolin/work/test/googletest/googletest
+GTEST_DIR =../googletest/googletest
 
 # Where to find user code.
-USER_DIR=/home/haolin/work/test/testNewDataType
+USER_DIR=.
 SRC_DIR=${USER_DIR}/src
-OBJ_DIR=/home/haolin/work/test/testNewDataType/obj
+OBJ_DIR=${USER_DIR}/obj
+ODBC_DIR=/home/haolin/work/repos/incubator-trafodion/core/conn/unixodbc/odbc/odbcclient/unixcli/
+ODBC_DIR_OBJ=/home/haolin/work/repos/incubator-trafodion/core/conn/unixodbc/odbc/odbcclient/unixcli/obj/linux64/debug/
 # Flags passed to the preprocessor.
 # Set Google Test's header directory as a system directory, such that
 # the compiler doesn't generate warnings in Google Test headers.
-CPPFLAGS += -isystem $(GTEST_DIR)/include -I $(USER_DIR)/include
-
+CPPFLAGS += -isystem $(GTEST_DIR)/include -I $(USER_DIR)/include -I$(ODBC_DIR)./cli/ -I$(ODBC_DIR)./Interface  -I$(ODBC_DIR)../../dependencies/windows/ -I$(ODBC_DIR)../../dependencies/security/include -I$(ODBC_DIR)./sql/ -I$(ODBC_DIR)../../../../../sql/cli -I$(ODBC_DIR)../../../../../sql/common -I$(ODBC_DIR)./inc -I$(ODBC_DIR)../../Krypton/ -I$(ODBC_DIR)./common/ -I$(ODBC_DIR)./TCPIPV4/ -I$(ODBC_DIR)./trace/ -I$(ODBC_DIR)./platform -I$(ODBC_DIR)./security_dll/common -I$(ODBC_DIR)./security_dll/header -I /home/xwx/incubator-trafodion/core/sqf/export/include -I/home/haolin/work/repos/incubator-trafodion/core/sqf/inc/cextdecs/
 # Flags passed to the C++ compiler.
-CXXFLAGS += -g -Wall -Wextra -pthread
+CXXFLAGS += -g -Wextra -pthread -m64 -Dunixcli -DVERSION3 -DMXLINUX -DDISABLE_TRACE -DSIZEOF_LONG=8 -DSIZEOF_LONG_INT=8 -w -DASYNCIO -DTRACE_COMPRESSION -I$(ICU)/linux64/include -I/usr/include/openssl
 
+LIBS = -lpthread -lrt -ldl -lz -L$(ICU)/linux64/lib -licuuc -Wl,--hash-style=both -lssl -llber -Wl,--version-script=linux.exports
 # All tests produced by this Makefile.  Remember to add new tests you
 # created to the list.
 TESTS = unitTest
@@ -50,6 +52,11 @@ clean :
 # trailing _.
 GTEST_SRCS_ = $(GTEST_DIR)/src/*.cc $(GTEST_DIR)/src/*.h $(GTEST_HEADERS)
 
+CLIOBJS = dmadmin.o dmcpool.o dmfunctions.o dminstall.o dmmapping.o drvrmanager.o version.o cdatasource.o gettrace.o init.o traceext.o odbcas_drvr.o odbcs_drvr.o transport.o cconnect.o cdesc.o cdiag.o cenv.o chandle.o cstmt.o ctosqlconv.o diagfunctions.o drvrglobal.o drvrnet.o netcommon.o netconnect.o netstmt.o sqlconnect.o sqldesc.o sqlenv.o neofunc.o sqlhandle.o sqlstmt.o sqltocconv.o odbcmsg.o translte.o asyncIO.o charsetconv.o transportbase.o TCPIPUnixDrvr.o marshaling.o marshalingdrvr_drvr.o swapdrvr_drvr.o windows.o compression.o swap.o nskieee.o ExpConvMxcs.o nix.o verslnxdrvr.o TCPIPV4.o Cipher.o Key.o MessageDigest.o secpwd.o Security.o securityException.o StaticLocking.o utils.o 
+
+  
+
+DRVRCLIOBJ = $(addprefix $(ODBC_DIR_OBJ),$(CLIOBJS))
 # For simplicity and to avoid depending on Google Test's
 # implementation details, the dependencies specified below are
 # conservative and not optimized.  This is fine as Google Test
@@ -75,9 +82,8 @@ $(USER_DIR)/lib/gtest_main.a : ${OBJ_DIR}/gtest-all.o ${OBJ_DIR}/gtest_main.o
 ${OBJ_DIR}/%.o : ${SRC_DIR}/%.cc
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -c $< -o $@ 
 
-unitTest : ${OBJ_DIR}/cdesc.o \
-	       ${OBJ_DIR}/typeTest.o \
+unitTest : ${OBJ_DIR}/typeTest.o \
+	       ${DRVRCLIOBJ} \
 		   ${OBJ_DIR}/commonFunction.o \
-		   ${OBJ_DIR}/sqltocconv.o \
 	       $(USER_DIR)/lib/gtest_main.a
-	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -lpthread $^ -o $@
+	$(CXX) $(LIBS) $(CPPFLAGS) $(CXXFLAGS) -lpthread $^ -o $@ 
