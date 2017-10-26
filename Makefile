@@ -20,16 +20,17 @@ GTEST_DIR =../googletest/googletest
 USER_DIR=.
 SRC_DIR=${USER_DIR}/src
 OBJ_DIR=${USER_DIR}/obj
-ODBC_DIR=/home/haolin/work/repos/incubator-trafodion/core/conn/unixodbc/odbc/odbcclient/unixcli/
-ODBC_DIR_OBJ=/home/haolin/work/repos/incubator-trafodion/core/conn/unixodbc/odbc/odbcclient/unixcli/obj/linux64/debug/
+ODBC_DIR=/home/haolin/work/repos/xwxodbc/incubator-trafodion/core/conn/unixodbc/odbc/odbcclient/unixcli/
+ODBC_DIR_OBJ=/home/haolin/work/repos/xwxodbc/incubator-trafodion/core/conn/unixodbc/odbc/odbcclient/unixcli/obj/linux64/debug/
 # Flags passed to the preprocessor.
 # Set Google Test's header directory as a system directory, such that
 # the compiler doesn't generate warnings in Google Test headers.
-CPPFLAGS += -isystem $(GTEST_DIR)/include -I $(USER_DIR)/include -I$(ODBC_DIR)./cli/ -I$(ODBC_DIR)./Interface  -I$(ODBC_DIR)../../dependencies/windows/ -I$(ODBC_DIR)../../dependencies/security/include -I$(ODBC_DIR)./sql/ -I$(ODBC_DIR)../../../../../sql/cli -I$(ODBC_DIR)../../../../../sql/common -I$(ODBC_DIR)./inc -I$(ODBC_DIR)../../Krypton/ -I$(ODBC_DIR)./common/ -I$(ODBC_DIR)./TCPIPV4/ -I$(ODBC_DIR)./trace/ -I$(ODBC_DIR)./platform -I$(ODBC_DIR)./security_dll/common -I$(ODBC_DIR)./security_dll/header -I /home/xwx/incubator-trafodion/core/sqf/export/include -I/home/haolin/work/repos/incubator-trafodion/core/sqf/inc/cextdecs/
+CPPFLAGS += -isystem $(GTEST_DIR)/include -I $(USER_DIR)/include -I$(ODBC_DIR)./cli/ -I$(ODBC_DIR)./Interface  -I$(ODBC_DIR)../../dependencies/windows/ -I$(ODBC_DIR)../../dependencies/security/include -I$(ODBC_DIR)./sql/ -I$(ODBC_DIR)../../../../../sql/cli -I$(ODBC_DIR)../../../../../sql/common -I$(ODBC_DIR)./inc -I$(ODBC_DIR)../../Krypton/ -I$(ODBC_DIR)./common/ -I$(ODBC_DIR)./TCPIPV4/ -I$(ODBC_DIR)./trace/ -I$(ODBC_DIR)./platform -I$(ODBC_DIR)./security_dll/common -I$(ODBC_DIR)./security_dll/header -I /home/haolin/work/repos/xwxodbc/incubator-trafodion/core/sqf/export/include -I/home/haolin/work/repos/xwxodbc/incubator-trafodion/core/sqf/inc/cextdecs/
 # Flags passed to the C++ compiler.
 CXXFLAGS += -g -Wextra -pthread -m64 -Dunixcli -DVERSION3 -DMXLINUX -DDISABLE_TRACE -DSIZEOF_LONG=8 -DSIZEOF_LONG_INT=8 -w -DASYNCIO -DTRACE_COMPRESSION -I$(ICU)/linux64/include -I/usr/include/openssl
 
-LIBS = -lpthread -lrt -ldl -lz -L$(ICU)/linux64/lib -licuuc -Wl,--hash-style=both -lssl -llber -Wl,--version-script=linux.exports
+LIBS = -lpthread -lrt -ldl -lz -L$(ICU)/linux64/lib -licuuc -Wl,--hash-style=both -lssl -llber 
+#-Wl,--version-script=linux.exports
 # All tests produced by this Makefile.  Remember to add new tests you
 # created to the list.
 TESTS = unitTest

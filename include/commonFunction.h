@@ -17,4 +17,6 @@ T stringToNum(const string&str)
 }
 
 void callSub(int ,CDescRec *);
+void callSubCtosql(int , CDescRec* );
+void commonSwitchctosql(int, SQLPOINTER, int );
 #endif
