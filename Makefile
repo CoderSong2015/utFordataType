@@ -88,5 +88,7 @@ ${OBJ_DIR}/%.o : ${SRC_DIR}/%.cc
 unitTest : ${OBJ_DIR}/typeTest.o \
 	       ${DRVRCLIOBJ} \
 		   ${OBJ_DIR}/commonFunction.o \
+		   ${OBJ_DIR}/init.o \
+		   ${OBJ_DIR}/commonFunctionL.o \
 	       $(USER_DIR)/lib/gtest_main.a
 	$(CXX) $(LIBS) $(CPPFLAGS) $(CXXFLAGS) -lpthread $^ -o $@ 

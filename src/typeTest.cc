@@ -48,6 +48,7 @@
 #include "cdesc.h"
 #include "gtest/gtest.h"
 #include "commonFunction.h"
+#include "commonFunctionL.h"
 namespace {
 
 class Num : public testing::TestWithParam<int>{  

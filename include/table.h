@@ -1,4 +1,5 @@
-
+#ifndef __TABLE__
+#define __TABLE__
 typedef struct TESTDATATABLE{
     
     const char *src;
@@ -8,6 +9,7 @@ typedef struct TESTDATATABLE{
     int targetLen;
     
     int m_ODBCDataType;
+    int m_SQLUnsigned;
     int m_DescUnsigned;
     int m_DescType;     
     int m_DescConciseType;
@@ -30,3 +32,5 @@ typedef struct TESTDATATABLE{
     int m_SQLMaxLength;
     int m_DescReturnedLength;
 }TESTDATA_TABLE;
+
+#endif
