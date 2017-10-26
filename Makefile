@@ -20,12 +20,14 @@ GTEST_DIR =../googletest/googletest
 USER_DIR=.
 SRC_DIR=${USER_DIR}/src
 OBJ_DIR=${USER_DIR}/obj
-ODBC_DIR=/home/haolin/work/repos/xwxodbc/incubator-trafodion/core/conn/unixodbc/odbc/odbcclient/unixcli/
-ODBC_DIR_OBJ=/home/haolin/work/repos/xwxodbc/incubator-trafodion/core/conn/unixodbc/odbc/odbcclient/unixcli/obj/linux64/debug/
+
+TRAF_H=/home/haolin/work/repos/xwxodbc/incubator-trafodion
+ODBC_DIR=$(TRAF_H)/core/conn/unixodbc/odbc/odbcclient/unixcli/
+ODBC_DIR_OBJ=$(TRAF_H)/core/conn/unixodbc/odbc/odbcclient/unixcli/obj/linux64/debug/
 # Flags passed to the preprocessor.
 # Set Google Test's header directory as a system directory, such that
 # the compiler doesn't generate warnings in Google Test headers.
-CPPFLAGS += -isystem $(GTEST_DIR)/include -I $(USER_DIR)/include -I$(ODBC_DIR)./cli/ -I$(ODBC_DIR)./Interface  -I$(ODBC_DIR)../../dependencies/windows/ -I$(ODBC_DIR)../../dependencies/security/include -I$(ODBC_DIR)./sql/ -I$(ODBC_DIR)../../../../../sql/cli -I$(ODBC_DIR)../../../../../sql/common -I$(ODBC_DIR)./inc -I$(ODBC_DIR)../../Krypton/ -I$(ODBC_DIR)./common/ -I$(ODBC_DIR)./TCPIPV4/ -I$(ODBC_DIR)./trace/ -I$(ODBC_DIR)./platform -I$(ODBC_DIR)./security_dll/common -I$(ODBC_DIR)./security_dll/header -I /home/haolin/work/repos/xwxodbc/incubator-trafodion/core/sqf/export/include -I/home/haolin/work/repos/xwxodbc/incubator-trafodion/core/sqf/inc/cextdecs/
+CPPFLAGS += -isystem $(GTEST_DIR)/include -I $(USER_DIR)/include -I$(ODBC_DIR)./cli/ -I$(ODBC_DIR)./Interface  -I$(ODBC_DIR)../../dependencies/windows/ -I$(ODBC_DIR)../../dependencies/security/include -I$(ODBC_DIR)./sql/ -I$(ODBC_DIR)../../../../../sql/cli -I$(ODBC_DIR)../../../../../sql/common -I$(ODBC_DIR)./inc -I$(ODBC_DIR)../../Krypton/ -I$(ODBC_DIR)./common/ -I$(ODBC_DIR)./TCPIPV4/ -I$(ODBC_DIR)./trace/ -I$(ODBC_DIR)./platform -I$(ODBC_DIR)./security_dll/common -I$(ODBC_DIR)./security_dll/header -I $(TRAF_H)/core/sqf/export/include -I$(TRAF_H)/core/sqf/inc/cextdecs/
 # Flags passed to the C++ compiler.
 CXXFLAGS += -g -Wextra -pthread -m64 -Dunixcli -DVERSION3 -DMXLINUX -DDISABLE_TRACE -DSIZEOF_LONG=8 -DSIZEOF_LONG_INT=8 -w -DASYNCIO -DTRACE_COMPRESSION -I$(ICU)/linux64/include -I/usr/include/openssl
 
