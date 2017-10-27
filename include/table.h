@@ -1,36 +1,21 @@
 #ifndef __TABLE__
 #define __TABLE__
 typedef struct TESTDATATABLE{
-    
-    const char *src;
-    int srcType; 
-    const char * target;
-    int targetType;
-    int targetLen;
-    
-    int m_ODBCDataType;
-    int m_SQLUnsigned;
-    int m_DescUnsigned;
-    int m_DescType;     
-    int m_DescConciseType;
-    int m_DescDatetimeIntervalCode;
-    int m_DescOctetLength;
-    int m_DescLength;
-    int m_DescPrecision;
-    int m_DescScale;
-    int m_DescDatetimeIntervalPrecision;
-    int m_DescFixedPrecScale;
-    int m_DescNullable;
-    int m_SQLCharset;
-    int m_ODBCCharset;
-    int m_SQLDataType;
-    int m_SQLPrecision;
-    int m_ODBCPrecision;
-    int m_ODBCScale;
-    int m_SQLDatetimeCode;
-    int m_SQLOctetLength;
-    int m_SQLMaxLength;
-    int m_DescReturnedLength;
+    const char *sqlValue;                                             
+    const char *cValue;                                  
+    int CDataType;                                  
+    int CDataLen;                                  
+    int m_ODBCDataType;                                  
+    int m_SQLDataType;                                  
+    int m_SQLMaxLength;                                  
+    int m_DescUnsigned;                                  
+    int Precision;                                  
+    int Scale;                                  
+    int m_SQLCharset;                                  
+    int m_SQLDatetimeCode;                       
+    int m_SQLOctetLength;                       
+    char numeric_sign;  /* 1=+ 0=- */        
+    const char *numeric_value; 
 }TESTDATA_TABLE;
 
 #endif

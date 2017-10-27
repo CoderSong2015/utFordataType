@@ -60,7 +60,7 @@ class Num : public testing::TestWithParam<int>{
 
   CDescRec * tmpDesc;  
 };
-/*
+
 TEST_P(Num, Testmultiple){
     int n = GetParam();
    
@@ -74,8 +74,8 @@ INSTANTIATE_TEST_CASE_P(Weixin,
     Num,
     ::testing::ValuesIn(NumberToNumberCaseNumber)); //::testing::Values for input directly
 
-*/
 
+/*
 class NumCtosql : public testing::TestWithParam<int>{  
   protected:  
   virtual void SetUp() {  
@@ -96,7 +96,7 @@ int TestCaseNumber[] = {0, 1};
 INSTANTIATE_TEST_CASE_P(Lize,
     NumCtosql,
     ::testing::ValuesIn(TestCaseNumber)); //::testing::Values for input directly
-
+*/
 
 
 }  // namespace
