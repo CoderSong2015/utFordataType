@@ -169,3 +169,20 @@ class defType:
         # SQL_DATETIME		:	'SQL_DATETIME'          ,
         # SQL_VARCHAR			:	'SQL_VARCHAR'
     }
+    sql_type_Datatype = {
+        SQL_BIGINT	     :	'SQLTYPECODE_LARGEINT'              ,
+        SQL_TINYINT		 :	'SQLTYPECODE_TINYINT'              ,
+        SQL_BIT			 :	'SQLTYPECODE_BPINT_UNSIGNED'              ,
+        SQL_UNKNOWN_TYPE :	'0'              ,
+        # SQL_CHAR		    :	'SQL_CHAR'              ,
+        # SQL_NUMERIC		    :	'SQL_NUMERIC'           ,
+        # SQL_DECIMAL		    :	'SQL_DECIMAL'           ,
+        SQL_INTEGER		    : 'SQLTYPECODE_INTEGER'           ,
+        SQL_SMALLINT	    : 'SQLTYPECODE_SMALLINT'           ,
+        SQL_FLOAT		    : 'SQLTYPECODE_IEEE_FLOAT'           ,
+        SQL_REAL		    : 'SQLTYPECODE_IEEE_REAL'           ,
+        SQL_DOUBLE		    : 'SQLTYPECODE_IEEE_DOUBLE',
+        # SQL_DATETIME		:	'SQL_DATETIME'          ,
+        # SQL_VARCHAR			:	'SQL_VARCHAR'
+    }
+
