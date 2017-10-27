@@ -85,11 +85,11 @@ $(USER_DIR)/lib/gtest_main.a : ${OBJ_DIR}/gtest-all.o ${OBJ_DIR}/gtest_main.o
 ${OBJ_DIR}/%.o : ${SRC_DIR}/%.cc
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -c $< -o $@ 
 
-#${OBJ_DIR}/commonFunctionL.o 
 
 unitTest : ${OBJ_DIR}/typeTest.o \
 	       ${DRVRCLIOBJ} \
 		   ${OBJ_DIR}/commonFunction.o \
 		   ${OBJ_DIR}/init.o \
+           ${OBJ_DIR}/commonFunctionL.o \
 	       $(USER_DIR)/lib/gtest_main.a
 	$(CXX) $(LIBS) $(CPPFLAGS) $(CXXFLAGS) -lpthread $^ -o $@ 
