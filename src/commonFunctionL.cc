@@ -17,8 +17,8 @@ void callSubCtosql(int n, CDescRec* tmpDesc){
         case SQL_C_TINYINT:
         case SQL_C_STINYINT:{
             char testSrc = stringToNum<int>(s); 
-            SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_ODBCDataType);
-            memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_ODBCDataType);
+            SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_SQLMaxLength);
+            memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_SQLMaxLength);
             SQLLEN size;
             ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv);
             commonSwitchctosql(TESTDATA_MAPL[n].m_ODBCDataType, testP, n);    
@@ -27,8 +27,8 @@ void callSubCtosql(int n, CDescRec* tmpDesc){
         case SQL_C_BIT:
         case SQL_C_UTINYINT:{
             unsigned char testSrc = stringToNum<int>(s); 
-            SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_ODBCDataType);
-            memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_ODBCDataType);
+            SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_SQLMaxLength);
+            memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_SQLMaxLength);
             SQLLEN size;
             ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv);
             commonSwitchctosql(TESTDATA_MAPL[n].m_ODBCDataType, testP, n);    
@@ -39,8 +39,8 @@ void callSubCtosql(int n, CDescRec* tmpDesc){
         case SQL_C_SHORT:
         case SQL_C_SSHORT:{
             short testSrc = stringToNum<short>(s); 
-            SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_ODBCDataType);
-            memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_ODBCDataType);
+            SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_SQLMaxLength);
+            memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_SQLMaxLength);
             SQLLEN size;
             ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv);
             commonSwitchctosql(TESTDATA_MAPL[n].m_ODBCDataType, testP, n);    
@@ -48,8 +48,8 @@ void callSubCtosql(int n, CDescRec* tmpDesc){
         } 
         case SQL_C_USHORT:{
             unsigned short testSrc = stringToNum<unsigned short>(s); 
-            SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_ODBCDataType);
-            memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_ODBCDataType);
+            SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_SQLMaxLength);
+            memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_SQLMaxLength);
             SQLLEN size;
             ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv);
             commonSwitchctosql(TESTDATA_MAPL[n].m_ODBCDataType, testP, n);    
@@ -59,8 +59,8 @@ void callSubCtosql(int n, CDescRec* tmpDesc){
         case SQL_C_SLONG:
         case SQL_C_LONG:{
             long testSrc = stringToNum<long>(s); 
-            SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_ODBCDataType);
-            memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_ODBCDataType);
+            SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_SQLMaxLength);
+            memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_SQLMaxLength);
             SQLLEN size;
             ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv);
             commonSwitchctosql(TESTDATA_MAPL[n].m_ODBCDataType, testP, n);    
@@ -69,8 +69,8 @@ void callSubCtosql(int n, CDescRec* tmpDesc){
         }
         case SQL_C_ULONG:{
             unsigned  long testSrc = stringToNum<unsigned long>(s); 
-            SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_ODBCDataType);
-            memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_ODBCDataType);
+            SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_SQLMaxLength);
+            memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_SQLMaxLength);
             SQLLEN size;
             ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv);
             commonSwitchctosql(TESTDATA_MAPL[n].m_ODBCDataType, testP, n);    
@@ -78,8 +78,8 @@ void callSubCtosql(int n, CDescRec* tmpDesc){
         }
         case SQL_C_SBIGINT:{
             long long  testSrc = stringToNum<long long>(s); 
-            SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_ODBCDataType);
-            memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_ODBCDataType);
+            SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_SQLMaxLength);
+            memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_SQLMaxLength);
             SQLLEN size;
             ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv);
             commonSwitchctosql(TESTDATA_MAPL[n].m_ODBCDataType, testP, n);    
@@ -88,8 +88,8 @@ void callSubCtosql(int n, CDescRec* tmpDesc){
         }
         case SQL_C_UBIGINT:{
             unsigned long long  testSrc = stringToNum<unsigned long long >(s); 
-            SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_ODBCDataType);
-            memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_ODBCDataType);
+            SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_SQLMaxLength);
+            memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_SQLMaxLength);
             SQLLEN size;
             ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv);
             commonSwitchctosql(TESTDATA_MAPL[n].m_ODBCDataType, testP, n);    
@@ -98,8 +98,8 @@ void callSubCtosql(int n, CDescRec* tmpDesc){
         }
         case SQL_C_FLOAT:{
             float testSrc = stringToNum<float>(s); 
-            SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_ODBCDataType);
-            memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_ODBCDataType);
+            SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_SQLMaxLength);
+            memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_SQLMaxLength);
             SQLLEN size;
             ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv);
             commonSwitchctosql(TESTDATA_MAPL[n].m_ODBCDataType, testP, n);    
@@ -108,8 +108,8 @@ void callSubCtosql(int n, CDescRec* tmpDesc){
         }
         case SQL_C_DOUBLE:{    
             double testSrc = stringToNum<double>(s); 
-            SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_ODBCDataType);
-            memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_ODBCDataType);
+            SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_SQLMaxLength);
+            memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_SQLMaxLength);
             SQLLEN size;
             ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv);
             commonSwitchctosql(TESTDATA_MAPL[n].m_ODBCDataType, testP, n);    
