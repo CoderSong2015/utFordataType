@@ -1,6 +1,7 @@
 import sys
 from preDefine import defType
-
+from printTofile import printToFile
+from printTofile import printNumeric
 def getMax(a, b):
     if a > b :
         return a
@@ -24,45 +25,6 @@ functionListForUnsign = {
     2 : return0
 }
 
-def printToFile(c_k, sql_k, outputData, count, isunsigned):
-    with open('testData.h', 'a') as f:
-        f.write(
-            '''{
-          "%s"               //const char *sqlValue;                                             
-        , "%s"               //const char *cValue;                                  
-        , %s                 //int CDataType;                                  
-        , %d                 //int CDataLen;                                  
-        , %s                 //int m_ODBCDataType;                                  
-        , %s                 //int m_SQLDataType;                                  
-        , %d                 //int m_SQLMaxLength;                                  
-        , %d                 //int m_DescUnsigned;                                  
-        , %d                 //int Precision;                                  
-        , %d                 //int Scale;                                  
-        , %d                 //int m_SQLCharset;                                  
-        , %d                 //int m_SQLDatetimeCode;                       
-        , %d                 //int m_SQLOctetLength;                       
-        , '%d'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "%s"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    '''%(
-          str(outputData)          ,
-          str(outputData)          ,
-          defType.sql_c_type[c_k]  ,
-          defType.sql_c_Len[c_k]   ,
-          defType.sql_type[sql_k]  ,
-          defType.sql_type_Datatype[sql_k],
-          defType.sql_type_len[sql_k]     ,
-          isunsigned               ,
-          0                        ,
-          0                        ,
-          0                        ,
-          0                        ,
-          0                        ,
-          0                        ,
-          ""                       ,
-            )
-        )
-
 def doJob():
     count = 0
 
@@ -82,6 +44,11 @@ def doJob():
                 outputData = functionListForUnsign.get(i, return0)(sql_v[i], c_v[i + 1])
                 printToFile(c_k, sql_k, outputData, count, 1)
 
+    num = 0
+    for i in range(18):
+        num = num * 10 + 9
+        precision = i + 1
+        printNumeric(precision, 0, 0, num, 0)
 def main():
     writeFileHead('testData.h')
     doJob()
@@ -103,7 +70,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
 
 def writeFileEnd(file):
     FileEnd = '''
-}
+};
 #endif
         '''
     with open(file, 'a') as f:

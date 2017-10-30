@@ -26,7 +26,7 @@ class defType:
     sql_type = {
         SQL_BIGINT			:	'SQL_BIGINT'            ,
         SQL_TINYINT			:	'SQL_TINYINT'           ,
-        SQL_BIT				:	'SQL_BIT'               ,
+        #SQL_BIT				:	'SQL_BIT'               ,
         SQL_UNKNOWN_TYPE    :	'SQL_UNKNOWN_TYPE'      ,
         #SQL_CHAR		    :	'SQL_CHAR'              ,
         #SQL_NUMERIC		    :	'SQL_NUMERIC'           ,
@@ -42,7 +42,7 @@ class defType:
     sql_isunsigned = {
         SQL_BIGINT	        : 0,
         SQL_TINYINT		    : 0,
-        SQL_BIT			    : 0,
+        #SQL_BIT			    : 0,
         SQL_UNKNOWN_TYPE    : 0,
         #SQL_CHAR		    : 0,
         # SQL_NUMERIC		    :	'SQL_NUMERIC'           ,
@@ -58,7 +58,7 @@ class defType:
     sql_type_max_min = {
         SQL_BIGINT			:   [-2**63, 0, 2**63 -1],
         SQL_TINYINT			:	[-127, 0, 127],
-        SQL_BIT				:	[0, 0, 1],
+        #SQL_BIT				:	[0, 0, 1],
         #SQL_CHAR		    :	[-127, 0, 127],
         #SQL_NUMERIC		    :	[],
         #SQL_DECIMAL		    :	[],
@@ -74,7 +74,7 @@ class defType:
     sql_type_max_min_unsigned= {
         SQL_BIGINT		 :  [0, 2 **64 -1 ],
         SQL_TINYINT		 :	[0, 255],
-        SQL_BIT			 :	[0, 1],
+        #SQL_BIT			 :	[0, 1],
         # SQL_CHAR		    :	[-127, 0, 127],
         # SQL_NUMERIC		    :	[],
         # SQL_DECIMAL		    :	[],
@@ -156,7 +156,7 @@ class defType:
     sql_type_len = {
         SQL_BIGINT	     :	8              ,
         SQL_TINYINT		 :	1              ,
-        SQL_BIT			 :	1              ,
+        #SQL_BIT			 :	1              ,
         SQL_UNKNOWN_TYPE :	0              ,
         # SQL_CHAR		    :	'SQL_CHAR'              ,
         # SQL_NUMERIC		    :	'SQL_NUMERIC'           ,
@@ -172,7 +172,7 @@ class defType:
     sql_type_Datatype = {
         SQL_BIGINT	     :	'SQLTYPECODE_LARGEINT'              ,
         SQL_TINYINT		 :	'SQLTYPECODE_TINYINT'              ,
-        SQL_BIT			 :	'SQLTYPECODE_BPINT_UNSIGNED'              ,
+        #SQL_BIT			 :	'SQLTYPECODE_BPINT_UNSIGNED'              ,
         SQL_UNKNOWN_TYPE :	'0'              ,
         # SQL_CHAR		    :	'SQL_CHAR'              ,
         # SQL_NUMERIC		    :	'SQL_NUMERIC'           ,
