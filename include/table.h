@@ -15,7 +15,9 @@ typedef struct TESTDATATABLE{
     int m_SQLDatetimeCode;                       
     int m_SQLOctetLength;                       
     char numeric_sign;  /* 1=+ 0=- */        
-    const char *numeric_value; 
+    const char *numeric_value;
+    const char *srcTypeName;
+    const char *targetTypeName;
 }TESTDATA_TABLE;
 
 #endif
