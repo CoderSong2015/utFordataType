@@ -2,7 +2,7 @@
 #define __TESTDATA__
 #include<sqltypes.h>
 #include"table.h"
-TESTDATA_TABLE TESTDATA_MAP[] = {
+TESTDATA_TABLE TESTDATA_MAPL[] = {
     {
                              //count=0
           "-2147483648"               //const char *sqlValue;                                             

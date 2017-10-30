@@ -131,14 +131,14 @@ void commonSwitchctosql(int m_ODBCDataType, SQLPOINTER testP, int n){
         case SQL_BIT:{
             char mtarget = *(char *)testP;
             char sqldata = stringToNum<int>(TESTDATA_MAPL[n].sqlValue);
-            EXPECT_FLOAT_EQ(sqldata, mtarget) <<TESTDATA_MAPL[n].m_ODBCDataType  << TESTDATA_MAPL[n].CDataType ;
+            EXPECT_FLOAT_EQ(sqldata, mtarget) << "Data type is: " <<TESTDATA_MAPL[n].CTypeName  << "targettype is: " <<TESTDATA_MAPL[n].SQLTypeName ;
             delete((char *)testP);
             break; 
         }
         case SQL_TINYINT:{
             char mtarget = *(char *)testP;
             char sqldata = stringToNum<int>(TESTDATA_MAPL[n].sqlValue);
-            EXPECT_FLOAT_EQ(sqldata, mtarget) <<TESTDATA_MAPL[n].m_ODBCDataType  << TESTDATA_MAPL[n].CDataType ;
+            EXPECT_FLOAT_EQ(sqldata, mtarget) << "Data type is: " <<TESTDATA_MAPL[n].CTypeName  << "targettype is: " <<TESTDATA_MAPL[n].SQLTypeName ;
             delete((char *)testP);
             break; 
 
@@ -146,7 +146,7 @@ void commonSwitchctosql(int m_ODBCDataType, SQLPOINTER testP, int n){
         case SQL_SMALLINT:{
             short   mtarget = *(short *)testP;
             short  sqldata = stringToNum<short>(TESTDATA_MAPL[n].sqlValue);
-            EXPECT_FLOAT_EQ(sqldata, mtarget) <<TESTDATA_MAPL[n].m_ODBCDataType  << TESTDATA_MAPL[n].CDataType ;
+            EXPECT_FLOAT_EQ(sqldata, mtarget) << "Data type is: " <<TESTDATA_MAPL[n].CTypeName  << "targettype is: " <<TESTDATA_MAPL[n].SQLTypeName ;
             delete((short *)testP);
             break; 
 
@@ -155,7 +155,7 @@ void commonSwitchctosql(int m_ODBCDataType, SQLPOINTER testP, int n){
         
             int mtarget = *(int *)testP;
             int sqldata = stringToNum<int>(TESTDATA_MAPL[n].sqlValue);
-            EXPECT_FLOAT_EQ(sqldata, mtarget) <<TESTDATA_MAPL[n].m_ODBCDataType  << TESTDATA_MAPL[n].CDataType ;
+            EXPECT_FLOAT_EQ(sqldata, mtarget) << "Data type is: " <<TESTDATA_MAPL[n].CTypeName  << "targettype is: " <<TESTDATA_MAPL[n].SQLTypeName ;
             delete((int *)testP);
             break; 
         }
@@ -163,7 +163,7 @@ void commonSwitchctosql(int m_ODBCDataType, SQLPOINTER testP, int n){
             
             long long  mtarget = *(long long  *)testP;
             long long  sqldata = stringToNum<long long>(TESTDATA_MAPL[n].sqlValue);
-            EXPECT_FLOAT_EQ(sqldata, mtarget) <<TESTDATA_MAPL[n].m_ODBCDataType  << TESTDATA_MAPL[n].CDataType ;
+            EXPECT_FLOAT_EQ(sqldata, mtarget) << "Data type is: " <<TESTDATA_MAPL[n].CTypeName  << "targettype is: " <<TESTDATA_MAPL[n].SQLTypeName ;
             delete((long long *)testP);
             break; 
         }
@@ -173,7 +173,7 @@ void commonSwitchctosql(int m_ODBCDataType, SQLPOINTER testP, int n){
         
             double mtarget = *(double *)testP;
             double sqldata = stringToNum<double>(TESTDATA_MAPL[n].sqlValue);
-            EXPECT_FLOAT_EQ(sqldata, mtarget) <<TESTDATA_MAPL[n].m_ODBCDataType  << TESTDATA_MAPL[n].CDataType ;
+            EXPECT_FLOAT_EQ(sqldata, mtarget) << "Data type is: " <<TESTDATA_MAPL[n].CTypeName  << "targettype is: " <<TESTDATA_MAPL[n].SQLTypeName ;
             delete((double *)testP);
             break; 
         }
@@ -195,7 +195,7 @@ void commonSwitchctosql(int m_ODBCDataType, SQLPOINTER testP, int n){
         case SQL_FLOAT: // no need
              break;
         default:
-            EXPECT_TRUE(false) << "the DataType is :" << TESTDATA_MAPL[n].CDataType;
+            EXPECT_TRUE(false) << "the DataType is :" << "targettype is: " <<TESTDATA_MAPL[n].SQLTypeName;
             break;
     } 
 }

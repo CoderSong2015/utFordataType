@@ -15,7 +15,7 @@ void commonSwitch(int CDataType, SQLPOINTER testP, int n){
         case SQL_C_STINYINT:{
             char mtarget = *(char *)testP;
             char dataTarget = stringToNum<int>(TESTDATA_MAP[n].cValue);
-            EXPECT_EQ(dataTarget, mtarget) << TESTDATA_MAP[n].CDataType << " " << TESTDATA_MAP[n].m_ODBCDataType;
+            EXPECT_EQ(dataTarget, mtarget) << "dataTarget: "<< TESTDATA_MAP[n].SQLTypeName << "mtarget: " << TESTDATA_MAP[n].CTypeName;
             delete((char *)testP);
             break;                        
         }
@@ -23,57 +23,57 @@ void commonSwitch(int CDataType, SQLPOINTER testP, int n){
         case SQL_C_UTINYINT:{
             unsigned char mtarget  = *(unsigned char *)testP;
             unsigned char dataTarget = stringToNum<unsigned int>(TESTDATA_MAP[n].cValue);
-            EXPECT_EQ(dataTarget, mtarget) << TESTDATA_MAP[n].CDataType << " " << TESTDATA_MAP[n].m_ODBCDataType ;
+            EXPECT_EQ(dataTarget, mtarget) << "dataTarget: "<<TESTDATA_MAP[n].SQLTypeName << "mtarget: " << TESTDATA_MAP[n].CTypeName ;
             delete((unsigned char *)testP);
             break;
         }
         case SQL_C_SHORT:
         case SQL_C_SSHORT:{
             short mtarget = *(short *)testP;
-            EXPECT_EQ(stringToNum<short>(TESTDATA_MAP[n].cValue), mtarget) << TESTDATA_MAP[n].CDataType <<" " << TESTDATA_MAP[n].m_ODBCDataType ;
+            EXPECT_EQ(stringToNum<short>(TESTDATA_MAP[n].cValue), mtarget) << "dataTarget: "<<TESTDATA_MAP[n].SQLTypeName <<"mtarget:  " << TESTDATA_MAP[n].CTypeName ;
             delete((short *)testP);
             break;
         } 
         case SQL_C_USHORT:{
             unsigned short mtarget = *(unsigned short *)testP;
-            EXPECT_EQ(stringToNum<unsigned short>(TESTDATA_MAP[n].cValue), mtarget) << TESTDATA_MAP[n].CDataType << " " << TESTDATA_MAP[n].m_ODBCDataType ;
+            EXPECT_EQ(stringToNum<unsigned short>(TESTDATA_MAP[n].cValue), mtarget) << "dataTarget: "<<TESTDATA_MAP[n].SQLTypeName << "mtarget:  " << TESTDATA_MAP[n].CTypeName ;
             delete((unsigned short *)testP);
             break;
         } 
         case SQL_C_SLONG:
         case SQL_C_LONG:{
             int mtarget = *(int *)testP;
-            EXPECT_EQ(stringToNum<int>(TESTDATA_MAP[n].cValue), mtarget) << TESTDATA_MAP[n].CDataType << " " << TESTDATA_MAP[n].m_ODBCDataType ;
+            EXPECT_EQ(stringToNum<int>(TESTDATA_MAP[n].cValue), mtarget) << "dataTarget: "<<TESTDATA_MAP[n].SQLTypeName << "mtarget:  " << TESTDATA_MAP[n].CTypeName ;
             delete((int *)testP);
             break;
         }
         case SQL_C_ULONG:{
             unsigned int mtarget = *(unsigned int *)testP;
-            EXPECT_EQ(stringToNum<unsigned int>(TESTDATA_MAP[n].cValue), mtarget) << TESTDATA_MAP[n].CDataType << " " << TESTDATA_MAP[n].m_ODBCDataType ;
+            EXPECT_EQ(stringToNum<unsigned int>(TESTDATA_MAP[n].cValue), mtarget) << "dataTarget: "<<TESTDATA_MAP[n].SQLTypeName << "mtarget:  " << TESTDATA_MAP[n].CTypeName ;
             delete((unsigned int *)testP);
             break;
         }
         case SQL_C_SBIGINT:{
             long long mtarget = *(long long *)testP;
-            EXPECT_EQ(stringToNum<long long>(TESTDATA_MAP[n].cValue), mtarget) << TESTDATA_MAP[n].CDataType << " " << TESTDATA_MAP[n].m_ODBCDataType ;
+            EXPECT_EQ(stringToNum<long long>(TESTDATA_MAP[n].cValue), mtarget) <<"dataTarget: "<< TESTDATA_MAP[n].SQLTypeName << "mtarget:  " << TESTDATA_MAP[n].CTypeName ;
             delete((long long *)testP);
             break;
         }
         case SQL_C_UBIGINT:{
             unsigned long long mtarget = *(unsigned long long *)testP;
-            EXPECT_EQ(stringToNum<unsigned long long>(TESTDATA_MAP[n].cValue), mtarget) << TESTDATA_MAP[n].CDataType << " " << TESTDATA_MAP[n].m_ODBCDataType ;
+            EXPECT_EQ(stringToNum<unsigned long long>(TESTDATA_MAP[n].cValue), mtarget) <<"dataTarget: "<< TESTDATA_MAP[n].SQLTypeName << "mtarget:  " << TESTDATA_MAP[n].CTypeName ;
             delete((unsigned long long *)testP);
             break;
         }
         case SQL_C_FLOAT:{
             float mtarget = *(float *)testP;
-            EXPECT_FLOAT_EQ(stringToNum<float>(TESTDATA_MAP[n].cValue), mtarget) << TESTDATA_MAP[n].CDataType << " " << TESTDATA_MAP[n].m_ODBCDataType ;
+            EXPECT_FLOAT_EQ(stringToNum<float>(TESTDATA_MAP[n].cValue), mtarget) <<"dataTarget: "<< TESTDATA_MAP[n].SQLTypeName << "mtarget:  " << TESTDATA_MAP[n].CTypeName ;
             delete((float *)testP);
             break; 
         }
         case SQL_C_DOUBLE:{    
             double mtarget = *(double *)testP;
-            EXPECT_DOUBLE_EQ(stringToNum<double>(TESTDATA_MAP[n].cValue), mtarget) << TESTDATA_MAP[n].CDataType << " " << TESTDATA_MAP[n].m_ODBCDataType ;
+            EXPECT_DOUBLE_EQ(stringToNum<double>(TESTDATA_MAP[n].cValue), mtarget) <<"dataTarget: "<< TESTDATA_MAP[n].SQLTypeName << "mtarget: " << TESTDATA_MAP[n].CTypeName ;
             delete((double *)testP);
             break;
         }
