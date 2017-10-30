@@ -19,7 +19,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_LONG   "                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=1
@@ -37,7 +39,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_LONG   "                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=2
@@ -55,7 +59,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_LONG   "                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=3
@@ -73,7 +79,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SHORT  "                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=4
@@ -91,7 +99,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SHORT  "                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=5
@@ -109,7 +119,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SHORT  "                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=6
@@ -127,7 +139,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=7
@@ -145,7 +159,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=8
@@ -163,7 +179,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=9
@@ -181,7 +199,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_FLOAT  "                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=10
@@ -199,7 +219,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_FLOAT  "                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=11
@@ -217,7 +239,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_FLOAT  "                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=12
@@ -235,7 +259,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DOUBLE "                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=13
@@ -253,7 +279,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DOUBLE "                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=14
@@ -271,7 +299,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DOUBLE "                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=15
@@ -289,7 +319,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_ULONG	"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=16
@@ -307,7 +339,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_ULONG	"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=17
@@ -325,7 +359,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_ULONG	"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=18
@@ -343,7 +379,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_USHORT"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=19
@@ -361,7 +399,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_USHORT"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=20
@@ -379,7 +419,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_USHORT"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=21
@@ -397,7 +439,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SLONG	"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=22
@@ -415,7 +459,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SLONG	"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=23
@@ -433,7 +479,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SLONG	"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=24
@@ -451,7 +499,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SSHORT"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=25
@@ -469,7 +519,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SSHORT"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=26
@@ -487,7 +539,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SSHORT"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=27
@@ -505,7 +559,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_BIT	"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=28
@@ -523,7 +579,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_BIT	"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=29
@@ -541,7 +599,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_BIT	"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=30
@@ -559,7 +619,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TINYINT"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=31
@@ -577,7 +639,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TINYINT"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=32
@@ -595,7 +659,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TINYINT"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=33
@@ -613,7 +679,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_UTINYINT"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=34
@@ -631,7 +699,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_UTINYINT"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=35
@@ -649,7 +719,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_UTINYINT"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=36
@@ -667,7 +739,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_LONG   "                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=37
@@ -685,7 +759,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_LONG   "                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=38
@@ -703,7 +779,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_LONG   "                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=39
@@ -721,7 +799,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SHORT  "                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=40
@@ -739,7 +819,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SHORT  "                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=41
@@ -757,7 +839,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SHORT  "                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=42
@@ -775,7 +859,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=43
@@ -793,7 +879,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=44
@@ -811,7 +899,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=45
@@ -829,7 +919,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_FLOAT  "                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=46
@@ -847,7 +939,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_FLOAT  "                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=47
@@ -865,7 +959,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_FLOAT  "                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=48
@@ -883,7 +979,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DOUBLE "                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=49
@@ -901,7 +999,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DOUBLE "                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=50
@@ -919,7 +1019,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DOUBLE "                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=51
@@ -937,7 +1039,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_ULONG	"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=52
@@ -955,7 +1059,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_ULONG	"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=53
@@ -973,7 +1079,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_ULONG	"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=54
@@ -991,7 +1099,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_USHORT"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=55
@@ -1009,7 +1119,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_USHORT"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=56
@@ -1027,7 +1139,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_USHORT"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=57
@@ -1045,7 +1159,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SLONG	"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=58
@@ -1063,7 +1179,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SLONG	"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=59
@@ -1081,7 +1199,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SLONG	"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=60
@@ -1099,7 +1219,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SSHORT"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=61
@@ -1117,7 +1239,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SSHORT"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=62
@@ -1135,7 +1259,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SSHORT"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=63
@@ -1153,7 +1279,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_BIT	"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=64
@@ -1171,7 +1299,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_BIT	"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=65
@@ -1189,7 +1319,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_BIT	"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=66
@@ -1207,7 +1339,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TINYINT"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=67
@@ -1225,7 +1359,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TINYINT"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=68
@@ -1243,7 +1379,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TINYINT"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=69
@@ -1261,7 +1399,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_UTINYINT"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=70
@@ -1279,7 +1419,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_UTINYINT"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=71
@@ -1297,7 +1439,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_UTINYINT"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=72
@@ -1315,7 +1459,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_LONG   "                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=73
@@ -1333,7 +1479,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_LONG   "                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=74
@@ -1351,7 +1499,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_LONG   "                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=75
@@ -1369,7 +1519,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SHORT  "                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=76
@@ -1387,7 +1539,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SHORT  "                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=77
@@ -1405,7 +1559,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SHORT  "                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=78
@@ -1423,7 +1579,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=79
@@ -1441,7 +1599,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=80
@@ -1459,7 +1619,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=81
@@ -1477,7 +1639,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_FLOAT  "                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=82
@@ -1495,7 +1659,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_FLOAT  "                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=83
@@ -1513,7 +1679,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_FLOAT  "                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=84
@@ -1531,7 +1699,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DOUBLE "                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=85
@@ -1549,7 +1719,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DOUBLE "                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=86
@@ -1567,7 +1739,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DOUBLE "                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=87
@@ -1585,7 +1759,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_ULONG	"                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=88
@@ -1603,7 +1779,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_ULONG	"                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=89
@@ -1621,7 +1799,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_ULONG	"                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=90
@@ -1639,7 +1819,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_USHORT"                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=91
@@ -1657,7 +1839,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_USHORT"                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=92
@@ -1675,7 +1859,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_USHORT"                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=93
@@ -1693,7 +1879,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SLONG	"                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=94
@@ -1711,7 +1899,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SLONG	"                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=95
@@ -1729,7 +1919,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SLONG	"                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=96
@@ -1747,7 +1939,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SSHORT"                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=97
@@ -1765,7 +1959,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SSHORT"                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=98
@@ -1783,7 +1979,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SSHORT"                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=99
@@ -1801,7 +1999,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_BIT	"                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=100
@@ -1819,7 +2019,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_BIT	"                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=101
@@ -1837,7 +2039,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_BIT	"                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=102
@@ -1855,7 +2059,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TINYINT"                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=103
@@ -1873,7 +2079,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TINYINT"                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=104
@@ -1891,7 +2099,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TINYINT"                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=105
@@ -1909,7 +2119,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_UTINYINT"                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=106
@@ -1927,7 +2139,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_UTINYINT"                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=107
@@ -1945,7 +2159,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_UTINYINT"                 // C typename
+        , "SQL_FLOAT"                 // SRC type name
     },
     {
                              //count=108
@@ -1963,7 +2179,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_LONG   "                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=109
@@ -1981,7 +2199,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_LONG   "                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=110
@@ -1999,7 +2219,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_LONG   "                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=111
@@ -2017,7 +2239,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SHORT  "                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=112
@@ -2035,7 +2259,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SHORT  "                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=113
@@ -2053,7 +2279,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SHORT  "                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=114
@@ -2071,7 +2299,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=115
@@ -2089,7 +2319,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=116
@@ -2107,7 +2339,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=117
@@ -2125,7 +2359,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_FLOAT  "                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=118
@@ -2143,7 +2379,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_FLOAT  "                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=119
@@ -2161,7 +2399,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_FLOAT  "                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=120
@@ -2179,7 +2419,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DOUBLE "                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=121
@@ -2197,7 +2439,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DOUBLE "                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=122
@@ -2215,7 +2459,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DOUBLE "                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=123
@@ -2233,7 +2479,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_ULONG	"                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=124
@@ -2251,7 +2499,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_ULONG	"                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=125
@@ -2269,7 +2519,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_ULONG	"                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=126
@@ -2287,7 +2539,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_USHORT"                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=127
@@ -2305,7 +2559,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_USHORT"                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=128
@@ -2323,7 +2579,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_USHORT"                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=129
@@ -2341,7 +2599,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SLONG	"                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=130
@@ -2359,7 +2619,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SLONG	"                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=131
@@ -2377,7 +2639,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SLONG	"                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=132
@@ -2395,7 +2659,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SSHORT"                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=133
@@ -2413,7 +2679,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SSHORT"                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=134
@@ -2431,7 +2699,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SSHORT"                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=135
@@ -2449,7 +2719,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_BIT	"                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=136
@@ -2467,7 +2739,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_BIT	"                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=137
@@ -2485,7 +2759,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_BIT	"                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=138
@@ -2503,7 +2779,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TINYINT"                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=139
@@ -2521,7 +2799,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TINYINT"                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=140
@@ -2539,7 +2819,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TINYINT"                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=141
@@ -2557,7 +2839,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_UTINYINT"                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=142
@@ -2575,7 +2859,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_UTINYINT"                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=143
@@ -2593,7 +2879,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_UTINYINT"                 // C typename
+        , "SQL_REAL"                 // SRC type name
     },
     {
                              //count=144
@@ -2611,7 +2899,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_LONG   "                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=145
@@ -2629,7 +2919,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_LONG   "                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=146
@@ -2647,7 +2939,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_LONG   "                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=147
@@ -2665,7 +2959,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SHORT  "                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=148
@@ -2683,7 +2979,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SHORT  "                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=149
@@ -2701,7 +2999,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SHORT  "                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=150
@@ -2719,7 +3019,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=151
@@ -2737,7 +3039,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=152
@@ -2755,7 +3059,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=153
@@ -2773,7 +3079,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_FLOAT  "                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=154
@@ -2791,7 +3099,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_FLOAT  "                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=155
@@ -2809,7 +3119,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_FLOAT  "                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=156
@@ -2827,7 +3139,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DOUBLE "                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=157
@@ -2845,7 +3159,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DOUBLE "                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=158
@@ -2863,7 +3179,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DOUBLE "                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=159
@@ -2881,7 +3199,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_ULONG	"                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=160
@@ -2899,7 +3219,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_ULONG	"                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=161
@@ -2917,7 +3239,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_ULONG	"                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=162
@@ -2935,7 +3259,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_USHORT"                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=163
@@ -2953,7 +3279,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_USHORT"                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=164
@@ -2971,7 +3299,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_USHORT"                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=165
@@ -2989,7 +3319,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SLONG	"                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=166
@@ -3007,7 +3339,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SLONG	"                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=167
@@ -3025,7 +3359,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SLONG	"                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=168
@@ -3043,7 +3379,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SSHORT"                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=169
@@ -3061,7 +3399,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SSHORT"                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=170
@@ -3079,7 +3419,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SSHORT"                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=171
@@ -3097,7 +3439,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_BIT	"                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=172
@@ -3115,7 +3459,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_BIT	"                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=173
@@ -3133,7 +3479,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_BIT	"                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=174
@@ -3151,7 +3499,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TINYINT"                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=175
@@ -3169,7 +3519,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TINYINT"                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=176
@@ -3187,7 +3539,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TINYINT"                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=177
@@ -3205,7 +3559,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_UTINYINT"                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=178
@@ -3223,7 +3579,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_UTINYINT"                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=179
@@ -3241,7 +3599,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_UTINYINT"                 // C typename
+        , "SQL_DOUBLE"                 // SRC type name
     },
     {
                              //count=180
@@ -3259,7 +3619,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_LONG   "                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=181
@@ -3277,7 +3639,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_LONG   "                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=182
@@ -3295,7 +3659,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_LONG   "                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=183
@@ -3313,7 +3679,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SHORT  "                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=184
@@ -3331,7 +3699,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SHORT  "                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=185
@@ -3349,7 +3719,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SHORT  "                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=186
@@ -3367,7 +3739,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=187
@@ -3385,7 +3759,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=188
@@ -3403,7 +3779,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=189
@@ -3421,7 +3799,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_FLOAT  "                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=190
@@ -3439,7 +3819,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_FLOAT  "                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=191
@@ -3457,7 +3839,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_FLOAT  "                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=192
@@ -3475,7 +3859,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DOUBLE "                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=193
@@ -3493,7 +3879,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DOUBLE "                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=194
@@ -3511,7 +3899,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DOUBLE "                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=195
@@ -3529,7 +3919,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_ULONG	"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=196
@@ -3547,7 +3939,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_ULONG	"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=197
@@ -3565,7 +3959,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_ULONG	"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=198
@@ -3583,7 +3979,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_USHORT"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=199
@@ -3601,7 +3999,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_USHORT"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=200
@@ -3619,7 +4019,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_USHORT"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=201
@@ -3637,7 +4039,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SLONG	"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=202
@@ -3655,7 +4059,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SLONG	"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=203
@@ -3673,7 +4079,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SLONG	"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=204
@@ -3691,7 +4099,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SSHORT"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=205
@@ -3709,7 +4119,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SSHORT"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=206
@@ -3727,7 +4139,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SSHORT"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=207
@@ -3745,7 +4159,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_BIT	"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=208
@@ -3763,7 +4179,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_BIT	"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=209
@@ -3781,7 +4199,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_BIT	"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=210
@@ -3799,7 +4219,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TINYINT"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=211
@@ -3817,7 +4239,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TINYINT"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=212
@@ -3835,7 +4259,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TINYINT"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=213
@@ -3853,7 +4279,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_UTINYINT"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=214
@@ -3871,7 +4299,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_UTINYINT"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=215
@@ -3889,7 +4319,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_UTINYINT"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=216
@@ -3907,7 +4339,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_LONG   "                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=217
@@ -3925,7 +4359,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_LONG   "                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=218
@@ -3943,7 +4379,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_LONG   "                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=219
@@ -3961,7 +4399,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SHORT  "                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=220
@@ -3979,7 +4419,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SHORT  "                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=221
@@ -3997,7 +4439,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SHORT  "                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=222
@@ -4015,7 +4459,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=223
@@ -4033,7 +4479,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=224
@@ -4051,7 +4499,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=225
@@ -4069,7 +4519,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_FLOAT  "                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=226
@@ -4087,7 +4539,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_FLOAT  "                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=227
@@ -4105,7 +4559,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_FLOAT  "                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=228
@@ -4123,7 +4579,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DOUBLE "                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=229
@@ -4141,7 +4599,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DOUBLE "                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=230
@@ -4159,7 +4619,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DOUBLE "                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=231
@@ -4177,7 +4639,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_ULONG	"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=232
@@ -4195,7 +4659,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_ULONG	"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=233
@@ -4213,7 +4679,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_ULONG	"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=234
@@ -4231,7 +4699,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_USHORT"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=235
@@ -4249,7 +4719,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_USHORT"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=236
@@ -4267,7 +4739,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_USHORT"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=237
@@ -4285,7 +4759,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SLONG	"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=238
@@ -4303,7 +4779,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SLONG	"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=239
@@ -4321,7 +4799,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SLONG	"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=240
@@ -4339,7 +4819,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SSHORT"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=241
@@ -4357,7 +4839,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SSHORT"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=242
@@ -4375,7 +4859,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SSHORT"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=243
@@ -4393,7 +4879,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_BIT	"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=244
@@ -4411,7 +4899,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_BIT	"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=245
@@ -4429,7 +4919,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_BIT	"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=246
@@ -4447,7 +4939,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TINYINT"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=247
@@ -4465,7 +4959,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TINYINT"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=248
@@ -4483,7 +4979,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TINYINT"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=249
@@ -4501,7 +4999,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_UTINYINT"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=250
@@ -4519,7 +5019,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_UTINYINT"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=251
@@ -4537,7 +5039,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_UTINYINT"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=252
@@ -4555,7 +5059,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_LONG   "                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=253
@@ -4573,7 +5079,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_LONG   "                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=254
@@ -4591,7 +5099,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SHORT  "                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=255
@@ -4609,7 +5119,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SHORT  "                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=256
@@ -4627,7 +5139,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=257
@@ -4645,7 +5159,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=258
@@ -4663,7 +5179,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_FLOAT  "                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=259
@@ -4681,7 +5199,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_FLOAT  "                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=260
@@ -4699,7 +5219,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DOUBLE "                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=261
@@ -4717,7 +5239,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DOUBLE "                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=262
@@ -4735,7 +5259,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_ULONG	"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=263
@@ -4753,7 +5279,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_ULONG	"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=264
@@ -4771,7 +5299,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_USHORT"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=265
@@ -4789,7 +5319,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_USHORT"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=266
@@ -4807,7 +5339,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SLONG	"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=267
@@ -4825,7 +5359,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SLONG	"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=268
@@ -4843,7 +5379,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SSHORT"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=269
@@ -4861,7 +5399,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SSHORT"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=270
@@ -4879,7 +5419,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_BIT	"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=271
@@ -4897,7 +5439,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_BIT	"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=272
@@ -4915,7 +5459,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TINYINT"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=273
@@ -4933,7 +5479,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TINYINT"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=274
@@ -4951,7 +5499,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_UTINYINT"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=275
@@ -4969,7 +5519,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 1                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_UTINYINT"                 // C typename
+        , "SQL_TINYINT"                 // SRC type name
     },
     {
                              //count=276
@@ -4987,7 +5539,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_LONG   "                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=277
@@ -5005,7 +5559,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_LONG   "                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=278
@@ -5023,7 +5579,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SHORT  "                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=279
@@ -5041,7 +5599,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SHORT  "                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=280
@@ -5059,7 +5619,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=281
@@ -5077,7 +5639,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=282
@@ -5095,7 +5659,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_FLOAT  "                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=283
@@ -5113,7 +5679,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_FLOAT  "                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=284
@@ -5131,7 +5699,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DOUBLE "                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=285
@@ -5149,7 +5719,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DOUBLE "                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=286
@@ -5167,7 +5739,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_ULONG	"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=287
@@ -5185,7 +5759,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_ULONG	"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=288
@@ -5203,7 +5779,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_USHORT"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=289
@@ -5221,7 +5799,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_USHORT"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=290
@@ -5239,7 +5819,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SLONG	"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=291
@@ -5257,7 +5839,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SLONG	"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=292
@@ -5275,7 +5859,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SSHORT"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=293
@@ -5293,7 +5879,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SSHORT"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=294
@@ -5311,7 +5899,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_BIT	"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=295
@@ -5329,7 +5919,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_BIT	"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=296
@@ -5347,7 +5939,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TINYINT"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=297
@@ -5365,7 +5959,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TINYINT"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=298
@@ -5383,7 +5979,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_UTINYINT"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=299
@@ -5401,7 +5999,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_UTINYINT"                 // C typename
+        , "SQL_BIGINT"                 // SRC type name
     },
     {
                              //count=300
@@ -5419,7 +6019,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_LONG   "                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=301
@@ -5437,7 +6039,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_LONG   "                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=302
@@ -5455,7 +6059,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SHORT  "                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=303
@@ -5473,7 +6079,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SHORT  "                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=304
@@ -5491,7 +6099,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=305
@@ -5509,7 +6119,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=306
@@ -5527,7 +6139,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_FLOAT  "                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=307
@@ -5545,7 +6159,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_FLOAT  "                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=308
@@ -5563,7 +6179,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DOUBLE "                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=309
@@ -5581,7 +6199,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DOUBLE "                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=310
@@ -5599,7 +6219,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_ULONG	"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=311
@@ -5617,7 +6239,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_ULONG	"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=312
@@ -5635,7 +6259,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_USHORT"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=313
@@ -5653,7 +6279,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_USHORT"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=314
@@ -5671,7 +6299,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SLONG	"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=315
@@ -5689,7 +6319,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SLONG	"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=316
@@ -5707,7 +6339,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SSHORT"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=317
@@ -5725,7 +6359,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SSHORT"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=318
@@ -5743,7 +6379,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_BIT	"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=319
@@ -5761,7 +6399,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_BIT	"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=320
@@ -5779,7 +6419,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TINYINT"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=321
@@ -5797,7 +6439,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TINYINT"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=322
@@ -5815,7 +6459,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_UTINYINT"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=323
@@ -5833,7 +6479,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_UTINYINT"                 // C typename
+        , "SQL_INTEGER"                 // SRC type name
     },
     {
                              //count=324
@@ -5851,7 +6499,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_LONG   "                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=325
@@ -5869,7 +6519,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_LONG   "                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=326
@@ -5887,7 +6539,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SHORT  "                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=327
@@ -5905,7 +6559,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SHORT  "                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=328
@@ -5923,7 +6579,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=329
@@ -5941,7 +6599,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=330
@@ -5959,7 +6619,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_FLOAT  "                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=331
@@ -5977,7 +6639,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_FLOAT  "                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=332
@@ -5995,7 +6659,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DOUBLE "                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=333
@@ -6013,7 +6679,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DOUBLE "                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=334
@@ -6031,7 +6699,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_ULONG	"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=335
@@ -6049,7 +6719,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_ULONG	"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=336
@@ -6067,7 +6739,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_USHORT"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=337
@@ -6085,7 +6759,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_USHORT"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=338
@@ -6103,7 +6779,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SLONG	"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=339
@@ -6121,7 +6799,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SLONG	"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=340
@@ -6139,7 +6819,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SSHORT"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=341
@@ -6157,7 +6839,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SSHORT"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=342
@@ -6175,7 +6859,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_BIT	"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=343
@@ -6193,7 +6879,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_BIT	"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=344
@@ -6211,7 +6899,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TINYINT"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=345
@@ -6229,7 +6919,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TINYINT"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=346
@@ -6247,7 +6939,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_UTINYINT"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     {
                              //count=347
@@ -6265,9 +6959,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_UTINYINT"                 // C typename
+        , "SQL_SMALLINT"                 // SRC type name
     },
     
-}
+};
 #endif
         
