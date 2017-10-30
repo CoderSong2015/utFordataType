@@ -105,6 +105,8 @@ class defType:
     SQL_C_ULONG		    =		(SQL_C_LONG+SQL_UNSIGNED_OFFSET)
     SQL_C_USHORT		=		(SQL_C_SHORT+SQL_UNSIGNED_OFFSET)
     SQL_C_UTINYINT		=		(SQL_TINYINT+SQL_UNSIGNED_OFFSET)
+    SQL_C_SBIGINT       =       (SQL_BIGINT+SQL_SIGNED_OFFSET)
+    SQL_C_UBIGINT       =       (SQL_BIGINT+SQL_UNSIGNED_OFFSET)
 
     sql_c_type = {
         #SQL_C_CHAR   		:	'SQL_C_CHAR   '   ,
@@ -120,6 +122,9 @@ class defType:
         SQL_C_ULONG		    :	'SQL_C_ULONG	' ,
         SQL_C_USHORT		:	'SQL_C_USHORT'    ,
         SQL_C_UTINYINT		:	'SQL_C_UTINYINT'  ,
+        SQL_C_SBIGINT       :   'SQL_C_SBIGINT'   ,
+        SQL_C_UBIGINT       :   'SQL_C_UBIGINT'   ,
+
     }
 
     sql_c_max_min = {
@@ -136,6 +141,8 @@ class defType:
         SQL_C_ULONG		    :	[0, 0, 4294967295],
         SQL_C_USHORT		:	[0, 0, 65535],
         SQL_C_UTINYINT		:	[0, 0, 255],
+        SQL_C_SBIGINT       :   [-2**63, 0, 2**63 -1],
+        SQL_C_UBIGINT       :   [0, 0, 2**64 -1],
     }
 
     sql_c_Len = {
@@ -152,6 +159,9 @@ class defType:
         SQL_C_ULONG		    :	4,
         SQL_C_USHORT		:	2,
         SQL_C_UTINYINT		:	1,
+        SQL_C_SBIGINT       :   8,
+        SQL_C_UBIGINT       :   8,
+
     }
     sql_type_len = {
         SQL_BIGINT	     :	8              ,

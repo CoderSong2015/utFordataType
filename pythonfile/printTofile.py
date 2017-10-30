@@ -53,8 +53,8 @@ def printNumeric(precision, scale, isUnsigned, outputData, count):
         , "%s"               //const char *cValue;                                  
         , %s                 //int CDataType;                                  
         , %d                 //int CDataLen;                                  
-        , "  "               //int m_ODBCDataType;                                  
-        , SQL_NUMERIC                 //int m_SQLDataType;                                  
+        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
         , %d                 //int m_SQLMaxLength;                                  
         , %d                 //int m_DescUnsigned;                                  
         , %d                 //int Precision;                                  
@@ -71,7 +71,7 @@ def printNumeric(precision, scale, isUnsigned, outputData, count):
           count-1                  ,
           str(outputData)          ,
           str(outputData)          ,
-          "",
+          0,
           0 ,
           0 ,
           isUnsigned              ,

@@ -25,6 +25,7 @@ functionListForUnsign = {
     2 : return0
 }
 
+#count = 0
 def doJob():
     count = 0
 
@@ -48,7 +49,11 @@ def doJob():
     for i in range(18):
         num = num * 10 + 9
         precision = i + 1
-        printNumeric(precision, 0, 0, num, 0)
+        count += 1
+        print(count, end=',')
+        printNumeric(precision, 0, 0, num, count)
+
+
 def main():
     writeFileHead('testData.h')
     doJob()
