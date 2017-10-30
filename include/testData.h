@@ -6967,9 +6967,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=-1
           "9"               //const char *sqlValue;                                             
         , "9"               //const char *cValue;                                  
-        ,                  //int CDataType;                                  
+        , 0                 //int CDataType;                                  
         , 0                 //int CDataLen;                                  
-        , "  "               //int m_ODBCDataType;                                  
+        , 0               //int m_ODBCDataType;                                  
         , SQL_NUMERIC                 //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
@@ -6987,9 +6987,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=-1
           "99"               //const char *sqlValue;                                             
         , "99"               //const char *cValue;                                  
-        ,                  //int CDataType;                                  
+        , 0                 //int CDataType;                                  
         , 0                 //int CDataLen;                                  
-        , "  "               //int m_ODBCDataType;                                  
+        , 0               //int m_ODBCDataType;                                  
         , SQL_NUMERIC                 //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
@@ -7007,9 +7007,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=-1
           "999"               //const char *sqlValue;                                             
         , "999"               //const char *cValue;                                  
-        ,                  //int CDataType;                                  
+        , 0                 //int CDataType;                                  
         , 0                 //int CDataLen;                                  
-        , "  "               //int m_ODBCDataType;                                  
+        , 0               //int m_ODBCDataType;                                  
         , SQL_NUMERIC                 //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
@@ -7027,9 +7027,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=-1
           "9999"               //const char *sqlValue;                                             
         , "9999"               //const char *cValue;                                  
-        ,                  //int CDataType;                                  
+        , 0                 //int CDataType;                                  
         , 0                 //int CDataLen;                                  
-        , "  "               //int m_ODBCDataType;                                  
+        , 0               //int m_ODBCDataType;                                  
         , SQL_NUMERIC                 //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
@@ -7047,9 +7047,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=-1
           "99999"               //const char *sqlValue;                                             
         , "99999"               //const char *cValue;                                  
-        ,                  //int CDataType;                                  
+        , 0                 //int CDataType;                                  
         , 0                 //int CDataLen;                                  
-        , "  "               //int m_ODBCDataType;                                  
+        , 0               //int m_ODBCDataType;                                  
         , SQL_NUMERIC                 //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
@@ -7067,9 +7067,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=-1
           "999999"               //const char *sqlValue;                                             
         , "999999"               //const char *cValue;                                  
-        ,                  //int CDataType;                                  
+        , 0                 //int CDataType;                                  
         , 0                 //int CDataLen;                                  
-        , "  "               //int m_ODBCDataType;                                  
+        , 0               //int m_ODBCDataType;                                  
         , SQL_NUMERIC                 //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
@@ -7087,9 +7087,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=-1
           "9999999"               //const char *sqlValue;                                             
         , "9999999"               //const char *cValue;                                  
-        ,                  //int CDataType;                                  
+        , 0                 //int CDataType;                                  
         , 0                 //int CDataLen;                                  
-        , "  "               //int m_ODBCDataType;                                  
+        , 0               //int m_ODBCDataType;                                  
         , SQL_NUMERIC                 //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
@@ -7107,9 +7107,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=-1
           "99999999"               //const char *sqlValue;                                             
         , "99999999"               //const char *cValue;                                  
-        ,                  //int CDataType;                                  
+        , 0                 //int CDataType;                                  
         , 0                 //int CDataLen;                                  
-        , "  "               //int m_ODBCDataType;                                  
+        , 0               //int m_ODBCDataType;                                  
         , SQL_NUMERIC                 //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
@@ -7127,9 +7127,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=-1
           "999999999"               //const char *sqlValue;                                             
         , "999999999"               //const char *cValue;                                  
-        ,                  //int CDataType;                                  
+        , 0                 //int CDataType;                                  
         , 0                 //int CDataLen;                                  
-        , "  "               //int m_ODBCDataType;                                  
+        , 0               //int m_ODBCDataType;                                  
         , SQL_NUMERIC                 //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
@@ -7147,9 +7147,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=-1
           "9999999999"               //const char *sqlValue;                                             
         , "9999999999"               //const char *cValue;                                  
-        ,                  //int CDataType;                                  
+        , 0                 //int CDataType;                                  
         , 0                 //int CDataLen;                                  
-        , "  "               //int m_ODBCDataType;                                  
+        , 0               //int m_ODBCDataType;                                  
         , SQL_NUMERIC                 //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
@@ -7167,9 +7167,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=-1
           "99999999999"               //const char *sqlValue;                                             
         , "99999999999"               //const char *cValue;                                  
-        ,                  //int CDataType;                                  
+        , 0                 //int CDataType;                                  
         , 0                 //int CDataLen;                                  
-        , "  "               //int m_ODBCDataType;                                  
+        , 0               //int m_ODBCDataType;                                  
         , SQL_NUMERIC                 //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
@@ -7187,9 +7187,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=-1
           "999999999999"               //const char *sqlValue;                                             
         , "999999999999"               //const char *cValue;                                  
-        ,                  //int CDataType;                                  
+        , 0                 //int CDataType;                                  
         , 0                 //int CDataLen;                                  
-        , "  "               //int m_ODBCDataType;                                  
+        , 0               //int m_ODBCDataType;                                  
         , SQL_NUMERIC                 //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
@@ -7207,9 +7207,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=-1
           "9999999999999"               //const char *sqlValue;                                             
         , "9999999999999"               //const char *cValue;                                  
-        ,                  //int CDataType;                                  
+        , 0                 //int CDataType;                                  
         , 0                 //int CDataLen;                                  
-        , "  "               //int m_ODBCDataType;                                  
+        , 0               //int m_ODBCDataType;                                  
         , SQL_NUMERIC                 //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
@@ -7227,9 +7227,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=-1
           "99999999999999"               //const char *sqlValue;                                             
         , "99999999999999"               //const char *cValue;                                  
-        ,                  //int CDataType;                                  
+        , 0                 //int CDataType;                                  
         , 0                 //int CDataLen;                                  
-        , "  "               //int m_ODBCDataType;                                  
+        , 0               //int m_ODBCDataType;                                  
         , SQL_NUMERIC                 //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
@@ -7247,9 +7247,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=-1
           "999999999999999"               //const char *sqlValue;                                             
         , "999999999999999"               //const char *cValue;                                  
-        ,                  //int CDataType;                                  
+        , 0                 //int CDataType;                                  
         , 0                 //int CDataLen;                                  
-        , "  "               //int m_ODBCDataType;                                  
+        , 0               //int m_ODBCDataType;                                  
         , SQL_NUMERIC                 //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
@@ -7267,9 +7267,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=-1
           "9999999999999999"               //const char *sqlValue;                                             
         , "9999999999999999"               //const char *cValue;                                  
-        ,                  //int CDataType;                                  
+        , 0                 //int CDataType;                                  
         , 0                 //int CDataLen;                                  
-        , "  "               //int m_ODBCDataType;                                  
+        , 0               //int m_ODBCDataType;                                  
         , SQL_NUMERIC                 //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
@@ -7287,9 +7287,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=-1
           "99999999999999999"               //const char *sqlValue;                                             
         , "99999999999999999"               //const char *cValue;                                  
-        ,                  //int CDataType;                                  
+        , 0                 //int CDataType;                                  
         , 0                 //int CDataLen;                                  
-        , "  "               //int m_ODBCDataType;                                  
+        , 0               //int m_ODBCDataType;                                  
         , SQL_NUMERIC                 //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
@@ -7307,9 +7307,9 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=-1
           "999999999999999999"               //const char *sqlValue;                                             
         , "999999999999999999"               //const char *cValue;                                  
-        ,                  //int CDataType;                                  
+        , 0                 //int CDataType;                                  
         , 0                 //int CDataLen;                                  
-        , "  "               //int m_ODBCDataType;                                  
+        , 0               //int m_ODBCDataType;                                  
         , SQL_NUMERIC                 //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
