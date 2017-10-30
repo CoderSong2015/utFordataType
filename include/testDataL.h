@@ -3245,12 +3245,12 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
     },
     {
                              //count=180
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
+          "-127"               //const char *sqlValue;                                             
+        , "-127"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
         , 4                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3267,8 +3267,8 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "0"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
         , 4                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3281,12 +3281,12 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
     },
     {
                              //count=182
-          "1"               //const char *sqlValue;                                             
-        , "1"               //const char *cValue;                                  
+          "127"               //const char *sqlValue;                                             
+        , "127"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
         , 4                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3299,12 +3299,12 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
     },
     {
                              //count=183
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
+          "-127"               //const char *sqlValue;                                             
+        , "-127"               //const char *cValue;                                  
         , SQL_C_SHORT                   //int CDataType;                                  
         , 2                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3321,8 +3321,8 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "0"               //const char *cValue;                                  
         , SQL_C_SHORT                   //int CDataType;                                  
         , 2                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3335,12 +3335,12 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
     },
     {
                              //count=185
-          "1"               //const char *sqlValue;                                             
-        , "1"               //const char *cValue;                                  
+          "127"               //const char *sqlValue;                                             
+        , "127"               //const char *cValue;                                  
         , SQL_C_SHORT                   //int CDataType;                                  
         , 2                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3353,12 +3353,12 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
     },
     {
                              //count=186
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
+          "-127"               //const char *sqlValue;                                             
+        , "-127"               //const char *cValue;                                  
         , SQL_C_STINYINT                 //int CDataType;                                  
         , 1                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3375,8 +3375,8 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "0"               //const char *cValue;                                  
         , SQL_C_STINYINT                 //int CDataType;                                  
         , 1                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3389,12 +3389,12 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
     },
     {
                              //count=188
-          "1"               //const char *sqlValue;                                             
-        , "1"               //const char *cValue;                                  
+          "127"               //const char *sqlValue;                                             
+        , "127"               //const char *cValue;                                  
         , SQL_C_STINYINT                 //int CDataType;                                  
         , 1                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3407,12 +3407,12 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
     },
     {
                              //count=189
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
+          "-127"               //const char *sqlValue;                                             
+        , "-127"               //const char *cValue;                                  
         , SQL_C_FLOAT                   //int CDataType;                                  
         , 8                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3429,8 +3429,8 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "0"               //const char *cValue;                                  
         , SQL_C_FLOAT                   //int CDataType;                                  
         , 8                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3443,12 +3443,12 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
     },
     {
                              //count=191
-          "1"               //const char *sqlValue;                                             
-        , "1"               //const char *cValue;                                  
+          "127"               //const char *sqlValue;                                             
+        , "127"               //const char *cValue;                                  
         , SQL_C_FLOAT                   //int CDataType;                                  
         , 8                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3461,12 +3461,12 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
     },
     {
                              //count=192
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
+          "-127"               //const char *sqlValue;                                             
+        , "-127"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
         , 8                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3483,8 +3483,8 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "0"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
         , 8                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3497,12 +3497,12 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
     },
     {
                              //count=194
-          "1"               //const char *sqlValue;                                             
-        , "1"               //const char *cValue;                                  
+          "127"               //const char *sqlValue;                                             
+        , "127"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
         , 8                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3519,8 +3519,8 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "0"               //const char *cValue;                                  
         , SQL_C_ULONG	                 //int CDataType;                                  
         , 4                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3537,8 +3537,8 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "0"               //const char *cValue;                                  
         , SQL_C_ULONG	                 //int CDataType;                                  
         , 4                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3551,12 +3551,12 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
     },
     {
                              //count=197
-          "1"               //const char *sqlValue;                                             
-        , "1"               //const char *cValue;                                  
+          "127"               //const char *sqlValue;                                             
+        , "127"               //const char *cValue;                                  
         , SQL_C_ULONG	                 //int CDataType;                                  
         , 4                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3573,8 +3573,8 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "0"               //const char *cValue;                                  
         , SQL_C_USHORT                 //int CDataType;                                  
         , 2                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3591,8 +3591,8 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "0"               //const char *cValue;                                  
         , SQL_C_USHORT                 //int CDataType;                                  
         , 2                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3605,12 +3605,12 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
     },
     {
                              //count=200
-          "1"               //const char *sqlValue;                                             
-        , "1"               //const char *cValue;                                  
+          "127"               //const char *sqlValue;                                             
+        , "127"               //const char *cValue;                                  
         , SQL_C_USHORT                 //int CDataType;                                  
         , 2                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3623,12 +3623,12 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
     },
     {
                              //count=201
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
+          "-127"               //const char *sqlValue;                                             
+        , "-127"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
         , 4                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3645,8 +3645,8 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "0"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
         , 4                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3659,12 +3659,12 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
     },
     {
                              //count=203
-          "1"               //const char *sqlValue;                                             
-        , "1"               //const char *cValue;                                  
+          "127"               //const char *sqlValue;                                             
+        , "127"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
         , 4                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3677,12 +3677,12 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
     },
     {
                              //count=204
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
+          "-127"               //const char *sqlValue;                                             
+        , "-127"               //const char *cValue;                                  
         , SQL_C_SSHORT                 //int CDataType;                                  
         , 2                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3699,8 +3699,8 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "0"               //const char *cValue;                                  
         , SQL_C_SSHORT                 //int CDataType;                                  
         , 2                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3713,12 +3713,12 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
     },
     {
                              //count=206
-          "1"               //const char *sqlValue;                                             
-        , "1"               //const char *cValue;                                  
+          "127"               //const char *sqlValue;                                             
+        , "127"               //const char *cValue;                                  
         , SQL_C_SSHORT                 //int CDataType;                                  
         , 2                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3735,8 +3735,8 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "0"               //const char *cValue;                                  
         , SQL_C_BIT	                 //int CDataType;                                  
         , 1                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3753,8 +3753,8 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "0"               //const char *cValue;                                  
         , SQL_C_BIT	                 //int CDataType;                                  
         , 1                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3771,8 +3771,8 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "1"               //const char *cValue;                                  
         , SQL_C_BIT	                 //int CDataType;                                  
         , 1                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3785,12 +3785,12 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
     },
     {
                              //count=210
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
+          "-127"               //const char *sqlValue;                                             
+        , "-127"               //const char *cValue;                                  
         , SQL_C_TINYINT                 //int CDataType;                                  
         , 1                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3807,8 +3807,8 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "0"               //const char *cValue;                                  
         , SQL_C_TINYINT                 //int CDataType;                                  
         , 1                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3821,12 +3821,12 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
     },
     {
                              //count=212
-          "1"               //const char *sqlValue;                                             
-        , "1"               //const char *cValue;                                  
+          "127"               //const char *sqlValue;                                             
+        , "127"               //const char *cValue;                                  
         , SQL_C_TINYINT                 //int CDataType;                                  
         , 1                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3843,8 +3843,8 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "0"               //const char *cValue;                                  
         , SQL_C_UTINYINT                 //int CDataType;                                  
         , 1                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3861,8 +3861,8 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "0"               //const char *cValue;                                  
         , SQL_C_UTINYINT                 //int CDataType;                                  
         , 1                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3875,12 +3875,12 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
     },
     {
                              //count=215
-          "1"               //const char *sqlValue;                                             
-        , "1"               //const char *cValue;                                  
+          "127"               //const char *sqlValue;                                             
+        , "127"               //const char *cValue;                                  
         , SQL_C_UTINYINT                 //int CDataType;                                  
         , 1                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
         , 1                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
@@ -3893,654 +3893,6 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
     },
     {
                              //count=216
-          "-127"               //const char *sqlValue;                                             
-        , "-127"               //const char *cValue;                                  
-        , SQL_C_LONG                    //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=217
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_LONG                    //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=218
-          "127"               //const char *sqlValue;                                             
-        , "127"               //const char *cValue;                                  
-        , SQL_C_LONG                    //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=219
-          "-127"               //const char *sqlValue;                                             
-        , "-127"               //const char *cValue;                                  
-        , SQL_C_SHORT                   //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=220
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_SHORT                   //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=221
-          "127"               //const char *sqlValue;                                             
-        , "127"               //const char *cValue;                                  
-        , SQL_C_SHORT                   //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=222
-          "-127"               //const char *sqlValue;                                             
-        , "-127"               //const char *cValue;                                  
-        , SQL_C_STINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=223
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_STINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=224
-          "127"               //const char *sqlValue;                                             
-        , "127"               //const char *cValue;                                  
-        , SQL_C_STINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=225
-          "-127"               //const char *sqlValue;                                             
-        , "-127"               //const char *cValue;                                  
-        , SQL_C_FLOAT                   //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=226
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_FLOAT                   //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=227
-          "127"               //const char *sqlValue;                                             
-        , "127"               //const char *cValue;                                  
-        , SQL_C_FLOAT                   //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=228
-          "-127"               //const char *sqlValue;                                             
-        , "-127"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=229
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=230
-          "127"               //const char *sqlValue;                                             
-        , "127"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=231
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_ULONG	                 //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=232
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_ULONG	                 //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=233
-          "127"               //const char *sqlValue;                                             
-        , "127"               //const char *cValue;                                  
-        , SQL_C_ULONG	                 //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=234
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_USHORT                 //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=235
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_USHORT                 //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=236
-          "127"               //const char *sqlValue;                                             
-        , "127"               //const char *cValue;                                  
-        , SQL_C_USHORT                 //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=237
-          "-127"               //const char *sqlValue;                                             
-        , "-127"               //const char *cValue;                                  
-        , SQL_C_SLONG	                 //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=238
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_SLONG	                 //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=239
-          "127"               //const char *sqlValue;                                             
-        , "127"               //const char *cValue;                                  
-        , SQL_C_SLONG	                 //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=240
-          "-127"               //const char *sqlValue;                                             
-        , "-127"               //const char *cValue;                                  
-        , SQL_C_SSHORT                 //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=241
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_SSHORT                 //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=242
-          "127"               //const char *sqlValue;                                             
-        , "127"               //const char *cValue;                                  
-        , SQL_C_SSHORT                 //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=243
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_BIT	                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=244
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_BIT	                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=245
-          "1"               //const char *sqlValue;                                             
-        , "1"               //const char *cValue;                                  
-        , SQL_C_BIT	                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=246
-          "-127"               //const char *sqlValue;                                             
-        , "-127"               //const char *cValue;                                  
-        , SQL_C_TINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=247
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_TINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=248
-          "127"               //const char *sqlValue;                                             
-        , "127"               //const char *cValue;                                  
-        , SQL_C_TINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=249
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_UTINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=250
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_UTINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=251
-          "127"               //const char *sqlValue;                                             
-        , "127"               //const char *cValue;                                  
-        , SQL_C_UTINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=252
           "-2147483648"               //const char *sqlValue;                                             
         , "-2147483648"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
@@ -4558,7 +3910,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
-                             //count=253
+                             //count=217
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
@@ -4576,7 +3928,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
-                             //count=254
+                             //count=218
           "2147483647"               //const char *sqlValue;                                             
         , "2147483647"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
@@ -4594,7 +3946,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
-                             //count=255
+                             //count=219
           "-32768"               //const char *sqlValue;                                             
         , "-32768"               //const char *cValue;                                  
         , SQL_C_SHORT                   //int CDataType;                                  
@@ -4612,7 +3964,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
-                             //count=256
+                             //count=220
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
         , SQL_C_SHORT                   //int CDataType;                                  
@@ -4630,7 +3982,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
-                             //count=257
+                             //count=221
           "32767"               //const char *sqlValue;                                             
         , "32767"               //const char *cValue;                                  
         , SQL_C_SHORT                   //int CDataType;                                  
@@ -4648,7 +4000,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
-                             //count=258
+                             //count=222
           "-127"               //const char *sqlValue;                                             
         , "-127"               //const char *cValue;                                  
         , SQL_C_STINYINT                 //int CDataType;                                  
@@ -4666,7 +4018,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
-                             //count=259
+                             //count=223
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
         , SQL_C_STINYINT                 //int CDataType;                                  
@@ -4684,7 +4036,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
-                             //count=260
+                             //count=224
           "127"               //const char *sqlValue;                                             
         , "127"               //const char *cValue;                                  
         , SQL_C_STINYINT                 //int CDataType;                                  
@@ -4702,7 +4054,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
-                             //count=261
+                             //count=225
           "-9223372036854775808"               //const char *sqlValue;                                             
         , "-9223372036854775808"               //const char *cValue;                                  
         , SQL_C_FLOAT                   //int CDataType;                                  
@@ -4720,7 +4072,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
-                             //count=262
+                             //count=226
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
         , SQL_C_FLOAT                   //int CDataType;                                  
@@ -4738,7 +4090,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
-                             //count=263
+                             //count=227
           "9223372036854775807"               //const char *sqlValue;                                             
         , "9223372036854775807"               //const char *cValue;                                  
         , SQL_C_FLOAT                   //int CDataType;                                  
@@ -4756,7 +4108,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
-                             //count=264
+                             //count=228
           "-9223372036854775808"               //const char *sqlValue;                                             
         , "-9223372036854775808"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -4774,7 +4126,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
-                             //count=265
+                             //count=229
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -4792,7 +4144,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
-                             //count=266
+                             //count=230
           "9223372036854775807"               //const char *sqlValue;                                             
         , "9223372036854775807"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -4810,7 +4162,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
-                             //count=267
+                             //count=231
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
         , SQL_C_ULONG	                 //int CDataType;                                  
@@ -4828,7 +4180,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
-                             //count=268
+                             //count=232
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
         , SQL_C_ULONG	                 //int CDataType;                                  
@@ -4846,7 +4198,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
-                             //count=269
+                             //count=233
           "4294967295"               //const char *sqlValue;                                             
         , "4294967295"               //const char *cValue;                                  
         , SQL_C_ULONG	                 //int CDataType;                                  
@@ -4864,7 +4216,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
-                             //count=270
+                             //count=234
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
         , SQL_C_USHORT                 //int CDataType;                                  
@@ -4882,7 +4234,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
-                             //count=271
+                             //count=235
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
         , SQL_C_USHORT                 //int CDataType;                                  
@@ -4900,7 +4252,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
-                             //count=272
+                             //count=236
           "65535"               //const char *sqlValue;                                             
         , "65535"               //const char *cValue;                                  
         , SQL_C_USHORT                 //int CDataType;                                  
@@ -4918,7 +4270,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
-                             //count=273
+                             //count=237
           "-2147483648"               //const char *sqlValue;                                             
         , "-2147483648"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
@@ -4936,7 +4288,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
-                             //count=274
+                             //count=238
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
@@ -4954,7 +4306,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
-                             //count=275
+                             //count=239
           "2147483647"               //const char *sqlValue;                                             
         , "2147483647"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
@@ -4972,7 +4324,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
-                             //count=276
+                             //count=240
           "-32768"               //const char *sqlValue;                                             
         , "-32768"               //const char *cValue;                                  
         , SQL_C_SSHORT                 //int CDataType;                                  
@@ -4990,7 +4342,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
-                             //count=277
+                             //count=241
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
         , SQL_C_SSHORT                 //int CDataType;                                  
@@ -5008,7 +4360,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
-                             //count=278
+                             //count=242
           "32767"               //const char *sqlValue;                                             
         , "32767"               //const char *cValue;                                  
         , SQL_C_SSHORT                 //int CDataType;                                  
@@ -5026,7 +4378,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
-                             //count=279
+                             //count=243
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
         , SQL_C_BIT	                 //int CDataType;                                  
@@ -5035,6 +4387,654 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
         , 8                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 8                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=244
+          "0"               //const char *sqlValue;                                             
+        , "0"               //const char *cValue;                                  
+        , SQL_C_BIT	                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_BIGINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
+        , 8                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 8                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=245
+          "1"               //const char *sqlValue;                                             
+        , "1"               //const char *cValue;                                  
+        , SQL_C_BIT	                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_BIGINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
+        , 8                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 8                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=246
+          "-127"               //const char *sqlValue;                                             
+        , "-127"               //const char *cValue;                                  
+        , SQL_C_TINYINT                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_BIGINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
+        , 8                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 8                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=247
+          "0"               //const char *sqlValue;                                             
+        , "0"               //const char *cValue;                                  
+        , SQL_C_TINYINT                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_BIGINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
+        , 8                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 8                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=248
+          "127"               //const char *sqlValue;                                             
+        , "127"               //const char *cValue;                                  
+        , SQL_C_TINYINT                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_BIGINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
+        , 8                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 8                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=249
+          "0"               //const char *sqlValue;                                             
+        , "0"               //const char *cValue;                                  
+        , SQL_C_UTINYINT                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_BIGINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
+        , 8                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 8                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=250
+          "0"               //const char *sqlValue;                                             
+        , "0"               //const char *cValue;                                  
+        , SQL_C_UTINYINT                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_BIGINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
+        , 8                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 8                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=251
+          "255"               //const char *sqlValue;                                             
+        , "255"               //const char *cValue;                                  
+        , SQL_C_UTINYINT                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_BIGINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
+        , 8                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 8                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=252
+          "0"               //const char *sqlValue;                                             
+        , "0"               //const char *cValue;                                  
+        , SQL_C_LONG                    //int CDataType;                                  
+        , 4                 //int CDataLen;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
+        , 1                 //int m_SQLMaxLength;                                  
+        , 1                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 1                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=253
+          "255"               //const char *sqlValue;                                             
+        , "255"               //const char *cValue;                                  
+        , SQL_C_LONG                    //int CDataType;                                  
+        , 4                 //int CDataLen;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
+        , 1                 //int m_SQLMaxLength;                                  
+        , 1                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 1                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=254
+          "0"               //const char *sqlValue;                                             
+        , "0"               //const char *cValue;                                  
+        , SQL_C_SHORT                   //int CDataType;                                  
+        , 2                 //int CDataLen;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
+        , 1                 //int m_SQLMaxLength;                                  
+        , 1                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 1                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=255
+          "255"               //const char *sqlValue;                                             
+        , "255"               //const char *cValue;                                  
+        , SQL_C_SHORT                   //int CDataType;                                  
+        , 2                 //int CDataLen;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
+        , 1                 //int m_SQLMaxLength;                                  
+        , 1                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 1                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=256
+          "0"               //const char *sqlValue;                                             
+        , "0"               //const char *cValue;                                  
+        , SQL_C_STINYINT                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
+        , 1                 //int m_SQLMaxLength;                                  
+        , 1                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 1                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=257
+          "127"               //const char *sqlValue;                                             
+        , "127"               //const char *cValue;                                  
+        , SQL_C_STINYINT                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
+        , 1                 //int m_SQLMaxLength;                                  
+        , 1                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 1                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=258
+          "0"               //const char *sqlValue;                                             
+        , "0"               //const char *cValue;                                  
+        , SQL_C_FLOAT                   //int CDataType;                                  
+        , 8                 //int CDataLen;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
+        , 1                 //int m_SQLMaxLength;                                  
+        , 1                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 1                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=259
+          "255"               //const char *sqlValue;                                             
+        , "255"               //const char *cValue;                                  
+        , SQL_C_FLOAT                   //int CDataType;                                  
+        , 8                 //int CDataLen;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
+        , 1                 //int m_SQLMaxLength;                                  
+        , 1                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 1                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=260
+          "0"               //const char *sqlValue;                                             
+        , "0"               //const char *cValue;                                  
+        , SQL_C_DOUBLE                  //int CDataType;                                  
+        , 8                 //int CDataLen;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
+        , 1                 //int m_SQLMaxLength;                                  
+        , 1                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 1                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=261
+          "255"               //const char *sqlValue;                                             
+        , "255"               //const char *cValue;                                  
+        , SQL_C_DOUBLE                  //int CDataType;                                  
+        , 8                 //int CDataLen;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
+        , 1                 //int m_SQLMaxLength;                                  
+        , 1                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 1                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=262
+          "0"               //const char *sqlValue;                                             
+        , "0"               //const char *cValue;                                  
+        , SQL_C_ULONG	                 //int CDataType;                                  
+        , 4                 //int CDataLen;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
+        , 1                 //int m_SQLMaxLength;                                  
+        , 1                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 1                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=263
+          "255"               //const char *sqlValue;                                             
+        , "255"               //const char *cValue;                                  
+        , SQL_C_ULONG	                 //int CDataType;                                  
+        , 4                 //int CDataLen;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
+        , 1                 //int m_SQLMaxLength;                                  
+        , 1                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 1                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=264
+          "0"               //const char *sqlValue;                                             
+        , "0"               //const char *cValue;                                  
+        , SQL_C_USHORT                 //int CDataType;                                  
+        , 2                 //int CDataLen;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
+        , 1                 //int m_SQLMaxLength;                                  
+        , 1                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 1                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=265
+          "255"               //const char *sqlValue;                                             
+        , "255"               //const char *cValue;                                  
+        , SQL_C_USHORT                 //int CDataType;                                  
+        , 2                 //int CDataLen;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
+        , 1                 //int m_SQLMaxLength;                                  
+        , 1                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 1                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=266
+          "0"               //const char *sqlValue;                                             
+        , "0"               //const char *cValue;                                  
+        , SQL_C_SLONG	                 //int CDataType;                                  
+        , 4                 //int CDataLen;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
+        , 1                 //int m_SQLMaxLength;                                  
+        , 1                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 1                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=267
+          "255"               //const char *sqlValue;                                             
+        , "255"               //const char *cValue;                                  
+        , SQL_C_SLONG	                 //int CDataType;                                  
+        , 4                 //int CDataLen;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
+        , 1                 //int m_SQLMaxLength;                                  
+        , 1                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 1                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=268
+          "0"               //const char *sqlValue;                                             
+        , "0"               //const char *cValue;                                  
+        , SQL_C_SSHORT                 //int CDataType;                                  
+        , 2                 //int CDataLen;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
+        , 1                 //int m_SQLMaxLength;                                  
+        , 1                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 1                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=269
+          "255"               //const char *sqlValue;                                             
+        , "255"               //const char *cValue;                                  
+        , SQL_C_SSHORT                 //int CDataType;                                  
+        , 2                 //int CDataLen;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
+        , 1                 //int m_SQLMaxLength;                                  
+        , 1                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 1                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=270
+          "0"               //const char *sqlValue;                                             
+        , "0"               //const char *cValue;                                  
+        , SQL_C_BIT	                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
+        , 1                 //int m_SQLMaxLength;                                  
+        , 1                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 1                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=271
+          "1"               //const char *sqlValue;                                             
+        , "1"               //const char *cValue;                                  
+        , SQL_C_BIT	                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
+        , 1                 //int m_SQLMaxLength;                                  
+        , 1                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 1                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=272
+          "0"               //const char *sqlValue;                                             
+        , "0"               //const char *cValue;                                  
+        , SQL_C_TINYINT                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
+        , 1                 //int m_SQLMaxLength;                                  
+        , 1                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 1                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=273
+          "127"               //const char *sqlValue;                                             
+        , "127"               //const char *cValue;                                  
+        , SQL_C_TINYINT                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
+        , 1                 //int m_SQLMaxLength;                                  
+        , 1                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 1                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=274
+          "0"               //const char *sqlValue;                                             
+        , "0"               //const char *cValue;                                  
+        , SQL_C_UTINYINT                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
+        , 1                 //int m_SQLMaxLength;                                  
+        , 1                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 1                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=275
+          "255"               //const char *sqlValue;                                             
+        , "255"               //const char *cValue;                                  
+        , SQL_C_UTINYINT                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_TINYINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
+        , 1                 //int m_SQLMaxLength;                                  
+        , 1                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 1                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=276
+          "0"               //const char *sqlValue;                                             
+        , "0"               //const char *cValue;                                  
+        , SQL_C_LONG                    //int CDataType;                                  
+        , 4                 //int CDataLen;                                  
+        , SQL_BIGINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
+        , 8                 //int m_SQLMaxLength;                                  
+        , 1                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 8                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=277
+          "2147483647"               //const char *sqlValue;                                             
+        , "2147483647"               //const char *cValue;                                  
+        , SQL_C_LONG                    //int CDataType;                                  
+        , 4                 //int CDataLen;                                  
+        , SQL_BIGINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
+        , 8                 //int m_SQLMaxLength;                                  
+        , 1                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 8                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=278
+          "0"               //const char *sqlValue;                                             
+        , "0"               //const char *cValue;                                  
+        , SQL_C_SHORT                   //int CDataType;                                  
+        , 2                 //int CDataLen;                                  
+        , SQL_BIGINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
+        , 8                 //int m_SQLMaxLength;                                  
+        , 1                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 8                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
+    },
+    {
+                             //count=279
+          "32767"               //const char *sqlValue;                                             
+        , "32767"               //const char *cValue;                                  
+        , SQL_C_SHORT                   //int CDataType;                                  
+        , 2                 //int CDataLen;                                  
+        , SQL_BIGINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
+        , 8                 //int m_SQLMaxLength;                                  
+        , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
@@ -5047,12 +5047,12 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=280
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
-        , SQL_C_BIT	                 //int CDataType;                                  
+        , SQL_C_STINYINT                 //int CDataType;                                  
         , 1                 //int CDataLen;                                  
         , SQL_BIGINT                 //int m_ODBCDataType;                                  
         , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
         , 8                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
+        , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
@@ -5063,14 +5063,14 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
     },
     {
                              //count=281
-          "1"               //const char *sqlValue;                                             
-        , "1"               //const char *cValue;                                  
-        , SQL_C_BIT	                 //int CDataType;                                  
+          "127"               //const char *sqlValue;                                             
+        , "127"               //const char *cValue;                                  
+        , SQL_C_STINYINT                 //int CDataType;                                  
         , 1                 //int CDataLen;                                  
         , SQL_BIGINT                 //int m_ODBCDataType;                                  
         , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
         , 8                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
+        , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
@@ -5081,14 +5081,14 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
     },
     {
                              //count=282
-          "-127"               //const char *sqlValue;                                             
-        , "-127"               //const char *cValue;                                  
-        , SQL_C_TINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
+          "0"               //const char *sqlValue;                                             
+        , "0"               //const char *cValue;                                  
+        , SQL_C_FLOAT                   //int CDataType;                                  
+        , 8                 //int CDataLen;                                  
         , SQL_BIGINT                 //int m_ODBCDataType;                                  
         , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
         , 8                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
+        , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
@@ -5099,14 +5099,14 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
     },
     {
                              //count=283
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_TINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
+          "18446744073709551615"               //const char *sqlValue;                                             
+        , "18446744073709551615"               //const char *cValue;                                  
+        , SQL_C_FLOAT                   //int CDataType;                                  
+        , 8                 //int CDataLen;                                  
         , SQL_BIGINT                 //int m_ODBCDataType;                                  
         , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
         , 8                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
+        , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
@@ -5117,14 +5117,14 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
     },
     {
                              //count=284
-          "127"               //const char *sqlValue;                                             
-        , "127"               //const char *cValue;                                  
-        , SQL_C_TINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
+          "0"               //const char *sqlValue;                                             
+        , "0"               //const char *cValue;                                  
+        , SQL_C_DOUBLE                  //int CDataType;                                  
+        , 8                 //int CDataLen;                                  
         , SQL_BIGINT                 //int m_ODBCDataType;                                  
         , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
         , 8                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
+        , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
@@ -5135,14 +5135,14 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
     },
     {
                              //count=285
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_UTINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
+          "18446744073709551615"               //const char *sqlValue;                                             
+        , "18446744073709551615"               //const char *cValue;                                  
+        , SQL_C_DOUBLE                  //int CDataType;                                  
+        , 8                 //int CDataLen;                                  
         , SQL_BIGINT                 //int m_ODBCDataType;                                  
         , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
         , 8                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
+        , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
@@ -5155,12 +5155,12 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=286
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
-        , SQL_C_UTINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
+        , SQL_C_ULONG	                 //int CDataType;                                  
+        , 4                 //int CDataLen;                                  
         , SQL_BIGINT                 //int m_ODBCDataType;                                  
         , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
         , 8                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
+        , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
@@ -5171,14 +5171,14 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
     },
     {
                              //count=287
-          "255"               //const char *sqlValue;                                             
-        , "255"               //const char *cValue;                                  
-        , SQL_C_UTINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
+          "4294967295"               //const char *sqlValue;                                             
+        , "4294967295"               //const char *cValue;                                  
+        , SQL_C_ULONG	                 //int CDataType;                                  
+        , 4                 //int CDataLen;                                  
         , SQL_BIGINT                 //int m_ODBCDataType;                                  
         , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
         , 8                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
+        , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
@@ -5191,35 +5191,35 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=288
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
-        , SQL_C_LONG                    //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+        , SQL_C_USHORT                 //int CDataType;                                  
+        , 2                 //int CDataLen;                                  
+        , SQL_BIGINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
+        , 8                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
                              //count=289
-          "1"               //const char *sqlValue;                                             
-        , "1"               //const char *cValue;                                  
-        , SQL_C_LONG                    //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+          "65535"               //const char *sqlValue;                                             
+        , "65535"               //const char *cValue;                                  
+        , SQL_C_USHORT                 //int CDataType;                                  
+        , 2                 //int CDataLen;                                  
+        , SQL_BIGINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
+        , 8                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
@@ -5227,35 +5227,35 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=290
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
-        , SQL_C_SHORT                   //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+        , SQL_C_SLONG	                 //int CDataType;                                  
+        , 4                 //int CDataLen;                                  
+        , SQL_BIGINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
+        , 8                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
                              //count=291
-          "1"               //const char *sqlValue;                                             
-        , "1"               //const char *cValue;                                  
-        , SQL_C_SHORT                   //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+          "2147483647"               //const char *sqlValue;                                             
+        , "2147483647"               //const char *cValue;                                  
+        , SQL_C_SLONG	                 //int CDataType;                                  
+        , 4                 //int CDataLen;                                  
+        , SQL_BIGINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
+        , 8                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
@@ -5263,35 +5263,35 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=292
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
-        , SQL_C_STINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+        , SQL_C_SSHORT                 //int CDataType;                                  
+        , 2                 //int CDataLen;                                  
+        , SQL_BIGINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
+        , 8                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
                              //count=293
-          "1"               //const char *sqlValue;                                             
-        , "1"               //const char *cValue;                                  
-        , SQL_C_STINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+          "32767"               //const char *sqlValue;                                             
+        , "32767"               //const char *cValue;                                  
+        , SQL_C_SSHORT                 //int CDataType;                                  
+        , 2                 //int CDataLen;                                  
+        , SQL_BIGINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
+        , 8                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
@@ -5299,17 +5299,17 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=294
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
-        , SQL_C_FLOAT                   //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+        , SQL_C_BIT	                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_BIGINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
+        , 8                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
@@ -5317,17 +5317,17 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=295
           "1"               //const char *sqlValue;                                             
         , "1"               //const char *cValue;                                  
-        , SQL_C_FLOAT                   //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+        , SQL_C_BIT	                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_BIGINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
+        , 8                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
@@ -5335,35 +5335,35 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=296
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+        , SQL_C_TINYINT                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_BIGINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
+        , 8                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
                              //count=297
-          "1"               //const char *sqlValue;                                             
-        , "1"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+          "127"               //const char *sqlValue;                                             
+        , "127"               //const char *cValue;                                  
+        , SQL_C_TINYINT                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_BIGINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
+        , 8                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
@@ -5371,35 +5371,35 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=298
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
-        , SQL_C_ULONG	                 //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+        , SQL_C_UTINYINT                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_BIGINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
+        , 8                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
                              //count=299
-          "1"               //const char *sqlValue;                                             
-        , "1"               //const char *cValue;                                  
-        , SQL_C_ULONG	                 //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+          "255"               //const char *sqlValue;                                             
+        , "255"               //const char *cValue;                                  
+        , SQL_C_UTINYINT                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_BIGINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
+        , 8                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
@@ -5407,35 +5407,35 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=300
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
-        , SQL_C_USHORT                 //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+        , SQL_C_LONG                    //int CDataType;                                  
+        , 4                 //int CDataLen;                                  
+        , SQL_INTEGER                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
+        , 4                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
                              //count=301
-          "1"               //const char *sqlValue;                                             
-        , "1"               //const char *cValue;                                  
-        , SQL_C_USHORT                 //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+          "2147483647"               //const char *sqlValue;                                             
+        , "2147483647"               //const char *cValue;                                  
+        , SQL_C_LONG                    //int CDataType;                                  
+        , 4                 //int CDataLen;                                  
+        , SQL_INTEGER                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
+        , 4                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
@@ -5443,35 +5443,35 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=302
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
-        , SQL_C_SLONG	                 //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+        , SQL_C_SHORT                   //int CDataType;                                  
+        , 2                 //int CDataLen;                                  
+        , SQL_INTEGER                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
+        , 4                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
                              //count=303
-          "1"               //const char *sqlValue;                                             
-        , "1"               //const char *cValue;                                  
-        , SQL_C_SLONG	                 //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+          "32767"               //const char *sqlValue;                                             
+        , "32767"               //const char *cValue;                                  
+        , SQL_C_SHORT                   //int CDataType;                                  
+        , 2                 //int CDataLen;                                  
+        , SQL_INTEGER                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
+        , 4                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
@@ -5479,35 +5479,35 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=304
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
-        , SQL_C_SSHORT                 //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+        , SQL_C_STINYINT                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_INTEGER                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
+        , 4                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
                              //count=305
-          "1"               //const char *sqlValue;                                             
-        , "1"               //const char *cValue;                                  
-        , SQL_C_SSHORT                 //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+          "127"               //const char *sqlValue;                                             
+        , "127"               //const char *cValue;                                  
+        , SQL_C_STINYINT                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_INTEGER                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
+        , 4                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
@@ -5515,35 +5515,35 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=306
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
-        , SQL_C_BIT	                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+        , SQL_C_FLOAT                   //int CDataType;                                  
+        , 8                 //int CDataLen;                                  
+        , SQL_INTEGER                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
+        , 4                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
                              //count=307
-          "1"               //const char *sqlValue;                                             
-        , "1"               //const char *cValue;                                  
-        , SQL_C_BIT	                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+          "4294967295"               //const char *sqlValue;                                             
+        , "4294967295"               //const char *cValue;                                  
+        , SQL_C_FLOAT                   //int CDataType;                                  
+        , 8                 //int CDataLen;                                  
+        , SQL_INTEGER                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
+        , 4                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
@@ -5551,35 +5551,35 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=308
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
-        , SQL_C_TINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+        , SQL_C_DOUBLE                  //int CDataType;                                  
+        , 8                 //int CDataLen;                                  
+        , SQL_INTEGER                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
+        , 4                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
                              //count=309
-          "1"               //const char *sqlValue;                                             
-        , "1"               //const char *cValue;                                  
-        , SQL_C_TINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+          "4294967295"               //const char *sqlValue;                                             
+        , "4294967295"               //const char *cValue;                                  
+        , SQL_C_DOUBLE                  //int CDataType;                                  
+        , 8                 //int CDataLen;                                  
+        , SQL_INTEGER                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
+        , 4                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
@@ -5587,35 +5587,35 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=310
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
-        , SQL_C_UTINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+        , SQL_C_ULONG	                 //int CDataType;                                  
+        , 4                 //int CDataLen;                                  
+        , SQL_INTEGER                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
+        , 4                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
                              //count=311
-          "1"               //const char *sqlValue;                                             
-        , "1"               //const char *cValue;                                  
-        , SQL_C_UTINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_BIT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_BPINT_UNSIGNED                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+          "4294967295"               //const char *sqlValue;                                             
+        , "4294967295"               //const char *cValue;                                  
+        , SQL_C_ULONG	                 //int CDataType;                                  
+        , 4                 //int CDataLen;                                  
+        , SQL_INTEGER                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
+        , 4                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
@@ -5623,35 +5623,35 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=312
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
-        , SQL_C_LONG                    //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+        , SQL_C_USHORT                 //int CDataType;                                  
+        , 2                 //int CDataLen;                                  
+        , SQL_INTEGER                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
+        , 4                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
                              //count=313
-          "255"               //const char *sqlValue;                                             
-        , "255"               //const char *cValue;                                  
-        , SQL_C_LONG                    //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+          "65535"               //const char *sqlValue;                                             
+        , "65535"               //const char *cValue;                                  
+        , SQL_C_USHORT                 //int CDataType;                                  
+        , 2                 //int CDataLen;                                  
+        , SQL_INTEGER                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
+        , 4                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
@@ -5659,35 +5659,35 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=314
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
-        , SQL_C_SHORT                   //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+        , SQL_C_SLONG	                 //int CDataType;                                  
+        , 4                 //int CDataLen;                                  
+        , SQL_INTEGER                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
+        , 4                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
                              //count=315
-          "255"               //const char *sqlValue;                                             
-        , "255"               //const char *cValue;                                  
-        , SQL_C_SHORT                   //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+          "2147483647"               //const char *sqlValue;                                             
+        , "2147483647"               //const char *cValue;                                  
+        , SQL_C_SLONG	                 //int CDataType;                                  
+        , 4                 //int CDataLen;                                  
+        , SQL_INTEGER                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
+        , 4                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
@@ -5695,35 +5695,35 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=316
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
-        , SQL_C_STINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+        , SQL_C_SSHORT                 //int CDataType;                                  
+        , 2                 //int CDataLen;                                  
+        , SQL_INTEGER                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
+        , 4                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
                              //count=317
-          "127"               //const char *sqlValue;                                             
-        , "127"               //const char *cValue;                                  
-        , SQL_C_STINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+          "32767"               //const char *sqlValue;                                             
+        , "32767"               //const char *cValue;                                  
+        , SQL_C_SSHORT                 //int CDataType;                                  
+        , 2                 //int CDataLen;                                  
+        , SQL_INTEGER                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
+        , 4                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
@@ -5731,35 +5731,35 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=318
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
-        , SQL_C_FLOAT                   //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+        , SQL_C_BIT	                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_INTEGER                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
+        , 4                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
                              //count=319
-          "255"               //const char *sqlValue;                                             
-        , "255"               //const char *cValue;                                  
-        , SQL_C_FLOAT                   //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+          "1"               //const char *sqlValue;                                             
+        , "1"               //const char *cValue;                                  
+        , SQL_C_BIT	                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_INTEGER                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
+        , 4                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
@@ -5767,35 +5767,35 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=320
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+        , SQL_C_TINYINT                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_INTEGER                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
+        , 4                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
                              //count=321
-          "255"               //const char *sqlValue;                                             
-        , "255"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+          "127"               //const char *sqlValue;                                             
+        , "127"               //const char *cValue;                                  
+        , SQL_C_TINYINT                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_INTEGER                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
+        , 4                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
@@ -5803,17 +5803,17 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=322
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
-        , SQL_C_ULONG	                 //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+        , SQL_C_UTINYINT                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_INTEGER                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
+        , 4                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
@@ -5821,17 +5821,17 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=323
           "255"               //const char *sqlValue;                                             
         , "255"               //const char *cValue;                                  
-        , SQL_C_ULONG	                 //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+        , SQL_C_UTINYINT                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_INTEGER                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
+        , 4                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 4                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
@@ -5839,35 +5839,35 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=324
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
-        , SQL_C_USHORT                 //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+        , SQL_C_LONG                    //int CDataType;                                  
+        , 4                 //int CDataLen;                                  
+        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
+        , 2                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
                              //count=325
-          "255"               //const char *sqlValue;                                             
-        , "255"               //const char *cValue;                                  
-        , SQL_C_USHORT                 //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+          "65535"               //const char *sqlValue;                                             
+        , "65535"               //const char *cValue;                                  
+        , SQL_C_LONG                    //int CDataType;                                  
+        , 4                 //int CDataLen;                                  
+        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
+        , 2                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
@@ -5875,35 +5875,35 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=326
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
-        , SQL_C_SLONG	                 //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+        , SQL_C_SHORT                   //int CDataType;                                  
+        , 2                 //int CDataLen;                                  
+        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
+        , 2                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
                              //count=327
-          "255"               //const char *sqlValue;                                             
-        , "255"               //const char *cValue;                                  
-        , SQL_C_SLONG	                 //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+          "32767"               //const char *sqlValue;                                             
+        , "32767"               //const char *cValue;                                  
+        , SQL_C_SHORT                   //int CDataType;                                  
+        , 2                 //int CDataLen;                                  
+        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
+        , 2                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
@@ -5911,35 +5911,35 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=328
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
-        , SQL_C_SSHORT                 //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+        , SQL_C_STINYINT                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
+        , 2                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
                              //count=329
-          "255"               //const char *sqlValue;                                             
-        , "255"               //const char *cValue;                                  
-        , SQL_C_SSHORT                 //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+          "127"               //const char *sqlValue;                                             
+        , "127"               //const char *cValue;                                  
+        , SQL_C_STINYINT                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
+        , 2                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
@@ -5947,35 +5947,35 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=330
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
-        , SQL_C_BIT	                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+        , SQL_C_FLOAT                   //int CDataType;                                  
+        , 8                 //int CDataLen;                                  
+        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
+        , 2                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
                              //count=331
-          "1"               //const char *sqlValue;                                             
-        , "1"               //const char *cValue;                                  
-        , SQL_C_BIT	                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+          "65535"               //const char *sqlValue;                                             
+        , "65535"               //const char *cValue;                                  
+        , SQL_C_FLOAT                   //int CDataType;                                  
+        , 8                 //int CDataLen;                                  
+        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
+        , 2                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
@@ -5983,35 +5983,35 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=332
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
-        , SQL_C_TINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+        , SQL_C_DOUBLE                  //int CDataType;                                  
+        , 8                 //int CDataLen;                                  
+        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
+        , 2                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
                              //count=333
-          "127"               //const char *sqlValue;                                             
-        , "127"               //const char *cValue;                                  
-        , SQL_C_TINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+          "65535"               //const char *sqlValue;                                             
+        , "65535"               //const char *cValue;                                  
+        , SQL_C_DOUBLE                  //int CDataType;                                  
+        , 8                 //int CDataLen;                                  
+        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
+        , 2                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
@@ -6019,35 +6019,35 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=334
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
-        , SQL_C_UTINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+        , SQL_C_ULONG	                 //int CDataType;                                  
+        , 4                 //int CDataLen;                                  
+        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
+        , 2                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
                              //count=335
-          "255"               //const char *sqlValue;                                             
-        , "255"               //const char *cValue;                                  
-        , SQL_C_UTINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_TINYINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_TINYINT                 //int m_SQLDataType;                                  
-        , 1                 //int m_SQLMaxLength;                                  
+          "65535"               //const char *sqlValue;                                             
+        , "65535"               //const char *cValue;                                  
+        , SQL_C_ULONG	                 //int CDataType;                                  
+        , 4                 //int CDataLen;                                  
+        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
+        , 2                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 1                 //int m_SQLOctetLength;                       
+        , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
@@ -6055,35 +6055,35 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=336
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
-        , SQL_C_LONG                    //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_BIGINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
-        , 8                 //int m_SQLMaxLength;                                  
+        , SQL_C_USHORT                 //int CDataType;                                  
+        , 2                 //int CDataLen;                                  
+        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
+        , 2                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 8                 //int m_SQLOctetLength;                       
+        , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
                              //count=337
-          "2147483647"               //const char *sqlValue;                                             
-        , "2147483647"               //const char *cValue;                                  
-        , SQL_C_LONG                    //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_BIGINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
-        , 8                 //int m_SQLMaxLength;                                  
+          "65535"               //const char *sqlValue;                                             
+        , "65535"               //const char *cValue;                                  
+        , SQL_C_USHORT                 //int CDataType;                                  
+        , 2                 //int CDataLen;                                  
+        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
+        , 2                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 8                 //int m_SQLOctetLength;                       
+        , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
@@ -6091,35 +6091,35 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=338
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
-        , SQL_C_SHORT                   //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_BIGINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
-        , 8                 //int m_SQLMaxLength;                                  
+        , SQL_C_SLONG	                 //int CDataType;                                  
+        , 4                 //int CDataLen;                                  
+        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
+        , 2                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 8                 //int m_SQLOctetLength;                       
+        , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
                              //count=339
-          "32767"               //const char *sqlValue;                                             
-        , "32767"               //const char *cValue;                                  
-        , SQL_C_SHORT                   //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_BIGINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
-        , 8                 //int m_SQLMaxLength;                                  
+          "65535"               //const char *sqlValue;                                             
+        , "65535"               //const char *cValue;                                  
+        , SQL_C_SLONG	                 //int CDataType;                                  
+        , 4                 //int CDataLen;                                  
+        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
+        , 2                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 8                 //int m_SQLOctetLength;                       
+        , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
@@ -6127,35 +6127,35 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=340
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
-        , SQL_C_STINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_BIGINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
-        , 8                 //int m_SQLMaxLength;                                  
+        , SQL_C_SSHORT                 //int CDataType;                                  
+        , 2                 //int CDataLen;                                  
+        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
+        , 2                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 8                 //int m_SQLOctetLength;                       
+        , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
                              //count=341
-          "127"               //const char *sqlValue;                                             
-        , "127"               //const char *cValue;                                  
-        , SQL_C_STINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_BIGINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
-        , 8                 //int m_SQLMaxLength;                                  
+          "32767"               //const char *sqlValue;                                             
+        , "32767"               //const char *cValue;                                  
+        , SQL_C_SSHORT                 //int CDataType;                                  
+        , 2                 //int CDataLen;                                  
+        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
+        , 2                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 8                 //int m_SQLOctetLength;                       
+        , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
@@ -6163,35 +6163,35 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=342
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
-        , SQL_C_FLOAT                   //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_BIGINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
-        , 8                 //int m_SQLMaxLength;                                  
+        , SQL_C_BIT	                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
+        , 2                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 8                 //int m_SQLOctetLength;                       
+        , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
                              //count=343
-          "18446744073709551615"               //const char *sqlValue;                                             
-        , "18446744073709551615"               //const char *cValue;                                  
-        , SQL_C_FLOAT                   //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_BIGINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
-        , 8                 //int m_SQLMaxLength;                                  
+          "1"               //const char *sqlValue;                                             
+        , "1"               //const char *cValue;                                  
+        , SQL_C_BIT	                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
+        , 2                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 8                 //int m_SQLOctetLength;                       
+        , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
@@ -6199,35 +6199,35 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=344
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_BIGINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
-        , 8                 //int m_SQLMaxLength;                                  
+        , SQL_C_TINYINT                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
+        , 2                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 8                 //int m_SQLOctetLength;                       
+        , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
                              //count=345
-          "18446744073709551615"               //const char *sqlValue;                                             
-        , "18446744073709551615"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_BIGINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
-        , 8                 //int m_SQLMaxLength;                                  
+          "127"               //const char *sqlValue;                                             
+        , "127"               //const char *cValue;                                  
+        , SQL_C_TINYINT                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
+        , 2                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 8                 //int m_SQLOctetLength;                       
+        , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
@@ -6235,1102 +6235,22 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
                              //count=346
           "0"               //const char *sqlValue;                                             
         , "0"               //const char *cValue;                                  
-        , SQL_C_ULONG	                 //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_BIGINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
-        , 8                 //int m_SQLMaxLength;                                  
+        , SQL_C_UTINYINT                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
+        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
+        , 2                 //int m_SQLMaxLength;                                  
         , 1                 //int m_DescUnsigned;                                  
         , 0                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 8                 //int m_SQLOctetLength;                       
+        , 2                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
     },
     {
                              //count=347
-          "4294967295"               //const char *sqlValue;                                             
-        , "4294967295"               //const char *cValue;                                  
-        , SQL_C_ULONG	                 //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_BIGINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
-        , 8                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 8                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=348
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_USHORT                 //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_BIGINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
-        , 8                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 8                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=349
-          "65535"               //const char *sqlValue;                                             
-        , "65535"               //const char *cValue;                                  
-        , SQL_C_USHORT                 //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_BIGINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
-        , 8                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 8                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=350
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_SLONG	                 //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_BIGINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
-        , 8                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 8                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=351
-          "2147483647"               //const char *sqlValue;                                             
-        , "2147483647"               //const char *cValue;                                  
-        , SQL_C_SLONG	                 //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_BIGINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
-        , 8                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 8                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=352
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_SSHORT                 //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_BIGINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
-        , 8                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 8                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=353
-          "32767"               //const char *sqlValue;                                             
-        , "32767"               //const char *cValue;                                  
-        , SQL_C_SSHORT                 //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_BIGINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
-        , 8                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 8                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=354
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_BIT	                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_BIGINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
-        , 8                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 8                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=355
-          "1"               //const char *sqlValue;                                             
-        , "1"               //const char *cValue;                                  
-        , SQL_C_BIT	                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_BIGINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
-        , 8                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 8                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=356
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_TINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_BIGINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
-        , 8                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 8                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=357
-          "127"               //const char *sqlValue;                                             
-        , "127"               //const char *cValue;                                  
-        , SQL_C_TINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_BIGINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
-        , 8                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 8                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=358
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_UTINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_BIGINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
-        , 8                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 8                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=359
-          "255"               //const char *sqlValue;                                             
-        , "255"               //const char *cValue;                                  
-        , SQL_C_UTINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_BIGINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_LARGEINT                 //int m_SQLDataType;                                  
-        , 8                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 8                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=360
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_LONG                    //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_INTEGER                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
-        , 4                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 4                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=361
-          "2147483647"               //const char *sqlValue;                                             
-        , "2147483647"               //const char *cValue;                                  
-        , SQL_C_LONG                    //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_INTEGER                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
-        , 4                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 4                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=362
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_SHORT                   //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_INTEGER                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
-        , 4                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 4                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=363
-          "32767"               //const char *sqlValue;                                             
-        , "32767"               //const char *cValue;                                  
-        , SQL_C_SHORT                   //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_INTEGER                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
-        , 4                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 4                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=364
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_STINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_INTEGER                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
-        , 4                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 4                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=365
-          "127"               //const char *sqlValue;                                             
-        , "127"               //const char *cValue;                                  
-        , SQL_C_STINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_INTEGER                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
-        , 4                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 4                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=366
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_FLOAT                   //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_INTEGER                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
-        , 4                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 4                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=367
-          "4294967295"               //const char *sqlValue;                                             
-        , "4294967295"               //const char *cValue;                                  
-        , SQL_C_FLOAT                   //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_INTEGER                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
-        , 4                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 4                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=368
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_INTEGER                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
-        , 4                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 4                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=369
-          "4294967295"               //const char *sqlValue;                                             
-        , "4294967295"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_INTEGER                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
-        , 4                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 4                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=370
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_ULONG	                 //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_INTEGER                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
-        , 4                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 4                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=371
-          "4294967295"               //const char *sqlValue;                                             
-        , "4294967295"               //const char *cValue;                                  
-        , SQL_C_ULONG	                 //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_INTEGER                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
-        , 4                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 4                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=372
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_USHORT                 //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_INTEGER                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
-        , 4                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 4                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=373
-          "65535"               //const char *sqlValue;                                             
-        , "65535"               //const char *cValue;                                  
-        , SQL_C_USHORT                 //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_INTEGER                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
-        , 4                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 4                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=374
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_SLONG	                 //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_INTEGER                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
-        , 4                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 4                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=375
-          "2147483647"               //const char *sqlValue;                                             
-        , "2147483647"               //const char *cValue;                                  
-        , SQL_C_SLONG	                 //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_INTEGER                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
-        , 4                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 4                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=376
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_SSHORT                 //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_INTEGER                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
-        , 4                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 4                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=377
-          "32767"               //const char *sqlValue;                                             
-        , "32767"               //const char *cValue;                                  
-        , SQL_C_SSHORT                 //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_INTEGER                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
-        , 4                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 4                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=378
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_BIT	                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_INTEGER                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
-        , 4                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 4                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=379
-          "1"               //const char *sqlValue;                                             
-        , "1"               //const char *cValue;                                  
-        , SQL_C_BIT	                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_INTEGER                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
-        , 4                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 4                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=380
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_TINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_INTEGER                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
-        , 4                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 4                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=381
-          "127"               //const char *sqlValue;                                             
-        , "127"               //const char *cValue;                                  
-        , SQL_C_TINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_INTEGER                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
-        , 4                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 4                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=382
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_UTINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_INTEGER                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
-        , 4                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 4                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=383
-          "255"               //const char *sqlValue;                                             
-        , "255"               //const char *cValue;                                  
-        , SQL_C_UTINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_INTEGER                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_INTEGER                 //int m_SQLDataType;                                  
-        , 4                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 4                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=384
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_LONG                    //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
-        , 2                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 2                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=385
-          "65535"               //const char *sqlValue;                                             
-        , "65535"               //const char *cValue;                                  
-        , SQL_C_LONG                    //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
-        , 2                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 2                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=386
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_SHORT                   //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
-        , 2                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 2                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=387
-          "32767"               //const char *sqlValue;                                             
-        , "32767"               //const char *cValue;                                  
-        , SQL_C_SHORT                   //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
-        , 2                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 2                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=388
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_STINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
-        , 2                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 2                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=389
-          "127"               //const char *sqlValue;                                             
-        , "127"               //const char *cValue;                                  
-        , SQL_C_STINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
-        , 2                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 2                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=390
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_FLOAT                   //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
-        , 2                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 2                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=391
-          "65535"               //const char *sqlValue;                                             
-        , "65535"               //const char *cValue;                                  
-        , SQL_C_FLOAT                   //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
-        , 2                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 2                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=392
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
-        , 2                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 2                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=393
-          "65535"               //const char *sqlValue;                                             
-        , "65535"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
-        , 2                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 2                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=394
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_ULONG	                 //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
-        , 2                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 2                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=395
-          "65535"               //const char *sqlValue;                                             
-        , "65535"               //const char *cValue;                                  
-        , SQL_C_ULONG	                 //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
-        , 2                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 2                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=396
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_USHORT                 //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
-        , 2                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 2                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=397
-          "65535"               //const char *sqlValue;                                             
-        , "65535"               //const char *cValue;                                  
-        , SQL_C_USHORT                 //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
-        , 2                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 2                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=398
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_SLONG	                 //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
-        , 2                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 2                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=399
-          "65535"               //const char *sqlValue;                                             
-        , "65535"               //const char *cValue;                                  
-        , SQL_C_SLONG	                 //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
-        , 2                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 2                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=400
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_SSHORT                 //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
-        , 2                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 2                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=401
-          "32767"               //const char *sqlValue;                                             
-        , "32767"               //const char *cValue;                                  
-        , SQL_C_SSHORT                 //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
-        , 2                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 2                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=402
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_BIT	                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
-        , 2                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 2                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=403
-          "1"               //const char *sqlValue;                                             
-        , "1"               //const char *cValue;                                  
-        , SQL_C_BIT	                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
-        , 2                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 2                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=404
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_TINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
-        , 2                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 2                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=405
-          "127"               //const char *sqlValue;                                             
-        , "127"               //const char *cValue;                                  
-        , SQL_C_TINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
-        , 2                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 2                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=406
-          "0"               //const char *sqlValue;                                             
-        , "0"               //const char *cValue;                                  
-        , SQL_C_UTINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
-        , SQL_SMALLINT                 //int m_ODBCDataType;                                  
-        , SQLTYPECODE_SMALLINT                 //int m_SQLDataType;                                  
-        , 2                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 2                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];   
-    },
-    {
-                             //count=407
           "255"               //const char *sqlValue;                                             
         , "255"               //const char *cValue;                                  
         , SQL_C_UTINYINT                 //int CDataType;                                  
