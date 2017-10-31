@@ -196,3 +196,20 @@ class defType:
         # SQL_VARCHAR			:	'SQL_VARCHAR'
     }
 
+    sql_c_max_numlen = {
+        SQL_C_LONG   	    :	10,
+        SQL_C_SHORT  		:	5,
+        SQL_C_FLOAT  		:	0,
+        SQL_C_DOUBLE 		:	0,
+        SQL_C_BIT			:	1,
+        SQL_C_TINYINT	    :	3,
+        SQL_C_SLONG		    :	10,
+        SQL_C_SSHORT		:	5,
+        SQL_C_STINYINT		:	3,
+        SQL_C_ULONG		    :	10,
+        SQL_C_USHORT		:	5,
+        SQL_C_UTINYINT		:	3,
+        SQL_C_SBIGINT       :   18,
+        SQL_C_UBIGINT       :   20,
+
+    }
