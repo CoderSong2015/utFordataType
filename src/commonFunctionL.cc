@@ -223,7 +223,6 @@ void commonSwitchctosql(int m_ODBCDataType, SQLPOINTER testP, int n){
         case SQL_REAL:
             break;//TODO
         case SQL_DOUBLE:{
-        
             double mtarget = *(double *)testP;
             double sqldata = stringToNum<double>(TESTDATA_MAPL[n].sqlValue);
             EXPECT_FLOAT_EQ(sqldata, mtarget) << "Data type is: " <<TESTDATA_MAPL[n].CTypeName  << "targettype is: " <<TESTDATA_MAPL[n].SQLTypeName ;
@@ -237,9 +236,99 @@ void commonSwitchctosql(int m_ODBCDataType, SQLPOINTER testP, int n){
         case SQL_LONGVARCHAR:
              break;//TODO
         case SQL_NUMERIC:
-             SQL_NUMERIC_STRUCT mtarget = *(SQL_NUMERIC_STRUCT*)testP;
+             {
+                 switch(TESTDATA_MAPL[n].m_SQLDataType)
+                 {
+                     case SQLTYPECODE_TINYINT_UNSIGNED:
+                         {
+                             unsigned char mtarget = *(unsigned char *)testP;
+                             unsigned char sqldata = stringToNum<int>(TESTDATA_MAPL[n].sqlValue);
+                             EXPECT_FLOAT_EQ(sqldata, mtarget) << "Data type is: " <<TESTDATA_MAPL[n].CTypeName  << "targettype is: " <<TESTDATA_MAPL[n].SQLTypeName ;
+                             delete((unsigned char *)testP);
 
-             break;
+
+
+                             break;
+
+                         }
+                     case SQLTYPECODE_TINYINT:
+                         {
+                             char mtarget = *(char *)testP;
+                             char sqldata = stringToNum<int>(TESTDATA_MAPL[n].sqlValue);
+                             EXPECT_FLOAT_EQ(sqldata, mtarget) << "Data type is: " <<TESTDATA_MAPL[n].CTypeName  << "targettype is: " <<TESTDATA_MAPL[n].SQLTypeName ;
+                             delete((char *)testP);
+
+                             break;
+
+                         }
+                     case SQLTYPECODE_SMALLINT_UNSIGNED:
+                         {
+                             unsigned short   mtarget = *(unsigned short *)testP;
+                             unsigned short   sqldata = stringToNum<unsigned short>(TESTDATA_MAPL[n].sqlValue);
+                             EXPECT_FLOAT_EQ((unsigned short)sqldata, (unsigned short)mtarget) << "Data type is: " <<TESTDATA_MAPL[n].CTypeName  << "targettype is: " <<TESTDATA_MAPL[n].SQLTypeName ;
+
+                             delete((unsigned short *)testP);
+
+                             break;
+                         }
+                     case SQLTYPECODE_SMALLINT:
+                         {
+
+                             short   mtarget = *(short *)testP;
+                             short   sqldata = stringToNum<short>(TESTDATA_MAPL[n].sqlValue);
+                             EXPECT_FLOAT_EQ((short)sqldata, mtarget) << "Data type is: " <<TESTDATA_MAPL[n].CTypeName  << "targettype is: " <<TESTDATA_MAPL[n].SQLTypeName ;
+
+                             delete((short *)testP);
+
+
+                             break;
+
+                         }
+                     case SQLTYPECODE_INTEGER_UNSIGNED:
+                         {
+                             unsigned int mtarget = *(unsigned int *)testP;
+                             unsigned int sqldata = stringToNum<unsigned int>(TESTDATA_MAPL[n].sqlValue);
+                             EXPECT_FLOAT_EQ(sqldata, mtarget) << "Data type is: " <<TESTDATA_MAPL[n].CTypeName  << "targettype is: " <<TESTDATA_MAPL[n].SQLTypeName ;
+                             delete((unsigned int *)testP);
+
+                             break;
+
+                         }
+                     case SQLTYPECODE_INTEGER:
+                         {
+
+                             int mtarget = *(int *)testP;
+                             int sqldata = stringToNum<int>(TESTDATA_MAPL[n].sqlValue);
+                             EXPECT_FLOAT_EQ(sqldata, mtarget) << "Data type is: " <<TESTDATA_MAPL[n].CTypeName  << "targettype is: " <<TESTDATA_MAPL[n].SQLTypeName ;
+                             delete((int *)testP);
+
+                             break;
+                         }
+                     case SQLTYPECODE_LARGEINT:
+                         { 
+                             long long  mtarget = *(long long  *)testP;
+                             long long  sqldata = stringToNum<long long>(TESTDATA_MAPL[n].sqlValue);
+                             EXPECT_FLOAT_EQ(sqldata, mtarget) << "Data type is: " <<TESTDATA_MAPL[n].CTypeName  << "targettype is: " <<TESTDATA_MAPL[n].SQLTypeName ;
+                             delete((long long *)testP);
+
+
+                             break;
+
+                         }
+                     case SQLTYPECODE_NUMERIC:
+                     case SQLTYPECODE_NUMERIC_UNSIGNED:
+                         {
+
+                             EXPECT_STREQ(TESTDATA_MAPL[n].sqlValue, (char *)testP) << "Data type is: " <<TESTDATA_MAPL[n].CTypeName  << "targettype is: " <<TESTDATA_MAPL[n].SQLTypeName ;
+                             break;
+                         }
+                     default:
+                         break;
+
+                 } 
+
+                 break;
+             }
         case SQL_DATE:
              break;
         case SQL_TIME:
