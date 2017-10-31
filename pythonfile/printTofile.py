@@ -87,7 +87,7 @@ def printNumericTest(precision, scale, isUnsigned, outputData, count):
         )
 
 
-def printNumeric(precision, scale, isUnsigned, outputData, count, c_k):
+def printNumeric(precision, scale, isUnsigned, outputData, count, c_k, outputDataNumeric):
     with open('testData.h', 'a') as f:
         f.write(
             '''{
@@ -113,7 +113,7 @@ def printNumeric(precision, scale, isUnsigned, outputData, count, c_k):
     '''%(
           count-1                  ,
           str(outputData)          ,
-          str(outputData)          ,
+          str(outputDataNumeric)          ,
           defType.sql_c_type[c_k],
           defType.sql_c_Len[c_k],
           0 ,
@@ -124,7 +124,7 @@ def printNumeric(precision, scale, isUnsigned, outputData, count, c_k):
           0                        ,
           0,
           isUnsigned               ,
-          str(outputData)          ,
+          str(outputDataNumeric)          ,
           defType.sql_c_type[c_k]  ,
 
           )

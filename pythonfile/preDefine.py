@@ -127,6 +127,22 @@ class defType:
 
     }
 
+    sql_c_type_isUnsigned = {
+        SQL_C_LONG   	    :0 ,
+        SQL_C_SHORT  		:0 ,
+        SQL_C_FLOAT  		:0 ,
+        SQL_C_DOUBLE 		:0 ,
+        SQL_C_BIT			:0 ,
+        SQL_C_TINYINT		:0 ,
+        SQL_C_SLONG		    :0 ,
+        SQL_C_SSHORT		:0 ,
+        SQL_C_STINYINT		:0 ,
+        SQL_C_ULONG		    :1 ,
+        SQL_C_USHORT		:1,
+        SQL_C_UTINYINT		:1,
+        SQL_C_SBIGINT       :0 ,
+        SQL_C_UBIGINT       :1 ,
+    }
     sql_c_max_min = {
         #SQL_C_CHAR   		:	[-127, 0, 127],
         SQL_C_LONG   		:	[-2147483648, 0, 2147483647],

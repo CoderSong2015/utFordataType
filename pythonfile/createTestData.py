@@ -1,8 +1,6 @@
 import sys
 from preDefine import defType
-from printTofile import printToFile
-from printTofile import printNumericTest
-from printTofile import printNumeric
+import DoJob
 def getMax(a, b):
     if a > b :
         return a
@@ -26,62 +24,17 @@ functionListForUnsign = {
     2 : return0
 }
 
-def doSignedJob(count):
-    for sql_k, sql_v in defType.sql_type_max_min.items():
-        for c_k, c_v in defType.sql_c_max_min.items():
-            for i in range(3):
-                print(count, end=',')
-                count += 1
-                outputData = functionList.get(i, return0)(sql_v[i], c_v[i])
-                printToFile(c_k, sql_k, outputData, count, 0)
-    return count
-
-def doUnsignedJob(count):
-    for sql_k, sql_v in defType.sql_type_max_min_unsigned.items():
-        for c_k, c_v in defType.sql_c_max_min.items():
-            for i in range(2):
-                print(count, end=',')
-                count += 1
-                outputData = functionListForUnsign.get(i, return0)(sql_v[i], c_v[i + 1])
-                printToFile(c_k, sql_k, outputData, count, 1)
-    return count
-
-
-def doNumericJobTest(count):
-    num = 0
-    for i in range(18):
-        num = num * 10 + 9
-        precision = i + 1
-
-        count += 1
-        print(count, end=',')
-        printNumericTest(precision, 0, 0, num, count)
-    return count
-
-def doNumericJob(count):
-    num = 0
-
-    for i in range(18):
-        num = num * 10 + 9
-        precision = i + 1
-        for c_k, c_v in defType.sql_c_max_min.items():
-            if  precision > defType.sql_c_max_numlen[c_k]:
-                continue
-            if  num > defType.sql_c_max_min[c_k][2]:
-                printNumeric(precision, 0, 0, defType.sql_c_max_min[c_k][2], count, c_k)
-            else:
-                printNumeric(precision, 0, 0, num, count, c_k)
-    return count
 #count = 0
 def doJob():
     count = 0
 
-    count = doSignedJob(count)
-    count = doUnsignedJob(count)
+   # count = doSignedJob(count)
+   # count = doUnsignedJob(count)
     #count = doNumericJobTest(count)
-    doNumericJob(count)
-
-
+   # doNumericJob(count)
+   # doNumericJobMinus(count)
+   # DoJob.doNumericJobUnsigned(count)
+    DoJob.doNumericJobScale(count)
 
 
 
