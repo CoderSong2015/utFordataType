@@ -237,7 +237,8 @@ void commonSwitchctosql(int m_ODBCDataType, SQLPOINTER testP, int n){
         case SQL_LONGVARCHAR:
              break;//TODO
         case SQL_NUMERIC:
-             SQL_NUMERIC_STRUCT testSrc;
+             SQL_NUMERIC_STRUCT mtarget = *(SQL_NUMERIC_STRUCT*)testP;
+
              break;
         case SQL_DATE:
              break;
