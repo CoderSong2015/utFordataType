@@ -8124,7 +8124,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_SMALLINT"                 // SRC type name
     },
     {
-                             //count=405
+                             //count=406
           "9"               //const char *sqlValue;                                             
         , "9"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
@@ -8144,7 +8144,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=406
+                             //count=407
           "9"               //const char *sqlValue;                                             
         , "9"               //const char *cValue;                                  
         , SQL_C_SHORT                   //int CDataType;                                  
@@ -8164,7 +8164,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=407
+                             //count=408
           "9"               //const char *sqlValue;                                             
         , "9"               //const char *cValue;                                  
         , SQL_C_STINYINT                 //int CDataType;                                  
@@ -8184,7 +8184,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=408
+                             //count=409
           "9"               //const char *sqlValue;                                             
         , "9"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
@@ -8204,7 +8204,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=409
+                             //count=410
           "9"               //const char *sqlValue;                                             
         , "9"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
@@ -8224,7 +8224,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=410
+                             //count=411
           "9"               //const char *sqlValue;                                             
         , "9"               //const char *cValue;                                  
         , SQL_C_SSHORT                 //int CDataType;                                  
@@ -8244,7 +8244,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=411
+                             //count=412
           "1"               //const char *sqlValue;                                             
         , "9"               //const char *cValue;                                  
         , SQL_C_BIT	                 //int CDataType;                                  
@@ -8264,7 +8264,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=412
+                             //count=413
           "9"               //const char *sqlValue;                                             
         , "9"               //const char *cValue;                                  
         , SQL_C_TINYINT                 //int CDataType;                                  
@@ -8284,7 +8284,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=413
+                             //count=414
           "99"               //const char *sqlValue;                                             
         , "99"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
@@ -8301,34 +8301,14 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
-    },
-    {
-                             //count=414
-          "99"               //const char *sqlValue;                                             
-        , "99"               //const char *cValue;                                  
-        , SQL_C_SHORT                   //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
-        , 0                  //int m_SQLDataType;                                  
-        , 0                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 2                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 0                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_SHORT  "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
                              //count=415
           "99"               //const char *sqlValue;                                             
         , "99"               //const char *cValue;                                  
-        , SQL_C_STINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
+        , SQL_C_SHORT                   //int CDataType;                                  
+        , 2                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
@@ -8340,13 +8320,33 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_C_SHORT  "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
                              //count=416
           "99"               //const char *sqlValue;                                             
         , "99"               //const char *cValue;                                  
+        , SQL_C_STINYINT                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 2                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_NUMERIC"                 // SRC type name
+    },
+    {
+                             //count=417
+          "99"               //const char *sqlValue;                                             
+        , "99"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
         , 8                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -8364,7 +8364,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=417
+                             //count=418
           "99"               //const char *sqlValue;                                             
         , "99"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
@@ -8384,7 +8384,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=418
+                             //count=419
           "99"               //const char *sqlValue;                                             
         , "99"               //const char *cValue;                                  
         , SQL_C_SSHORT                 //int CDataType;                                  
@@ -8404,7 +8404,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=419
+                             //count=420
           "99"               //const char *sqlValue;                                             
         , "99"               //const char *cValue;                                  
         , SQL_C_TINYINT                 //int CDataType;                                  
@@ -8424,7 +8424,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=420
+                             //count=421
           "999"               //const char *sqlValue;                                             
         , "999"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
@@ -8444,7 +8444,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=421
+                             //count=422
           "999"               //const char *sqlValue;                                             
         , "999"               //const char *cValue;                                  
         , SQL_C_SHORT                   //int CDataType;                                  
@@ -8464,7 +8464,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=422
+                             //count=423
           "127"               //const char *sqlValue;                                             
         , "999"               //const char *cValue;                                  
         , SQL_C_STINYINT                 //int CDataType;                                  
@@ -8484,7 +8484,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=423
+                             //count=424
           "999"               //const char *sqlValue;                                             
         , "999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
@@ -8504,7 +8504,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=424
+                             //count=425
           "999"               //const char *sqlValue;                                             
         , "999"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
@@ -8524,7 +8524,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=425
+                             //count=426
           "999"               //const char *sqlValue;                                             
         , "999"               //const char *cValue;                                  
         , SQL_C_SSHORT                 //int CDataType;                                  
@@ -8544,7 +8544,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=426
+                             //count=427
           "127"               //const char *sqlValue;                                             
         , "999"               //const char *cValue;                                  
         , SQL_C_TINYINT                 //int CDataType;                                  
@@ -8564,7 +8564,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=427
+                             //count=428
           "9999"               //const char *sqlValue;                                             
         , "9999"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
@@ -8581,32 +8581,32 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "9999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
-    },
-    {
-                             //count=428
-          "9999"               //const char *sqlValue;                                             
-        , "9999"               //const char *cValue;                                  
-        , SQL_C_SHORT                   //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
-        , 0                  //int m_SQLDataType;                                  
-        , 0                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 4                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 0                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "9999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_SHORT  "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
                              //count=429
           "9999"               //const char *sqlValue;                                             
         , "9999"               //const char *cValue;                                  
+        , SQL_C_SHORT                   //int CDataType;                                  
+        , 2                 //int CDataLen;                                  
+        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 4                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "9999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SHORT  "                 // C typename
+        , "SQL_NUMERIC"                 // SRC type name
+    },
+    {
+                             //count=430
+          "9999"               //const char *sqlValue;                                             
+        , "9999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
         , 8                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -8624,7 +8624,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=430
+                             //count=431
           "9999"               //const char *sqlValue;                                             
         , "9999"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
@@ -8644,7 +8644,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=431
+                             //count=432
           "9999"               //const char *sqlValue;                                             
         , "9999"               //const char *cValue;                                  
         , SQL_C_SSHORT                 //int CDataType;                                  
@@ -8664,7 +8664,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=432
+                             //count=433
           "99999"               //const char *sqlValue;                                             
         , "99999"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
@@ -8684,7 +8684,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=433
+                             //count=434
           "32767"               //const char *sqlValue;                                             
         , "99999"               //const char *cValue;                                  
         , SQL_C_SHORT                   //int CDataType;                                  
@@ -8704,7 +8704,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=434
+                             //count=435
           "99999"               //const char *sqlValue;                                             
         , "99999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
@@ -8724,7 +8724,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=435
+                             //count=436
           "99999"               //const char *sqlValue;                                             
         , "99999"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
@@ -8744,7 +8744,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=436
+                             //count=437
           "32767"               //const char *sqlValue;                                             
         , "99999"               //const char *cValue;                                  
         , SQL_C_SSHORT                 //int CDataType;                                  
@@ -8764,7 +8764,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=437
+                             //count=438
           "999999"               //const char *sqlValue;                                             
         , "999999"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
@@ -8781,32 +8781,32 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
-    },
-    {
-                             //count=438
-          "999999"               //const char *sqlValue;                                             
-        , "999999"               //const char *cValue;                                  
-        , SQL_C_SBIGINT                 //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
-        , 0                  //int m_SQLDataType;                                  
-        , 0                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 6                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 0                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
                              //count=439
           "999999"               //const char *sqlValue;                                             
         , "999999"               //const char *cValue;                                  
+        , SQL_C_SBIGINT                 //int CDataType;                                  
+        , 8                 //int CDataLen;                                  
+        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 6                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SBIGINT"                 // C typename
+        , "SQL_NUMERIC"                 // SRC type name
+    },
+    {
+                             //count=440
+          "999999"               //const char *sqlValue;                                             
+        , "999999"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
         , 4                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -8824,7 +8824,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=440
+                             //count=441
           "9999999"               //const char *sqlValue;                                             
         , "9999999"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
@@ -8841,32 +8841,32 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "9999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
-    },
-    {
-                             //count=441
-          "9999999"               //const char *sqlValue;                                             
-        , "9999999"               //const char *cValue;                                  
-        , SQL_C_SBIGINT                 //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
-        , 0                  //int m_SQLDataType;                                  
-        , 0                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 7                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 0                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "9999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
                              //count=442
           "9999999"               //const char *sqlValue;                                             
         , "9999999"               //const char *cValue;                                  
+        , SQL_C_SBIGINT                 //int CDataType;                                  
+        , 8                 //int CDataLen;                                  
+        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 7                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "9999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SBIGINT"                 // C typename
+        , "SQL_NUMERIC"                 // SRC type name
+    },
+    {
+                             //count=443
+          "9999999"               //const char *sqlValue;                                             
+        , "9999999"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
         , 4                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -8884,7 +8884,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=443
+                             //count=444
           "99999999"               //const char *sqlValue;                                             
         , "99999999"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
@@ -8901,32 +8901,32 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "99999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
-    },
-    {
-                             //count=444
-          "99999999"               //const char *sqlValue;                                             
-        , "99999999"               //const char *cValue;                                  
-        , SQL_C_SBIGINT                 //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
-        , 0                  //int m_SQLDataType;                                  
-        , 0                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 8                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 0                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
                              //count=445
           "99999999"               //const char *sqlValue;                                             
         , "99999999"               //const char *cValue;                                  
+        , SQL_C_SBIGINT                 //int CDataType;                                  
+        , 8                 //int CDataLen;                                  
+        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 8                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "99999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SBIGINT"                 // C typename
+        , "SQL_NUMERIC"                 // SRC type name
+    },
+    {
+                             //count=446
+          "99999999"               //const char *sqlValue;                                             
+        , "99999999"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
         , 4                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -8944,7 +8944,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=446
+                             //count=447
           "999999999"               //const char *sqlValue;                                             
         , "999999999"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
@@ -8964,7 +8964,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=447
+                             //count=448
           "999999999"               //const char *sqlValue;                                             
         , "999999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
@@ -8984,7 +8984,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=448
+                             //count=449
           "999999999"               //const char *sqlValue;                                             
         , "999999999"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
@@ -9004,7 +9004,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=449
+                             //count=450
           "2147483647"               //const char *sqlValue;                                             
         , "9999999999"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
@@ -9024,7 +9024,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=450
+                             //count=451
           "9999999999"               //const char *sqlValue;                                             
         , "9999999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
@@ -9044,7 +9044,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=451
+                             //count=452
           "2147483647"               //const char *sqlValue;                                             
         , "9999999999"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
@@ -9064,7 +9064,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=452
+                             //count=453
           "99999999999"               //const char *sqlValue;                                             
         , "99999999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
@@ -9084,7 +9084,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=453
+                             //count=454
           "999999999999"               //const char *sqlValue;                                             
         , "999999999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
@@ -9104,7 +9104,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=454
+                             //count=455
           "9999999999999"               //const char *sqlValue;                                             
         , "9999999999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
@@ -9124,7 +9124,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=455
+                             //count=456
           "99999999999999"               //const char *sqlValue;                                             
         , "99999999999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
@@ -9144,7 +9144,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=456
+                             //count=457
           "999999999999999"               //const char *sqlValue;                                             
         , "999999999999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
@@ -9164,7 +9164,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=457
+                             //count=458
           "9999999999999999"               //const char *sqlValue;                                             
         , "9999999999999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
@@ -9184,7 +9184,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=458
+                             //count=459
           "99999999999999999"               //const char *sqlValue;                                             
         , "99999999999999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
@@ -9204,7 +9204,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=459
+                             //count=460
           "999999999999999999"               //const char *sqlValue;                                             
         , "999999999999999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
@@ -9224,7 +9224,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=460
+                             //count=461
           "-9"               //const char *sqlValue;                                             
         , "9"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
@@ -9244,7 +9244,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=461
+                             //count=462
           "-9"               //const char *sqlValue;                                             
         , "9"               //const char *cValue;                                  
         , SQL_C_SHORT                   //int CDataType;                                  
@@ -9264,7 +9264,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=462
+                             //count=463
           "-9"               //const char *sqlValue;                                             
         , "9"               //const char *cValue;                                  
         , SQL_C_STINYINT                 //int CDataType;                                  
@@ -9284,7 +9284,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=463
+                             //count=464
           "-9"               //const char *sqlValue;                                             
         , "9"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
@@ -9304,7 +9304,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=464
+                             //count=465
           "-9"               //const char *sqlValue;                                             
         , "9"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
@@ -9324,7 +9324,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=465
+                             //count=466
           "-9"               //const char *sqlValue;                                             
         , "9"               //const char *cValue;                                  
         , SQL_C_SSHORT                 //int CDataType;                                  
@@ -9344,7 +9344,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=466
+                             //count=467
           "-2"               //const char *sqlValue;                                             
         , "9"               //const char *cValue;                                  
         , SQL_C_BIT	                 //int CDataType;                                  
@@ -9364,7 +9364,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=467
+                             //count=468
           "-9"               //const char *sqlValue;                                             
         , "9"               //const char *cValue;                                  
         , SQL_C_TINYINT                 //int CDataType;                                  
@@ -9384,7 +9384,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=468
+                             //count=469
           "-99"               //const char *sqlValue;                                             
         , "99"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
@@ -9401,34 +9401,14 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
-    },
-    {
-                             //count=469
-          "-99"               //const char *sqlValue;                                             
-        , "99"               //const char *cValue;                                  
-        , SQL_C_SHORT                   //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
-        , 0                  //int m_SQLDataType;                                  
-        , 0                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 2                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 0                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_SHORT  "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
                              //count=470
           "-99"               //const char *sqlValue;                                             
         , "99"               //const char *cValue;                                  
-        , SQL_C_STINYINT                 //int CDataType;                                  
-        , 1                 //int CDataLen;                                  
+        , SQL_C_SHORT                   //int CDataType;                                  
+        , 2                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
@@ -9440,13 +9420,33 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_C_SHORT  "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
                              //count=471
           "-99"               //const char *sqlValue;                                             
         , "99"               //const char *cValue;                                  
+        , SQL_C_STINYINT                 //int CDataType;                                  
+        , 1                 //int CDataLen;                                  
+        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 2                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_STINYINT"                 // C typename
+        , "SQL_NUMERIC"                 // SRC type name
+    },
+    {
+                             //count=472
+          "-99"               //const char *sqlValue;                                             
+        , "99"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
         , 8                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9464,7 +9464,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=472
+                             //count=473
           "-99"               //const char *sqlValue;                                             
         , "99"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
@@ -9484,7 +9484,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=473
+                             //count=474
           "-99"               //const char *sqlValue;                                             
         , "99"               //const char *cValue;                                  
         , SQL_C_SSHORT                 //int CDataType;                                  
@@ -9504,7 +9504,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=474
+                             //count=475
           "-99"               //const char *sqlValue;                                             
         , "99"               //const char *cValue;                                  
         , SQL_C_TINYINT                 //int CDataType;                                  
@@ -9524,7 +9524,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=475
+                             //count=476
           "-999"               //const char *sqlValue;                                             
         , "999"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
@@ -9544,7 +9544,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=476
+                             //count=477
           "-999"               //const char *sqlValue;                                             
         , "999"               //const char *cValue;                                  
         , SQL_C_SHORT                   //int CDataType;                                  
@@ -9564,7 +9564,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=477
+                             //count=478
           "-128"               //const char *sqlValue;                                             
         , "999"               //const char *cValue;                                  
         , SQL_C_STINYINT                 //int CDataType;                                  
@@ -9584,7 +9584,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=478
+                             //count=479
           "-999"               //const char *sqlValue;                                             
         , "999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
@@ -9604,7 +9604,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=479
+                             //count=480
           "-999"               //const char *sqlValue;                                             
         , "999"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
@@ -9624,7 +9624,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=480
+                             //count=481
           "-999"               //const char *sqlValue;                                             
         , "999"               //const char *cValue;                                  
         , SQL_C_SSHORT                 //int CDataType;                                  
@@ -9644,7 +9644,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=481
+                             //count=482
           "-128"               //const char *sqlValue;                                             
         , "999"               //const char *cValue;                                  
         , SQL_C_TINYINT                 //int CDataType;                                  
@@ -9664,7 +9664,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=482
+                             //count=483
           "-9999"               //const char *sqlValue;                                             
         , "9999"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
@@ -9681,32 +9681,32 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "9999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
-    },
-    {
-                             //count=483
-          "-9999"               //const char *sqlValue;                                             
-        , "9999"               //const char *cValue;                                  
-        , SQL_C_SHORT                   //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
-        , 0                  //int m_SQLDataType;                                  
-        , 0                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 4                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 0                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "9999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_SHORT  "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
                              //count=484
           "-9999"               //const char *sqlValue;                                             
         , "9999"               //const char *cValue;                                  
+        , SQL_C_SHORT                   //int CDataType;                                  
+        , 2                 //int CDataLen;                                  
+        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 4                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "9999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SHORT  "                 // C typename
+        , "SQL_NUMERIC"                 // SRC type name
+    },
+    {
+                             //count=485
+          "-9999"               //const char *sqlValue;                                             
+        , "9999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
         , 8                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9724,7 +9724,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=485
+                             //count=486
           "-9999"               //const char *sqlValue;                                             
         , "9999"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
@@ -9744,7 +9744,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=486
+                             //count=487
           "-9999"               //const char *sqlValue;                                             
         , "9999"               //const char *cValue;                                  
         , SQL_C_SSHORT                 //int CDataType;                                  
@@ -9764,7 +9764,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=487
+                             //count=488
           "-99999"               //const char *sqlValue;                                             
         , "99999"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
@@ -9784,7 +9784,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=488
+                             //count=489
           "-32768"               //const char *sqlValue;                                             
         , "99999"               //const char *cValue;                                  
         , SQL_C_SHORT                   //int CDataType;                                  
@@ -9804,7 +9804,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=489
+                             //count=490
           "-99999"               //const char *sqlValue;                                             
         , "99999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
@@ -9824,7 +9824,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=490
+                             //count=491
           "-99999"               //const char *sqlValue;                                             
         , "99999"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
@@ -9844,7 +9844,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=491
+                             //count=492
           "-32768"               //const char *sqlValue;                                             
         , "99999"               //const char *cValue;                                  
         , SQL_C_SSHORT                 //int CDataType;                                  
@@ -9864,7 +9864,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=492
+                             //count=493
           "-999999"               //const char *sqlValue;                                             
         , "999999"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
@@ -9881,32 +9881,32 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
-    },
-    {
-                             //count=493
-          "-999999"               //const char *sqlValue;                                             
-        , "999999"               //const char *cValue;                                  
-        , SQL_C_SBIGINT                 //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
-        , 0                  //int m_SQLDataType;                                  
-        , 0                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 6                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 0                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
                              //count=494
           "-999999"               //const char *sqlValue;                                             
         , "999999"               //const char *cValue;                                  
+        , SQL_C_SBIGINT                 //int CDataType;                                  
+        , 8                 //int CDataLen;                                  
+        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 6                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SBIGINT"                 // C typename
+        , "SQL_NUMERIC"                 // SRC type name
+    },
+    {
+                             //count=495
+          "-999999"               //const char *sqlValue;                                             
+        , "999999"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
         , 4                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9924,7 +9924,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=495
+                             //count=496
           "-9999999"               //const char *sqlValue;                                             
         , "9999999"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
@@ -9941,32 +9941,32 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "9999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
-    },
-    {
-                             //count=496
-          "-9999999"               //const char *sqlValue;                                             
-        , "9999999"               //const char *cValue;                                  
-        , SQL_C_SBIGINT                 //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
-        , 0                  //int m_SQLDataType;                                  
-        , 0                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 7                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 0                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "9999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
                              //count=497
           "-9999999"               //const char *sqlValue;                                             
         , "9999999"               //const char *cValue;                                  
+        , SQL_C_SBIGINT                 //int CDataType;                                  
+        , 8                 //int CDataLen;                                  
+        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 7                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "9999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SBIGINT"                 // C typename
+        , "SQL_NUMERIC"                 // SRC type name
+    },
+    {
+                             //count=498
+          "-9999999"               //const char *sqlValue;                                             
+        , "9999999"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
         , 4                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9984,7 +9984,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=498
+                             //count=499
           "-99999999"               //const char *sqlValue;                                             
         , "99999999"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
@@ -10001,32 +10001,32 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "99999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
-    },
-    {
-                             //count=499
-          "-99999999"               //const char *sqlValue;                                             
-        , "99999999"               //const char *cValue;                                  
-        , SQL_C_SBIGINT                 //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
-        , 0                  //int m_SQLDataType;                                  
-        , 0                 //int m_SQLMaxLength;                                  
-        , 0                 //int m_DescUnsigned;                                  
-        , 8                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 0                 //int m_SQLOctetLength;                       
-        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
                              //count=500
           "-99999999"               //const char *sqlValue;                                             
         , "99999999"               //const char *cValue;                                  
+        , SQL_C_SBIGINT                 //int CDataType;                                  
+        , 8                 //int CDataLen;                                  
+        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 8                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "99999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_SBIGINT"                 // C typename
+        , "SQL_NUMERIC"                 // SRC type name
+    },
+    {
+                             //count=501
+          "-99999999"               //const char *sqlValue;                                             
+        , "99999999"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
         , 4                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -10044,7 +10044,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=501
+                             //count=502
           "-999999999"               //const char *sqlValue;                                             
         , "999999999"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
@@ -10064,7 +10064,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=502
+                             //count=503
           "-999999999"               //const char *sqlValue;                                             
         , "999999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
@@ -10084,7 +10084,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=503
+                             //count=504
           "-999999999"               //const char *sqlValue;                                             
         , "999999999"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
@@ -10104,7 +10104,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=504
+                             //count=505
           "-2147483648"               //const char *sqlValue;                                             
         , "9999999999"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
@@ -10124,7 +10124,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=505
+                             //count=506
           "-9999999999"               //const char *sqlValue;                                             
         , "9999999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
@@ -10144,7 +10144,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=506
+                             //count=507
           "-2147483648"               //const char *sqlValue;                                             
         , "9999999999"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
@@ -10164,7 +10164,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=507
+                             //count=508
           "-99999999999"               //const char *sqlValue;                                             
         , "99999999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
@@ -10184,7 +10184,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=508
+                             //count=509
           "-999999999999"               //const char *sqlValue;                                             
         , "999999999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
@@ -10204,7 +10204,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=509
+                             //count=510
           "-9999999999999"               //const char *sqlValue;                                             
         , "9999999999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
@@ -10224,7 +10224,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=510
+                             //count=511
           "-99999999999999"               //const char *sqlValue;                                             
         , "99999999999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
@@ -10244,7 +10244,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=511
+                             //count=512
           "-999999999999999"               //const char *sqlValue;                                             
         , "999999999999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
@@ -10264,7 +10264,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=512
+                             //count=513
           "-9999999999999999"               //const char *sqlValue;                                             
         , "9999999999999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
@@ -10284,7 +10284,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=513
+                             //count=514
           "-99999999999999999"               //const char *sqlValue;                                             
         , "99999999999999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
@@ -10304,7 +10304,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=514
+                             //count=515
           "-999999999999999999"               //const char *sqlValue;                                             
         , "999999999999999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
@@ -10324,7 +10324,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=515
+                             //count=516
           "9"               //const char *sqlValue;                                             
         , "9"               //const char *cValue;                                  
         , SQL_C_ULONG	                 //int CDataType;                                  
@@ -10341,32 +10341,32 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , '1'               //char numeric_sign;  /* 1=+ 0=- */        
         , "9"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
-    },
-    {
-                             //count=516
-          "9"               //const char *sqlValue;                                             
-        , "9"               //const char *cValue;                                  
-        , SQL_C_USHORT                 //int CDataType;                                  
-        , 2                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
-        , 0                  //int m_SQLDataType;                                  
-        , 0                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 1                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 0                 //int m_SQLOctetLength;                       
-        , '1'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "9"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_USHORT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
                              //count=517
           "9"               //const char *sqlValue;                                             
         , "9"               //const char *cValue;                                  
+        , SQL_C_USHORT                 //int CDataType;                                  
+        , 2                 //int CDataLen;                                  
+        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 1                 //int m_DescUnsigned;                                  
+        , 1                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '1'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "9"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_USHORT"                 // C typename
+        , "SQL_NUMERIC"                 // SRC type name
+    },
+    {
+                             //count=518
+          "9"               //const char *sqlValue;                                             
+        , "9"               //const char *cValue;                                  
         , SQL_C_UTINYINT                 //int CDataType;                                  
         , 1                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -10384,7 +10384,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=518
+                             //count=519
           "9"               //const char *sqlValue;                                             
         , "9"               //const char *cValue;                                  
         , SQL_C_UBIGINT                 //int CDataType;                                  
@@ -10404,7 +10404,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=519
+                             //count=520
           "99"               //const char *sqlValue;                                             
         , "99"               //const char *cValue;                                  
         , SQL_C_ULONG	                 //int CDataType;                                  
@@ -10424,7 +10424,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=520
+                             //count=521
           "99"               //const char *sqlValue;                                             
         , "99"               //const char *cValue;                                  
         , SQL_C_USHORT                 //int CDataType;                                  
@@ -10444,7 +10444,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=521
+                             //count=522
           "99"               //const char *sqlValue;                                             
         , "99"               //const char *cValue;                                  
         , SQL_C_UTINYINT                 //int CDataType;                                  
@@ -10464,7 +10464,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=522
+                             //count=523
           "99"               //const char *sqlValue;                                             
         , "99"               //const char *cValue;                                  
         , SQL_C_UBIGINT                 //int CDataType;                                  
@@ -10484,7 +10484,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=523
+                             //count=524
           "999"               //const char *sqlValue;                                             
         , "999"               //const char *cValue;                                  
         , SQL_C_ULONG	                 //int CDataType;                                  
@@ -10504,7 +10504,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=524
+                             //count=525
           "999"               //const char *sqlValue;                                             
         , "999"               //const char *cValue;                                  
         , SQL_C_USHORT                 //int CDataType;                                  
@@ -10524,7 +10524,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=525
+                             //count=526
           "255"               //const char *sqlValue;                                             
         , "999"               //const char *cValue;                                  
         , SQL_C_UTINYINT                 //int CDataType;                                  
@@ -10544,7 +10544,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=526
+                             //count=527
           "999"               //const char *sqlValue;                                             
         , "999"               //const char *cValue;                                  
         , SQL_C_UBIGINT                 //int CDataType;                                  
@@ -10564,7 +10564,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=527
+                             //count=528
           "9999"               //const char *sqlValue;                                             
         , "9999"               //const char *cValue;                                  
         , SQL_C_ULONG	                 //int CDataType;                                  
@@ -10584,7 +10584,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=528
+                             //count=529
           "9999"               //const char *sqlValue;                                             
         , "9999"               //const char *cValue;                                  
         , SQL_C_USHORT                 //int CDataType;                                  
@@ -10604,7 +10604,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=529
+                             //count=530
           "9999"               //const char *sqlValue;                                             
         , "9999"               //const char *cValue;                                  
         , SQL_C_UBIGINT                 //int CDataType;                                  
@@ -10624,7 +10624,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=530
+                             //count=531
           "99999"               //const char *sqlValue;                                             
         , "99999"               //const char *cValue;                                  
         , SQL_C_ULONG	                 //int CDataType;                                  
@@ -10644,7 +10644,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=531
+                             //count=532
           "65535"               //const char *sqlValue;                                             
         , "99999"               //const char *cValue;                                  
         , SQL_C_USHORT                 //int CDataType;                                  
@@ -10664,7 +10664,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=532
+                             //count=533
           "99999"               //const char *sqlValue;                                             
         , "99999"               //const char *cValue;                                  
         , SQL_C_UBIGINT                 //int CDataType;                                  
@@ -10684,7 +10684,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=533
+                             //count=534
           "999999"               //const char *sqlValue;                                             
         , "999999"               //const char *cValue;                                  
         , SQL_C_ULONG	                 //int CDataType;                                  
@@ -10704,7 +10704,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=534
+                             //count=535
           "999999"               //const char *sqlValue;                                             
         , "999999"               //const char *cValue;                                  
         , SQL_C_UBIGINT                 //int CDataType;                                  
@@ -10721,32 +10721,32 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , '1'               //char numeric_sign;  /* 1=+ 0=- */        
         , "999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
-    },
-    {
-                             //count=535
-          "9999999"               //const char *sqlValue;                                             
-        , "9999999"               //const char *cValue;                                  
-        , SQL_C_ULONG	                 //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
-        , 0                  //int m_SQLDataType;                                  
-        , 0                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 7                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 0                 //int m_SQLOctetLength;                       
-        , '1'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "9999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_ULONG	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
                              //count=536
           "9999999"               //const char *sqlValue;                                             
         , "9999999"               //const char *cValue;                                  
+        , SQL_C_ULONG	                 //int CDataType;                                  
+        , 4                 //int CDataLen;                                  
+        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 1                 //int m_DescUnsigned;                                  
+        , 7                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '1'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "9999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_ULONG	"                 // C typename
+        , "SQL_NUMERIC"                 // SRC type name
+    },
+    {
+                             //count=537
+          "9999999"               //const char *sqlValue;                                             
+        , "9999999"               //const char *cValue;                                  
         , SQL_C_UBIGINT                 //int CDataType;                                  
         , 8                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -10764,7 +10764,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=537
+                             //count=538
           "99999999"               //const char *sqlValue;                                             
         , "99999999"               //const char *cValue;                                  
         , SQL_C_ULONG	                 //int CDataType;                                  
@@ -10784,7 +10784,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=538
+                             //count=539
           "99999999"               //const char *sqlValue;                                             
         , "99999999"               //const char *cValue;                                  
         , SQL_C_UBIGINT                 //int CDataType;                                  
@@ -10801,32 +10801,32 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , '1'               //char numeric_sign;  /* 1=+ 0=- */        
         , "99999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
-    },
-    {
-                             //count=539
-          "999999999"               //const char *sqlValue;                                             
-        , "999999999"               //const char *cValue;                                  
-        , SQL_C_ULONG	                 //int CDataType;                                  
-        , 4                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
-        , 0                  //int m_SQLDataType;                                  
-        , 0                 //int m_SQLMaxLength;                                  
-        , 1                 //int m_DescUnsigned;                                  
-        , 9                 //int Precision;                                  
-        , 0                 //int Scale;                                  
-        , 0                 //int m_SQLCharset;                                  
-        , 0                 //int m_SQLDatetimeCode;                       
-        , 0                 //int m_SQLOctetLength;                       
-        , '1'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_ULONG	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
                              //count=540
           "999999999"               //const char *sqlValue;                                             
         , "999999999"               //const char *cValue;                                  
+        , SQL_C_ULONG	                 //int CDataType;                                  
+        , 4                 //int CDataLen;                                  
+        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 1                 //int m_DescUnsigned;                                  
+        , 9                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '1'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_ULONG	"                 // C typename
+        , "SQL_NUMERIC"                 // SRC type name
+    },
+    {
+                             //count=541
+          "999999999"               //const char *sqlValue;                                             
+        , "999999999"               //const char *cValue;                                  
         , SQL_C_UBIGINT                 //int CDataType;                                  
         , 8                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -10844,7 +10844,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=541
+                             //count=542
           "4294967295"               //const char *sqlValue;                                             
         , "9999999999"               //const char *cValue;                                  
         , SQL_C_ULONG	                 //int CDataType;                                  
@@ -10864,7 +10864,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=542
+                             //count=543
           "9999999999"               //const char *sqlValue;                                             
         , "9999999999"               //const char *cValue;                                  
         , SQL_C_UBIGINT                 //int CDataType;                                  
@@ -10884,7 +10884,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=543
+                             //count=544
           "99999999999"               //const char *sqlValue;                                             
         , "99999999999"               //const char *cValue;                                  
         , SQL_C_UBIGINT                 //int CDataType;                                  
@@ -10904,7 +10904,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=544
+                             //count=545
           "999999999999"               //const char *sqlValue;                                             
         , "999999999999"               //const char *cValue;                                  
         , SQL_C_UBIGINT                 //int CDataType;                                  
@@ -10924,7 +10924,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=545
+                             //count=546
           "9999999999999"               //const char *sqlValue;                                             
         , "9999999999999"               //const char *cValue;                                  
         , SQL_C_UBIGINT                 //int CDataType;                                  
@@ -10944,7 +10944,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=546
+                             //count=547
           "99999999999999"               //const char *sqlValue;                                             
         , "99999999999999"               //const char *cValue;                                  
         , SQL_C_UBIGINT                 //int CDataType;                                  
@@ -10964,7 +10964,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=547
+                             //count=548
           "999999999999999"               //const char *sqlValue;                                             
         , "999999999999999"               //const char *cValue;                                  
         , SQL_C_UBIGINT                 //int CDataType;                                  
@@ -10984,7 +10984,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=548
+                             //count=549
           "9999999999999999"               //const char *sqlValue;                                             
         , "9999999999999999"               //const char *cValue;                                  
         , SQL_C_UBIGINT                 //int CDataType;                                  
@@ -11004,7 +11004,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=549
+                             //count=550
           "99999999999999999"               //const char *sqlValue;                                             
         , "99999999999999999"               //const char *cValue;                                  
         , SQL_C_UBIGINT                 //int CDataType;                                  
@@ -11024,7 +11024,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=550
+                             //count=551
           "999999999999999999"               //const char *sqlValue;                                             
         , "999999999999999999"               //const char *cValue;                                  
         , SQL_C_UBIGINT                 //int CDataType;                                  
@@ -11044,7 +11044,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=551
+                             //count=552
           "0.9"               //const char *sqlValue;                                             
         , "9"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11064,7 +11064,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=552
+                             //count=553
           "9.9"               //const char *sqlValue;                                             
         , "99"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11084,7 +11084,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=553
+                             //count=554
           "0.99"               //const char *sqlValue;                                             
         , "99"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11104,7 +11104,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=554
+                             //count=555
           "99.9"               //const char *sqlValue;                                             
         , "999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11124,7 +11124,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=555
+                             //count=556
           "9.99"               //const char *sqlValue;                                             
         , "999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11144,7 +11144,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=556
+                             //count=557
           "0.999"               //const char *sqlValue;                                             
         , "999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11164,7 +11164,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=557
+                             //count=558
           "999.9"               //const char *sqlValue;                                             
         , "9999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11184,7 +11184,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=558
+                             //count=559
           "99.99"               //const char *sqlValue;                                             
         , "9999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11204,7 +11204,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=559
+                             //count=560
           "9.999"               //const char *sqlValue;                                             
         , "9999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11224,7 +11224,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=560
+                             //count=561
           "0.9999"               //const char *sqlValue;                                             
         , "9999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11244,7 +11244,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=561
+                             //count=562
           "9999.9"               //const char *sqlValue;                                             
         , "99999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11264,7 +11264,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=562
+                             //count=563
           "999.99"               //const char *sqlValue;                                             
         , "99999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11284,7 +11284,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=563
+                             //count=564
           "99.999"               //const char *sqlValue;                                             
         , "99999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11304,7 +11304,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=564
+                             //count=565
           "9.9999"               //const char *sqlValue;                                             
         , "99999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11324,7 +11324,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=565
+                             //count=566
           "0.99999"               //const char *sqlValue;                                             
         , "99999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11344,7 +11344,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=566
+                             //count=567
           "99999.9"               //const char *sqlValue;                                             
         , "999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11364,7 +11364,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=567
+                             //count=568
           "9999.99"               //const char *sqlValue;                                             
         , "999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11384,7 +11384,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=568
+                             //count=569
           "999.999"               //const char *sqlValue;                                             
         , "999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11404,7 +11404,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=569
+                             //count=570
           "99.9999"               //const char *sqlValue;                                             
         , "999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11424,7 +11424,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=570
+                             //count=571
           "9.99999"               //const char *sqlValue;                                             
         , "999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11444,7 +11444,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=571
+                             //count=572
           "0.999999"               //const char *sqlValue;                                             
         , "999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11464,7 +11464,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=572
+                             //count=573
           "999999.9"               //const char *sqlValue;                                             
         , "9999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11484,7 +11484,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=573
+                             //count=574
           "99999.99"               //const char *sqlValue;                                             
         , "9999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11504,7 +11504,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=574
+                             //count=575
           "9999.999"               //const char *sqlValue;                                             
         , "9999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11524,7 +11524,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=575
+                             //count=576
           "999.9999"               //const char *sqlValue;                                             
         , "9999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11544,7 +11544,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=576
+                             //count=577
           "99.99999"               //const char *sqlValue;                                             
         , "9999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11564,7 +11564,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=577
+                             //count=578
           "9.999999"               //const char *sqlValue;                                             
         , "9999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11584,7 +11584,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=578
+                             //count=579
           "0.9999999"               //const char *sqlValue;                                             
         , "9999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11604,7 +11604,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=579
+                             //count=580
           "9999999.9"               //const char *sqlValue;                                             
         , "99999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11624,7 +11624,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=580
+                             //count=581
           "999999.99"               //const char *sqlValue;                                             
         , "99999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11644,7 +11644,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=581
+                             //count=582
           "99999.999"               //const char *sqlValue;                                             
         , "99999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11664,7 +11664,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=582
+                             //count=583
           "9999.9999"               //const char *sqlValue;                                             
         , "99999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11684,7 +11684,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=583
+                             //count=584
           "999.99999"               //const char *sqlValue;                                             
         , "99999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11704,7 +11704,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=584
+                             //count=585
           "99.999999"               //const char *sqlValue;                                             
         , "99999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11724,7 +11724,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=585
+                             //count=586
           "9.9999999"               //const char *sqlValue;                                             
         , "99999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11744,7 +11744,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=586
+                             //count=587
           "0.99999999"               //const char *sqlValue;                                             
         , "99999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11764,7 +11764,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=587
+                             //count=588
           "99999999.9"               //const char *sqlValue;                                             
         , "999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11784,7 +11784,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=588
+                             //count=589
           "9999999.99"               //const char *sqlValue;                                             
         , "999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11804,7 +11804,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=589
+                             //count=590
           "999999.999"               //const char *sqlValue;                                             
         , "999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11824,7 +11824,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=590
+                             //count=591
           "99999.9999"               //const char *sqlValue;                                             
         , "999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11844,7 +11844,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=591
+                             //count=592
           "9999.99999"               //const char *sqlValue;                                             
         , "999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11864,7 +11864,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=592
+                             //count=593
           "999.999999"               //const char *sqlValue;                                             
         , "999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11884,7 +11884,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=593
+                             //count=594
           "99.9999999"               //const char *sqlValue;                                             
         , "999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11904,7 +11904,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=594
+                             //count=595
           "9.99999999"               //const char *sqlValue;                                             
         , "999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11924,7 +11924,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=595
+                             //count=596
           "0.999999999"               //const char *sqlValue;                                             
         , "999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11944,7 +11944,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=596
+                             //count=597
           "999999999.9"               //const char *sqlValue;                                             
         , "9999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11964,7 +11964,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=597
+                             //count=598
           "99999999.99"               //const char *sqlValue;                                             
         , "9999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -11984,7 +11984,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=598
+                             //count=599
           "9999999.999"               //const char *sqlValue;                                             
         , "9999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12004,7 +12004,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=599
+                             //count=600
           "999999.9999"               //const char *sqlValue;                                             
         , "9999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12024,7 +12024,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=600
+                             //count=601
           "99999.99999"               //const char *sqlValue;                                             
         , "9999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12044,7 +12044,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=601
+                             //count=602
           "9999.999999"               //const char *sqlValue;                                             
         , "9999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12064,7 +12064,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=602
+                             //count=603
           "999.9999999"               //const char *sqlValue;                                             
         , "9999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12084,7 +12084,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=603
+                             //count=604
           "99.99999999"               //const char *sqlValue;                                             
         , "9999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12104,7 +12104,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=604
+                             //count=605
           "9.999999999"               //const char *sqlValue;                                             
         , "9999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12124,7 +12124,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=605
+                             //count=606
           "0.9999999999"               //const char *sqlValue;                                             
         , "9999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12144,7 +12144,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=606
+                             //count=607
           "9999999999.9"               //const char *sqlValue;                                             
         , "99999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12164,7 +12164,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=607
+                             //count=608
           "999999999.99"               //const char *sqlValue;                                             
         , "99999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12184,7 +12184,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=608
+                             //count=609
           "99999999.999"               //const char *sqlValue;                                             
         , "99999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12204,7 +12204,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=609
+                             //count=610
           "9999999.9999"               //const char *sqlValue;                                             
         , "99999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12224,7 +12224,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=610
+                             //count=611
           "999999.99999"               //const char *sqlValue;                                             
         , "99999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12244,7 +12244,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=611
+                             //count=612
           "99999.999999"               //const char *sqlValue;                                             
         , "99999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12264,7 +12264,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=612
+                             //count=613
           "9999.9999999"               //const char *sqlValue;                                             
         , "99999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12284,7 +12284,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=613
+                             //count=614
           "999.99999999"               //const char *sqlValue;                                             
         , "99999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12304,7 +12304,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=614
+                             //count=615
           "99.999999999"               //const char *sqlValue;                                             
         , "99999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12324,7 +12324,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=615
+                             //count=616
           "9.9999999999"               //const char *sqlValue;                                             
         , "99999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12344,7 +12344,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=616
+                             //count=617
           "0.99999999999"               //const char *sqlValue;                                             
         , "99999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12364,7 +12364,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=617
+                             //count=618
           "99999999999.9"               //const char *sqlValue;                                             
         , "999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12384,7 +12384,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=618
+                             //count=619
           "9999999999.99"               //const char *sqlValue;                                             
         , "999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12404,7 +12404,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=619
+                             //count=620
           "999999999.999"               //const char *sqlValue;                                             
         , "999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12424,7 +12424,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=620
+                             //count=621
           "99999999.9999"               //const char *sqlValue;                                             
         , "999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12444,7 +12444,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=621
+                             //count=622
           "9999999.99999"               //const char *sqlValue;                                             
         , "999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12464,7 +12464,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=622
+                             //count=623
           "999999.999999"               //const char *sqlValue;                                             
         , "999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12484,7 +12484,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=623
+                             //count=624
           "99999.9999999"               //const char *sqlValue;                                             
         , "999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12504,7 +12504,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=624
+                             //count=625
           "9999.99999999"               //const char *sqlValue;                                             
         , "999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12524,7 +12524,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=625
+                             //count=626
           "999.999999999"               //const char *sqlValue;                                             
         , "999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12544,7 +12544,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=626
+                             //count=627
           "99.9999999999"               //const char *sqlValue;                                             
         , "999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12564,7 +12564,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=627
+                             //count=628
           "9.999999999989999"               //const char *sqlValue;                                             
         , "999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12584,7 +12584,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=628
+                             //count=629
           "0.999999999999"               //const char *sqlValue;                                             
         , "999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12604,7 +12604,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=629
+                             //count=630
           "999999999999.9"               //const char *sqlValue;                                             
         , "9999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12624,7 +12624,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=630
+                             //count=631
           "99999999999.99"               //const char *sqlValue;                                             
         , "9999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12644,7 +12644,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=631
+                             //count=632
           "9999999999.999"               //const char *sqlValue;                                             
         , "9999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12664,7 +12664,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=632
+                             //count=633
           "999999999.9999"               //const char *sqlValue;                                             
         , "9999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12684,7 +12684,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=633
+                             //count=634
           "99999999.99999"               //const char *sqlValue;                                             
         , "9999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12704,7 +12704,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=634
+                             //count=635
           "9999999.999999"               //const char *sqlValue;                                             
         , "9999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12724,7 +12724,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=635
+                             //count=636
           "999999.9999999"               //const char *sqlValue;                                             
         , "9999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12744,7 +12744,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=636
+                             //count=637
           "99999.99999999"               //const char *sqlValue;                                             
         , "9999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12764,7 +12764,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=637
+                             //count=638
           "9999.999999999"               //const char *sqlValue;                                             
         , "9999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12784,7 +12784,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=638
+                             //count=639
           "999.9999999999"               //const char *sqlValue;                                             
         , "9999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12804,7 +12804,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=639
+                             //count=640
           "99.99999999999"               //const char *sqlValue;                                             
         , "9999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12824,7 +12824,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=640
+                             //count=641
           "9.999999999999"               //const char *sqlValue;                                             
         , "9999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12844,7 +12844,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=641
+                             //count=642
           "0.9999999999999"               //const char *sqlValue;                                             
         , "9999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12864,7 +12864,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=642
+                             //count=643
           "9999999999999.9"               //const char *sqlValue;                                             
         , "99999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12884,7 +12884,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=643
+                             //count=644
           "999999999999.99"               //const char *sqlValue;                                             
         , "99999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12904,7 +12904,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=644
+                             //count=645
           "99999999999.999"               //const char *sqlValue;                                             
         , "99999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12924,7 +12924,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=645
+                             //count=646
           "9999999999.9999"               //const char *sqlValue;                                             
         , "99999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12944,7 +12944,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=646
+                             //count=647
           "999999999.99999"               //const char *sqlValue;                                             
         , "99999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12964,7 +12964,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=647
+                             //count=648
           "99999999.999999"               //const char *sqlValue;                                             
         , "99999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -12984,7 +12984,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=648
+                             //count=649
           "9999999.9999999"               //const char *sqlValue;                                             
         , "99999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13004,7 +13004,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=649
+                             //count=650
           "999999.99999999"               //const char *sqlValue;                                             
         , "99999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13024,7 +13024,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=650
+                             //count=651
           "99999.999999999"               //const char *sqlValue;                                             
         , "99999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13044,7 +13044,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=651
+                             //count=652
           "9999.9999999999"               //const char *sqlValue;                                             
         , "99999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13064,7 +13064,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=652
+                             //count=653
           "999.99999999999"               //const char *sqlValue;                                             
         , "99999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13084,7 +13084,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=653
+                             //count=654
           "99.999999999999"               //const char *sqlValue;                                             
         , "99999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13104,7 +13104,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=654
+                             //count=655
           "9.9999999999999"               //const char *sqlValue;                                             
         , "99999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13124,7 +13124,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=655
+                             //count=656
           "0.99999999999999"               //const char *sqlValue;                                             
         , "99999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13144,7 +13144,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=656
+                             //count=657
           "99999999999999.9"               //const char *sqlValue;                                             
         , "999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13164,7 +13164,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=657
+                             //count=658
           "9999999999999.99"               //const char *sqlValue;                                             
         , "999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13184,7 +13184,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=658
+                             //count=659
           "999999999999.999"               //const char *sqlValue;                                             
         , "999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13204,7 +13204,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=659
+                             //count=660
           "99999999999.9999"               //const char *sqlValue;                                             
         , "999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13224,7 +13224,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=660
+                             //count=661
           "9999999999.99999"               //const char *sqlValue;                                             
         , "999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13244,7 +13244,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=661
+                             //count=662
           "999999999.999999"               //const char *sqlValue;                                             
         , "999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13264,7 +13264,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=662
+                             //count=663
           "99999999.9999999"               //const char *sqlValue;                                             
         , "999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13284,7 +13284,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=663
+                             //count=664
           "9999999.99999999"               //const char *sqlValue;                                             
         , "999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13304,7 +13304,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=664
+                             //count=665
           "999999.999999999"               //const char *sqlValue;                                             
         , "999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13324,7 +13324,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=665
+                             //count=666
           "99999.9999999999"               //const char *sqlValue;                                             
         , "999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13344,7 +13344,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=666
+                             //count=667
           "9999.99999999999"               //const char *sqlValue;                                             
         , "999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13364,7 +13364,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=667
+                             //count=668
           "999.999999999999"               //const char *sqlValue;                                             
         , "999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13384,7 +13384,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=668
+                             //count=669
           "99.9999999999999"               //const char *sqlValue;                                             
         , "999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13404,7 +13404,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=669
+                             //count=670
           "9.99999999999999"               //const char *sqlValue;                                             
         , "999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13424,7 +13424,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=670
+                             //count=671
           "0.999999999999999"               //const char *sqlValue;                                             
         , "999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13444,7 +13444,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=671
+                             //count=672
           "999999999999999.9"               //const char *sqlValue;                                             
         , "9999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13464,7 +13464,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=672
+                             //count=673
           "99999999999999.98"               //const char *sqlValue;                                             
         , "9999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13484,7 +13484,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=673
+                             //count=674
           "9999999999999.998"               //const char *sqlValue;                                             
         , "9999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13504,7 +13504,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=674
+                             //count=675
           "999999999999.9999"               //const char *sqlValue;                                             
         , "9999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13524,7 +13524,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=675
+                             //count=676
           "99999999999.99998"               //const char *sqlValue;                                             
         , "9999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13544,7 +13544,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=676
+                             //count=677
           "9999999999.999998"               //const char *sqlValue;                                             
         , "9999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13564,7 +13564,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=677
+                             //count=678
           "999999999.9999999"               //const char *sqlValue;                                             
         , "9999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13584,7 +13584,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=678
+                             //count=679
           "99999999.99999999"               //const char *sqlValue;                                             
         , "9999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13604,7 +13604,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=679
+                             //count=680
           "9999999.999999998"               //const char *sqlValue;                                             
         , "9999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13624,7 +13624,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=680
+                             //count=681
           "999999.9999999999"               //const char *sqlValue;                                             
         , "9999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13644,7 +13644,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=681
+                             //count=682
           "99999.99999999999"               //const char *sqlValue;                                             
         , "9999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13664,7 +13664,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=682
+                             //count=683
           "9999.999999999998"               //const char *sqlValue;                                             
         , "9999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13684,7 +13684,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=683
+                             //count=684
           "999.9999999999999"               //const char *sqlValue;                                             
         , "9999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13704,7 +13704,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=684
+                             //count=685
           "99.99999999999999"               //const char *sqlValue;                                             
         , "9999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13724,7 +13724,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=685
+                             //count=686
           "9.999999999999998"               //const char *sqlValue;                                             
         , "9999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13744,7 +13744,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=686
+                             //count=687
           "0.9999999999999999"               //const char *sqlValue;                                             
         , "9999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13764,7 +13764,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=687
+                             //count=688
           "1e+16"               //const char *sqlValue;                                             
         , "99999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13784,7 +13784,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=688
+                             //count=689
           "1000000000000000.0"               //const char *sqlValue;                                             
         , "99999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13804,7 +13804,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=689
+                             //count=690
           "100000000000000.0"               //const char *sqlValue;                                             
         , "99999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13824,7 +13824,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=690
+                             //count=691
           "10000000000000.0"               //const char *sqlValue;                                             
         , "99999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13844,7 +13844,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=691
+                             //count=692
           "1000000000000.0"               //const char *sqlValue;                                             
         , "99999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13864,7 +13864,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=692
+                             //count=693
           "100000000000.0"               //const char *sqlValue;                                             
         , "99999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13884,7 +13884,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=693
+                             //count=694
           "10000000000.0"               //const char *sqlValue;                                             
         , "99999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13904,7 +13904,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=694
+                             //count=695
           "1000000000.0"               //const char *sqlValue;                                             
         , "99999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13924,7 +13924,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=695
+                             //count=696
           "100000000.0"               //const char *sqlValue;                                             
         , "99999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13944,7 +13944,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=696
+                             //count=697
           "10000000.0"               //const char *sqlValue;                                             
         , "99999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13964,7 +13964,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=697
+                             //count=698
           "1000000.0"               //const char *sqlValue;                                             
         , "99999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -13984,7 +13984,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=698
+                             //count=699
           "100000.0"               //const char *sqlValue;                                             
         , "99999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -14004,7 +14004,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=699
+                             //count=700
           "10000.0"               //const char *sqlValue;                                             
         , "99999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -14024,7 +14024,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=700
+                             //count=701
           "1000.0"               //const char *sqlValue;                                             
         , "99999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -14044,7 +14044,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=701
+                             //count=702
           "100.0"               //const char *sqlValue;                                             
         , "99999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -14064,7 +14064,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=702
+                             //count=703
           "10.0"               //const char *sqlValue;                                             
         , "99999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -14084,7 +14084,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=703
+                             //count=704
           "1.0"               //const char *sqlValue;                                             
         , "99999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -14104,7 +14104,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=704
+                             //count=705
           "1e+17"               //const char *sqlValue;                                             
         , "999999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -14124,7 +14124,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=705
+                             //count=706
           "1e+16"               //const char *sqlValue;                                             
         , "999999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -14144,7 +14144,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=706
+                             //count=707
           "1000000000000000.0"               //const char *sqlValue;                                             
         , "999999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -14164,7 +14164,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=707
+                             //count=708
           "100000000000000.0"               //const char *sqlValue;                                             
         , "999999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -14184,7 +14184,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=708
+                             //count=709
           "10000000000000.0"               //const char *sqlValue;                                             
         , "999999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -14204,7 +14204,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=709
+                             //count=710
           "1000000000000.0"               //const char *sqlValue;                                             
         , "999999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -14224,7 +14224,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=710
+                             //count=711
           "100000000000.0"               //const char *sqlValue;                                             
         , "999999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -14244,7 +14244,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=711
+                             //count=712
           "10000000000.0"               //const char *sqlValue;                                             
         , "999999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -14264,7 +14264,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=712
+                             //count=713
           "1000000000.0"               //const char *sqlValue;                                             
         , "999999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -14284,7 +14284,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=713
+                             //count=714
           "100000000.0"               //const char *sqlValue;                                             
         , "999999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -14304,7 +14304,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=714
+                             //count=715
           "10000000.0"               //const char *sqlValue;                                             
         , "999999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -14324,7 +14324,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=715
+                             //count=716
           "1000000.0"               //const char *sqlValue;                                             
         , "999999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -14344,7 +14344,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=716
+                             //count=717
           "100000.0"               //const char *sqlValue;                                             
         , "999999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -14364,7 +14364,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=717
+                             //count=718
           "10000.0"               //const char *sqlValue;                                             
         , "999999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -14384,7 +14384,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=718
+                             //count=719
           "1000.0"               //const char *sqlValue;                                             
         , "999999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -14404,7 +14404,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=719
+                             //count=720
           "100.0"               //const char *sqlValue;                                             
         , "999999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -14424,7 +14424,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=720
+                             //count=721
           "10.0"               //const char *sqlValue;                                             
         , "999999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -14444,7 +14444,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "SQL_NUMERIC"                 // SRC type name
     },
     {
-                             //count=721
+                             //count=722
           "1.0"               //const char *sqlValue;                                             
         , "999999999999999999"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
@@ -14466,4 +14466,5 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
     
 };
 #endif
+//0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,336,337,338,339,340,341,342,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401,402,403,404,405,407,408,409,410,411,412,413,414,415,416,417,418,419,420,421,422,423,424,425,426,427,428,429,430,431,432,433,434,435,436,437,438,439,440,441,442,443,444,445,446,447,448,449,450,451,452,453,454,455,456,457,458,459,460,461,462,463,464,465,466,467,468,469,470,471,472,473,474,475,476,477,478,479,480,481,482,483,484,485,486,487,488,489,490,491,492,493,494,495,496,497,498,499,500,501,502,503,504,505,506,507,508,509,510,511,512,513,514,515,516,517,518,519,520,521,522,523,524,525,526,527,528,529,530,531,532,533,534,535,536,537,538,539,540,541,542,543,544,545,546,547,548,549,550,551,552,553,554,555,556,557,558,559,560,561,562,563,564,565,566,567,568,569,570,571,572,573,574,575,576,577,578,579,580,581,582,583,584,585,586,587,588,589,590,591,592,593,594,595,596,597,598,599,600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617,618,619,620,621,622,623,624,625,626,627,628,629,630,631,632,633,634,635,636,637,638,639,640,641,642,643,644,645,646,647,648,649,650,651,652,653,654,655,656,657,658,659,660,661,662,663,664,665,666,667,668,669,670,671,672,673,674,675,676,677,678,679,680,681,682,683,684,685,686,687,688,689,690,691,692,693,694,695,696,697,698,699,700,701,702,703,704,705,706,707,708,709,710,711,712,713,714,715,716,717,718,719,720,721,722,723,
         

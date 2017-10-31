@@ -27,21 +27,24 @@ functionListForUnsign = {
 #count = 0
 def doJob():
     count = 0
-
-   # count = doSignedJob(count)
-   # count = doUnsignedJob(count)
-    #count = doNumericJobTest(count)
-   # doNumericJob(count)
-   # doNumericJobMinus(count)
-   # DoJob.doNumericJobUnsigned(count)
-    DoJob.doNumericJobScale(count)
+    result = [0, '']
+    result[0] = count
+    result[1] = ''
+    result = DoJob.doSignedJob(result[0], result[1])
+    result = DoJob.doUnsignedJob(result[0], result[1])
+                                        #result[0] =DoJob. doNumericJobTest(count)
+    result = DoJob.doNumericJob(result[0], result[1])
+    result = DoJob.doNumericJobMinus(result[0], result[1])
+    result = DoJob.doNumericJobUnsigned(result[0], result[1])
+    result = DoJob.doNumericJobScale(result[0], result[1])
+    return result[1]
 
 
 
 def main():
     writeFileHead('testData.h')
-    doJob()
-    writeFileEnd('testData.h')
+    data = doJob()
+    writeFileEnd('testData.h', data)
 
 
 def writeFileHead(file):
@@ -57,11 +60,12 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
             FileHeader
         )
 
-def writeFileEnd(file):
+def writeFileEnd(file, data):
     FileEnd = '''
 };
 #endif
-        '''
+//%s
+        '''%(data)
     with open(file, 'a') as f:
         f.write(
             FileEnd
