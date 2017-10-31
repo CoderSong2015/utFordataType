@@ -22,6 +22,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=1
@@ -42,6 +49,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=2
@@ -62,6 +76,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=3
@@ -82,6 +103,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=4
@@ -102,6 +130,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=5
@@ -122,6 +157,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=6
@@ -142,6 +184,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=7
@@ -162,6 +211,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=8
@@ -182,6 +238,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=9
@@ -202,6 +265,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_FLOAT  "                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=10
@@ -222,6 +292,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_FLOAT  "                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=11
@@ -242,6 +319,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_FLOAT  "                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=12
@@ -262,6 +346,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=13
@@ -282,6 +373,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=14
@@ -302,6 +400,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=15
@@ -322,6 +427,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=16
@@ -342,6 +454,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=17
@@ -362,6 +481,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=18
@@ -382,6 +508,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=19
@@ -402,6 +535,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=20
@@ -422,6 +562,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=21
@@ -442,6 +589,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=22
@@ -462,6 +616,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=23
@@ -482,6 +643,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=24
@@ -502,6 +670,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=25
@@ -522,6 +697,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=26
@@ -542,6 +724,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=27
@@ -562,6 +751,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=28
@@ -582,6 +778,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=29
@@ -602,6 +805,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=30
@@ -622,6 +832,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_BIT	"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=31
@@ -642,6 +859,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_BIT	"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=32
@@ -662,6 +886,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_BIT	"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=33
@@ -682,6 +913,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=34
@@ -702,6 +940,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=35
@@ -722,6 +967,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=36
@@ -742,6 +994,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UTINYINT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=37
@@ -762,6 +1021,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UTINYINT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=38
@@ -782,6 +1048,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UTINYINT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=39
@@ -802,6 +1075,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=40
@@ -822,6 +1102,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=41
@@ -842,6 +1129,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=42
@@ -862,6 +1156,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=43
@@ -882,6 +1183,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=44
@@ -902,6 +1210,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=45
@@ -922,6 +1237,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=46
@@ -942,6 +1264,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=47
@@ -962,6 +1291,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=48
@@ -982,6 +1318,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=49
@@ -1002,6 +1345,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=50
@@ -1022,6 +1372,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=51
@@ -1042,6 +1399,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_FLOAT  "                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=52
@@ -1062,6 +1426,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_FLOAT  "                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=53
@@ -1082,6 +1453,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_FLOAT  "                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=54
@@ -1102,6 +1480,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=55
@@ -1122,6 +1507,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=56
@@ -1142,6 +1534,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=57
@@ -1162,6 +1561,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=58
@@ -1182,6 +1588,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=59
@@ -1202,6 +1615,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=60
@@ -1222,6 +1642,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=61
@@ -1242,6 +1669,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=62
@@ -1262,6 +1696,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=63
@@ -1282,6 +1723,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=64
@@ -1302,6 +1750,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=65
@@ -1322,6 +1777,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=66
@@ -1342,6 +1804,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=67
@@ -1362,6 +1831,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=68
@@ -1382,6 +1858,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=69
@@ -1402,6 +1885,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=70
@@ -1422,6 +1912,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=71
@@ -1442,6 +1939,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=72
@@ -1462,6 +1966,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_BIT	"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=73
@@ -1482,6 +1993,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_BIT	"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=74
@@ -1502,6 +2020,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_BIT	"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=75
@@ -1522,6 +2047,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=76
@@ -1542,6 +2074,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=77
@@ -1562,6 +2101,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=78
@@ -1582,6 +2128,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UTINYINT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=79
@@ -1602,6 +2155,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UTINYINT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=80
@@ -1622,6 +2182,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UTINYINT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=81
@@ -1642,6 +2209,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=82
@@ -1662,6 +2236,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=83
@@ -1682,6 +2263,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=84
@@ -1702,6 +2290,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=85
@@ -1722,6 +2317,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=86
@@ -1742,6 +2344,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=87
@@ -1762,6 +2371,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=88
@@ -1782,6 +2398,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=89
@@ -1802,6 +2425,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=90
@@ -1822,6 +2452,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=91
@@ -1842,6 +2479,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=92
@@ -1862,6 +2506,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=93
@@ -1882,6 +2533,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_FLOAT  "                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=94
@@ -1902,6 +2560,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_FLOAT  "                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=95
@@ -1922,6 +2587,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_FLOAT  "                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=96
@@ -1942,6 +2614,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=97
@@ -1962,6 +2641,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=98
@@ -1982,6 +2668,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=99
@@ -2002,6 +2695,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=100
@@ -2022,6 +2722,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=101
@@ -2042,6 +2749,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=102
@@ -2062,6 +2776,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=103
@@ -2082,6 +2803,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=104
@@ -2102,6 +2830,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=105
@@ -2122,6 +2857,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=106
@@ -2142,6 +2884,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=107
@@ -2162,6 +2911,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=108
@@ -2182,6 +2938,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=109
@@ -2202,6 +2965,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=110
@@ -2222,6 +2992,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=111
@@ -2242,6 +3019,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=112
@@ -2262,6 +3046,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=113
@@ -2282,6 +3073,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=114
@@ -2302,6 +3100,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_BIT	"                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=115
@@ -2322,6 +3127,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_BIT	"                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=116
@@ -2342,6 +3154,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_BIT	"                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=117
@@ -2362,6 +3181,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=118
@@ -2382,6 +3208,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=119
@@ -2402,6 +3235,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=120
@@ -2422,6 +3262,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UTINYINT"                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=121
@@ -2442,6 +3289,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UTINYINT"                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=122
@@ -2462,6 +3316,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UTINYINT"                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=123
@@ -2482,6 +3343,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=124
@@ -2502,6 +3370,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=125
@@ -2522,6 +3397,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_FLOAT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=126
@@ -2542,6 +3424,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=127
@@ -2562,11 +3451,18 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=128
-          "1.17549435e-38"               //const char *sqlValue;                                             
-        , "1.17549435e-38"               //const char *cValue;                                  
+          "2147483647"               //const char *sqlValue;                                             
+        , "2147483647"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
         , 4                 //int CDataLen;                                  
         , SQL_REAL                 //int m_ODBCDataType;                                  
@@ -2582,6 +3478,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=129
@@ -2602,6 +3505,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=130
@@ -2622,11 +3532,18 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=131
-          "1.17549435e-38"               //const char *sqlValue;                                             
-        , "1.17549435e-38"               //const char *cValue;                                  
+          "32767"               //const char *sqlValue;                                             
+        , "32767"               //const char *cValue;                                  
         , SQL_C_SHORT                   //int CDataType;                                  
         , 2                 //int CDataLen;                                  
         , SQL_REAL                 //int m_ODBCDataType;                                  
@@ -2642,6 +3559,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=132
@@ -2662,6 +3586,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=133
@@ -2682,11 +3613,18 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=134
-          "1.17549435e-38"               //const char *sqlValue;                                             
-        , "1.17549435e-38"               //const char *cValue;                                  
+          "127"               //const char *sqlValue;                                             
+        , "127"               //const char *cValue;                                  
         , SQL_C_STINYINT                 //int CDataType;                                  
         , 1                 //int CDataLen;                                  
         , SQL_REAL                 //int m_ODBCDataType;                                  
@@ -2702,6 +3640,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=135
@@ -2722,6 +3667,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_FLOAT  "                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=136
@@ -2742,11 +3694,18 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_FLOAT  "                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=137
-          "1.17549435e-38"               //const char *sqlValue;                                             
-        , "1.17549435e-38"               //const char *cValue;                                  
+          "1.17549435e+38"               //const char *sqlValue;                                             
+        , "1.17549435e+38"               //const char *cValue;                                  
         , SQL_C_FLOAT                   //int CDataType;                                  
         , 8                 //int CDataLen;                                  
         , SQL_REAL                 //int m_ODBCDataType;                                  
@@ -2762,6 +3721,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_FLOAT  "                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=138
@@ -2782,6 +3748,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=139
@@ -2802,11 +3775,18 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=140
-          "1.17549435e-38"               //const char *sqlValue;                                             
-        , "1.17549435e-38"               //const char *cValue;                                  
+          "1.17549435e+38"               //const char *sqlValue;                                             
+        , "1.17549435e+38"               //const char *cValue;                                  
         , SQL_C_DOUBLE                  //int CDataType;                                  
         , 8                 //int CDataLen;                                  
         , SQL_REAL                 //int m_ODBCDataType;                                  
@@ -2822,6 +3802,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=141
@@ -2842,6 +3829,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=142
@@ -2862,11 +3856,18 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=143
-          "1.17549435e-38"               //const char *sqlValue;                                             
-        , "1.17549435e-38"               //const char *cValue;                                  
+          "9223372036854775807"               //const char *sqlValue;                                             
+        , "9223372036854775807"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
         , 8                 //int CDataLen;                                  
         , SQL_REAL                 //int m_ODBCDataType;                                  
@@ -2882,6 +3883,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=144
@@ -2902,6 +3910,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=145
@@ -2922,11 +3937,18 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=146
-          "1.17549435e-38"               //const char *sqlValue;                                             
-        , "1.17549435e-38"               //const char *cValue;                                  
+          "4294967295"               //const char *sqlValue;                                             
+        , "4294967295"               //const char *cValue;                                  
         , SQL_C_ULONG	                 //int CDataType;                                  
         , 4                 //int CDataLen;                                  
         , SQL_REAL                 //int m_ODBCDataType;                                  
@@ -2942,6 +3964,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=147
@@ -2962,6 +3991,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=148
@@ -2982,11 +4018,18 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=149
-          "1.17549435e-38"               //const char *sqlValue;                                             
-        , "1.17549435e-38"               //const char *cValue;                                  
+          "65535"               //const char *sqlValue;                                             
+        , "65535"               //const char *cValue;                                  
         , SQL_C_USHORT                 //int CDataType;                                  
         , 2                 //int CDataLen;                                  
         , SQL_REAL                 //int m_ODBCDataType;                                  
@@ -3002,6 +4045,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=150
@@ -3022,6 +4072,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=151
@@ -3042,11 +4099,18 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=152
-          "1.17549435e-38"               //const char *sqlValue;                                             
-        , "1.17549435e-38"               //const char *cValue;                                  
+          "2147483647"               //const char *sqlValue;                                             
+        , "2147483647"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
         , 4                 //int CDataLen;                                  
         , SQL_REAL                 //int m_ODBCDataType;                                  
@@ -3062,6 +4126,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=153
@@ -3082,6 +4153,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=154
@@ -3102,11 +4180,18 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=155
-          "1.17549435e-38"               //const char *sqlValue;                                             
-        , "1.17549435e-38"               //const char *cValue;                                  
+          "32767"               //const char *sqlValue;                                             
+        , "32767"               //const char *cValue;                                  
         , SQL_C_SSHORT                 //int CDataType;                                  
         , 2                 //int CDataLen;                                  
         , SQL_REAL                 //int m_ODBCDataType;                                  
@@ -3122,6 +4207,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=156
@@ -3142,6 +4234,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_BIT	"                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=157
@@ -3162,11 +4261,18 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_BIT	"                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=158
-          "1.17549435e-38"               //const char *sqlValue;                                             
-        , "1.17549435e-38"               //const char *cValue;                                  
+          "1"               //const char *sqlValue;                                             
+        , "1"               //const char *cValue;                                  
         , SQL_C_BIT	                 //int CDataType;                                  
         , 1                 //int CDataLen;                                  
         , SQL_REAL                 //int m_ODBCDataType;                                  
@@ -3182,6 +4288,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_BIT	"                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=159
@@ -3202,6 +4315,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=160
@@ -3222,11 +4342,18 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=161
-          "1.17549435e-38"               //const char *sqlValue;                                             
-        , "1.17549435e-38"               //const char *cValue;                                  
+          "127"               //const char *sqlValue;                                             
+        , "127"               //const char *cValue;                                  
         , SQL_C_TINYINT                 //int CDataType;                                  
         , 1                 //int CDataLen;                                  
         , SQL_REAL                 //int m_ODBCDataType;                                  
@@ -3242,6 +4369,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=162
@@ -3262,6 +4396,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UTINYINT"                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=163
@@ -3282,11 +4423,18 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UTINYINT"                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=164
-          "1.17549435e-38"               //const char *sqlValue;                                             
-        , "1.17549435e-38"               //const char *cValue;                                  
+          "255"               //const char *sqlValue;                                             
+        , "255"               //const char *cValue;                                  
         , SQL_C_UTINYINT                 //int CDataType;                                  
         , 1                 //int CDataLen;                                  
         , SQL_REAL                 //int m_ODBCDataType;                                  
@@ -3302,6 +4450,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UTINYINT"                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=165
@@ -3322,6 +4477,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=166
@@ -3342,11 +4504,18 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=167
-          "1.17549435e-38"               //const char *sqlValue;                                             
-        , "1.17549435e-38"               //const char *cValue;                                  
+          "18446744073709551615"               //const char *sqlValue;                                             
+        , "18446744073709551615"               //const char *cValue;                                  
         , SQL_C_UBIGINT                 //int CDataType;                                  
         , 8                 //int CDataLen;                                  
         , SQL_REAL                 //int m_ODBCDataType;                                  
@@ -3362,6 +4531,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_REAL"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=168
@@ -3382,6 +4558,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=169
@@ -3402,6 +4585,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=170
@@ -3422,6 +4612,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=171
@@ -3442,6 +4639,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=172
@@ -3462,6 +4666,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=173
@@ -3482,6 +4693,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=174
@@ -3502,6 +4720,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=175
@@ -3522,6 +4747,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=176
@@ -3542,6 +4774,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=177
@@ -3562,6 +4801,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_FLOAT  "                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=178
@@ -3582,6 +4828,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_FLOAT  "                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=179
@@ -3602,6 +4855,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_FLOAT  "                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=180
@@ -3622,6 +4882,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=181
@@ -3642,6 +4909,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=182
@@ -3662,6 +4936,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=183
@@ -3682,6 +4963,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=184
@@ -3702,6 +4990,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=185
@@ -3722,6 +5017,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=186
@@ -3742,6 +5044,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=187
@@ -3762,6 +5071,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=188
@@ -3782,6 +5098,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=189
@@ -3802,6 +5125,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=190
@@ -3822,6 +5152,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=191
@@ -3842,6 +5179,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=192
@@ -3862,6 +5206,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=193
@@ -3882,6 +5233,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=194
@@ -3902,6 +5260,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=195
@@ -3922,6 +5287,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=196
@@ -3942,6 +5314,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=197
@@ -3962,6 +5341,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=198
@@ -3982,6 +5368,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_BIT	"                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=199
@@ -4002,6 +5395,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_BIT	"                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=200
@@ -4022,6 +5422,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_BIT	"                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=201
@@ -4042,6 +5449,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=202
@@ -4062,6 +5476,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=203
@@ -4082,6 +5503,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=204
@@ -4102,6 +5530,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UTINYINT"                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=205
@@ -4122,6 +5557,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UTINYINT"                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=206
@@ -4142,6 +5584,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UTINYINT"                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=207
@@ -4162,6 +5611,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=208
@@ -4182,6 +5638,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=209
@@ -4202,6 +5665,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_DOUBLE"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=210
@@ -4222,6 +5692,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=211
@@ -4242,6 +5719,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=212
@@ -4262,6 +5746,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=213
@@ -4282,6 +5773,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=214
@@ -4302,6 +5800,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=215
@@ -4322,6 +5827,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=216
@@ -4342,6 +5854,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=217
@@ -4362,6 +5881,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=218
@@ -4382,6 +5908,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=219
@@ -4402,6 +5935,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_FLOAT  "                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=220
@@ -4422,6 +5962,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_FLOAT  "                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=221
@@ -4442,6 +5989,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_FLOAT  "                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=222
@@ -4462,6 +6016,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=223
@@ -4482,6 +6043,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=224
@@ -4502,6 +6070,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=225
@@ -4522,6 +6097,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=226
@@ -4542,6 +6124,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=227
@@ -4562,6 +6151,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=228
@@ -4582,6 +6178,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=229
@@ -4602,6 +6205,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=230
@@ -4622,6 +6232,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=231
@@ -4642,6 +6259,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=232
@@ -4662,6 +6286,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=233
@@ -4682,6 +6313,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=234
@@ -4702,6 +6340,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=235
@@ -4722,6 +6367,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=236
@@ -4742,6 +6394,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=237
@@ -4762,6 +6421,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=238
@@ -4782,6 +6448,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=239
@@ -4802,6 +6475,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=240
@@ -4822,6 +6502,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_BIT	"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=241
@@ -4842,6 +6529,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_BIT	"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=242
@@ -4862,6 +6556,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_BIT	"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=243
@@ -4882,6 +6583,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=244
@@ -4902,6 +6610,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=245
@@ -4922,6 +6637,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=246
@@ -4942,6 +6664,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UTINYINT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=247
@@ -4962,6 +6691,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UTINYINT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=248
@@ -4982,6 +6718,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UTINYINT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=249
@@ -5002,6 +6745,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=250
@@ -5022,6 +6772,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=251
@@ -5042,6 +6799,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=252
@@ -5062,6 +6826,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=253
@@ -5082,6 +6853,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=254
@@ -5102,6 +6880,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=255
@@ -5122,6 +6907,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=256
@@ -5142,6 +6934,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=257
@@ -5162,6 +6961,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=258
@@ -5182,6 +6988,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=259
@@ -5202,6 +7015,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=260
@@ -5222,6 +7042,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=261
@@ -5242,6 +7069,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_FLOAT  "                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=262
@@ -5262,6 +7096,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_FLOAT  "                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=263
@@ -5282,6 +7123,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_FLOAT  "                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=264
@@ -5302,6 +7150,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=265
@@ -5322,6 +7177,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=266
@@ -5342,6 +7204,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=267
@@ -5362,6 +7231,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=268
@@ -5382,6 +7258,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=269
@@ -5402,6 +7285,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=270
@@ -5422,6 +7312,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=271
@@ -5442,6 +7339,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=272
@@ -5462,6 +7366,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=273
@@ -5482,6 +7393,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=274
@@ -5502,6 +7420,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=275
@@ -5522,6 +7447,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=276
@@ -5542,6 +7474,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=277
@@ -5562,6 +7501,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=278
@@ -5582,6 +7528,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=279
@@ -5602,6 +7555,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=280
@@ -5622,6 +7582,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=281
@@ -5642,6 +7609,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=282
@@ -5662,6 +7636,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_BIT	"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=283
@@ -5682,6 +7663,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_BIT	"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=284
@@ -5702,6 +7690,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_BIT	"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=285
@@ -5722,6 +7717,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=286
@@ -5742,6 +7744,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=287
@@ -5762,6 +7771,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=288
@@ -5782,6 +7798,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UTINYINT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=289
@@ -5802,6 +7825,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UTINYINT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=290
@@ -5822,6 +7852,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UTINYINT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=291
@@ -5842,6 +7879,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=292
@@ -5862,6 +7906,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=293
@@ -5882,6 +7933,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=294
@@ -5902,6 +7960,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=295
@@ -5922,6 +7987,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=296
@@ -5942,6 +8014,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=297
@@ -5962,6 +8041,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=298
@@ -5982,6 +8068,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=299
@@ -6002,6 +8095,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=300
@@ -6022,6 +8122,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_FLOAT  "                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=301
@@ -6042,6 +8149,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_FLOAT  "                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=302
@@ -6062,6 +8176,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=303
@@ -6082,6 +8203,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=304
@@ -6102,6 +8230,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=305
@@ -6122,6 +8257,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=306
@@ -6142,6 +8284,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=307
@@ -6162,6 +8311,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=308
@@ -6182,6 +8338,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=309
@@ -6202,6 +8365,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=310
@@ -6222,6 +8392,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=311
@@ -6242,6 +8419,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=312
@@ -6262,6 +8446,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=313
@@ -6282,6 +8473,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=314
@@ -6302,6 +8500,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_BIT	"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=315
@@ -6322,6 +8527,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_BIT	"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=316
@@ -6342,6 +8554,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=317
@@ -6362,6 +8581,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=318
@@ -6382,6 +8608,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UTINYINT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=319
@@ -6402,6 +8635,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UTINYINT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=320
@@ -6422,6 +8662,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=321
@@ -6442,6 +8689,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_TINYINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=322
@@ -6462,6 +8716,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=323
@@ -6482,6 +8743,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=324
@@ -6502,6 +8770,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=325
@@ -6522,6 +8797,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=326
@@ -6542,6 +8824,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=327
@@ -6562,6 +8851,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=328
@@ -6582,6 +8878,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_FLOAT  "                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=329
@@ -6602,6 +8905,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_FLOAT  "                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=330
@@ -6622,6 +8932,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=331
@@ -6642,6 +8959,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=332
@@ -6662,6 +8986,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=333
@@ -6682,6 +9013,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=334
@@ -6702,6 +9040,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=335
@@ -6722,6 +9067,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=336
@@ -6742,6 +9094,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=337
@@ -6762,6 +9121,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=338
@@ -6782,6 +9148,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=339
@@ -6802,6 +9175,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=340
@@ -6822,6 +9202,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=341
@@ -6842,6 +9229,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=342
@@ -6862,6 +9256,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_BIT	"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=343
@@ -6882,6 +9283,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_BIT	"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=344
@@ -6902,6 +9310,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=345
@@ -6922,6 +9337,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=346
@@ -6942,6 +9364,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UTINYINT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=347
@@ -6962,6 +9391,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UTINYINT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=348
@@ -6982,6 +9418,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=349
@@ -7002,6 +9445,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_BIGINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=350
@@ -7022,6 +9472,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=351
@@ -7042,6 +9499,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=352
@@ -7062,6 +9526,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=353
@@ -7082,6 +9553,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=354
@@ -7102,6 +9580,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=355
@@ -7122,6 +9607,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=356
@@ -7142,6 +9634,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_FLOAT  "                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=357
@@ -7162,6 +9661,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_FLOAT  "                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=358
@@ -7182,6 +9688,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=359
@@ -7202,6 +9715,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=360
@@ -7222,6 +9742,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=361
@@ -7242,6 +9769,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=362
@@ -7262,6 +9796,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=363
@@ -7282,6 +9823,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=364
@@ -7302,6 +9850,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=365
@@ -7322,6 +9877,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=366
@@ -7342,6 +9904,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=367
@@ -7362,6 +9931,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=368
@@ -7382,6 +9958,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=369
@@ -7402,6 +9985,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=370
@@ -7422,6 +10012,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_BIT	"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=371
@@ -7442,6 +10039,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_BIT	"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=372
@@ -7462,6 +10066,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=373
@@ -7482,6 +10093,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=374
@@ -7502,6 +10120,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UTINYINT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=375
@@ -7522,6 +10147,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UTINYINT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=376
@@ -7542,6 +10174,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=377
@@ -7562,6 +10201,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_INTEGER"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=378
@@ -7582,6 +10228,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=379
@@ -7602,6 +10255,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=380
@@ -7622,6 +10282,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=381
@@ -7642,6 +10309,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=382
@@ -7662,6 +10336,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=383
@@ -7682,6 +10363,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=384
@@ -7702,6 +10390,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_FLOAT  "                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=385
@@ -7722,6 +10417,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_FLOAT  "                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=386
@@ -7742,6 +10444,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=387
@@ -7762,6 +10471,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=388
@@ -7782,6 +10498,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=389
@@ -7802,6 +10525,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=390
@@ -7822,6 +10552,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=391
@@ -7842,6 +10579,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=392
@@ -7862,6 +10606,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=393
@@ -7882,6 +10633,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=394
@@ -7902,6 +10660,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=395
@@ -7922,6 +10687,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=396
@@ -7942,6 +10714,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=397
@@ -7962,6 +10741,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=398
@@ -7982,6 +10768,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_BIT	"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=399
@@ -8002,6 +10795,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_BIT	"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=400
@@ -8022,6 +10822,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=401
@@ -8042,6 +10849,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=402
@@ -8062,6 +10876,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UTINYINT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=403
@@ -8082,6 +10903,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UTINYINT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=404
@@ -8102,6 +10930,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=405
@@ -8122,6 +10957,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , ""                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_SMALLINT"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=406
@@ -8142,6 +10984,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=407
@@ -8162,6 +11011,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=408
@@ -8182,6 +11038,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=409
@@ -8202,6 +11065,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=410
@@ -8222,6 +11092,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=411
@@ -8242,11 +11119,18 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=412
           "1"               //const char *sqlValue;                                             
-        , "9"               //const char *cValue;                                  
+        , "1"               //const char *cValue;                                  
         , SQL_C_BIT	                 //int CDataType;                                  
         , 1                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -8259,9 +11143,16 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "9"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "1"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_BIT	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=413
@@ -8282,6 +11173,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=414
@@ -8302,6 +11200,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=415
@@ -8322,6 +11227,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=416
@@ -8342,6 +11254,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=417
@@ -8362,6 +11281,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=418
@@ -8382,6 +11308,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=419
@@ -8402,6 +11335,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=420
@@ -8422,6 +11362,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=421
@@ -8442,6 +11389,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=422
@@ -8462,11 +11416,18 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=423
           "127"               //const char *sqlValue;                                             
-        , "999"               //const char *cValue;                                  
+        , "127"               //const char *cValue;                                  
         , SQL_C_STINYINT                 //int CDataType;                                  
         , 1                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -8479,9 +11440,16 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "127"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=424
@@ -8502,6 +11470,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=425
@@ -8522,6 +11497,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=426
@@ -8542,11 +11524,18 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=427
           "127"               //const char *sqlValue;                                             
-        , "999"               //const char *cValue;                                  
+        , "127"               //const char *cValue;                                  
         , SQL_C_TINYINT                 //int CDataType;                                  
         , 1                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -8559,9 +11548,16 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "127"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=428
@@ -8582,6 +11578,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=429
@@ -8602,6 +11605,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=430
@@ -8622,6 +11632,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=431
@@ -8642,6 +11659,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=432
@@ -8662,6 +11686,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=433
@@ -8682,11 +11713,18 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=434
           "32767"               //const char *sqlValue;                                             
-        , "99999"               //const char *cValue;                                  
+        , "32767"               //const char *cValue;                                  
         , SQL_C_SHORT                   //int CDataType;                                  
         , 2                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -8699,9 +11737,16 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "32767"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=435
@@ -8722,6 +11767,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=436
@@ -8742,11 +11794,18 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=437
           "32767"               //const char *sqlValue;                                             
-        , "99999"               //const char *cValue;                                  
+        , "32767"               //const char *cValue;                                  
         , SQL_C_SSHORT                 //int CDataType;                                  
         , 2                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -8759,9 +11818,16 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "32767"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=438
@@ -8782,6 +11848,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=439
@@ -8802,6 +11875,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=440
@@ -8822,6 +11902,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=441
@@ -8842,6 +11929,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=442
@@ -8862,6 +11956,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=443
@@ -8882,6 +11983,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=444
@@ -8902,6 +12010,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=445
@@ -8922,6 +12037,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=446
@@ -8942,6 +12064,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=447
@@ -8962,6 +12091,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=448
@@ -8982,6 +12118,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=449
@@ -9002,11 +12145,18 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=450
           "2147483647"               //const char *sqlValue;                                             
-        , "9999999999"               //const char *cValue;                                  
+        , "2147483647"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
         , 4                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9019,9 +12169,16 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "9999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "2147483647"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=451
@@ -9042,11 +12199,18 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=452
           "2147483647"               //const char *sqlValue;                                             
-        , "9999999999"               //const char *cValue;                                  
+        , "2147483647"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
         , 4                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9059,9 +12223,16 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "9999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "2147483647"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=453
@@ -9082,6 +12253,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=454
@@ -9102,6 +12280,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=455
@@ -9122,6 +12307,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=456
@@ -9142,6 +12334,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=457
@@ -9162,6 +12361,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=458
@@ -9182,6 +12388,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=459
@@ -9202,6 +12415,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=460
@@ -9222,11 +12442,18 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=461
           "-9"               //const char *sqlValue;                                             
-        , "9"               //const char *cValue;                                  
+        , "-9"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
         , 4                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9239,14 +12466,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "9"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-9"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=462
           "-9"               //const char *sqlValue;                                             
-        , "9"               //const char *cValue;                                  
+        , "-9"               //const char *cValue;                                  
         , SQL_C_SHORT                   //int CDataType;                                  
         , 2                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9259,14 +12493,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "9"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-9"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=463
           "-9"               //const char *sqlValue;                                             
-        , "9"               //const char *cValue;                                  
+        , "-9"               //const char *cValue;                                  
         , SQL_C_STINYINT                 //int CDataType;                                  
         , 1                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9279,14 +12520,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "9"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-9"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=464
           "-9"               //const char *sqlValue;                                             
-        , "9"               //const char *cValue;                                  
+        , "-9"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
         , 8                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9299,14 +12547,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "9"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-9"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=465
           "-9"               //const char *sqlValue;                                             
-        , "9"               //const char *cValue;                                  
+        , "-9"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
         , 4                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9319,14 +12574,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "9"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-9"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=466
           "-9"               //const char *sqlValue;                                             
-        , "9"               //const char *cValue;                                  
+        , "-9"               //const char *cValue;                                  
         , SQL_C_SSHORT                 //int CDataType;                                  
         , 2                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9339,14 +12601,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "9"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-9"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=467
           "-2"               //const char *sqlValue;                                             
-        , "9"               //const char *cValue;                                  
+        , "-2"               //const char *cValue;                                  
         , SQL_C_BIT	                 //int CDataType;                                  
         , 1                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9359,14 +12628,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "9"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-2"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_BIT	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=468
           "-9"               //const char *sqlValue;                                             
-        , "9"               //const char *cValue;                                  
+        , "-9"               //const char *cValue;                                  
         , SQL_C_TINYINT                 //int CDataType;                                  
         , 1                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9379,14 +12655,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "9"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-9"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=469
           "-99"               //const char *sqlValue;                                             
-        , "99"               //const char *cValue;                                  
+        , "-99"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
         , 4                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9399,14 +12682,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=470
           "-99"               //const char *sqlValue;                                             
-        , "99"               //const char *cValue;                                  
+        , "-99"               //const char *cValue;                                  
         , SQL_C_SHORT                   //int CDataType;                                  
         , 2                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9419,14 +12709,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=471
           "-99"               //const char *sqlValue;                                             
-        , "99"               //const char *cValue;                                  
+        , "-99"               //const char *cValue;                                  
         , SQL_C_STINYINT                 //int CDataType;                                  
         , 1                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9439,14 +12736,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=472
           "-99"               //const char *sqlValue;                                             
-        , "99"               //const char *cValue;                                  
+        , "-99"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
         , 8                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9459,14 +12763,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=473
           "-99"               //const char *sqlValue;                                             
-        , "99"               //const char *cValue;                                  
+        , "-99"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
         , 4                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9479,14 +12790,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=474
           "-99"               //const char *sqlValue;                                             
-        , "99"               //const char *cValue;                                  
+        , "-99"               //const char *cValue;                                  
         , SQL_C_SSHORT                 //int CDataType;                                  
         , 2                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9499,14 +12817,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=475
           "-99"               //const char *sqlValue;                                             
-        , "99"               //const char *cValue;                                  
+        , "-99"               //const char *cValue;                                  
         , SQL_C_TINYINT                 //int CDataType;                                  
         , 1                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9519,14 +12844,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=476
           "-999"               //const char *sqlValue;                                             
-        , "999"               //const char *cValue;                                  
+        , "-999"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
         , 4                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9539,14 +12871,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=477
           "-999"               //const char *sqlValue;                                             
-        , "999"               //const char *cValue;                                  
+        , "-999"               //const char *cValue;                                  
         , SQL_C_SHORT                   //int CDataType;                                  
         , 2                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9559,14 +12898,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=478
           "-128"               //const char *sqlValue;                                             
-        , "999"               //const char *cValue;                                  
+        , "-128"               //const char *cValue;                                  
         , SQL_C_STINYINT                 //int CDataType;                                  
         , 1                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9579,14 +12925,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-128"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_STINYINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=479
           "-999"               //const char *sqlValue;                                             
-        , "999"               //const char *cValue;                                  
+        , "-999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
         , 8                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9599,14 +12952,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=480
           "-999"               //const char *sqlValue;                                             
-        , "999"               //const char *cValue;                                  
+        , "-999"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
         , 4                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9619,14 +12979,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=481
           "-999"               //const char *sqlValue;                                             
-        , "999"               //const char *cValue;                                  
+        , "-999"               //const char *cValue;                                  
         , SQL_C_SSHORT                 //int CDataType;                                  
         , 2                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9639,14 +13006,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=482
           "-128"               //const char *sqlValue;                                             
-        , "999"               //const char *cValue;                                  
+        , "-128"               //const char *cValue;                                  
         , SQL_C_TINYINT                 //int CDataType;                                  
         , 1                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9659,14 +13033,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-128"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TINYINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=483
           "-9999"               //const char *sqlValue;                                             
-        , "9999"               //const char *cValue;                                  
+        , "-9999"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
         , 4                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9679,14 +13060,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "9999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-9999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=484
           "-9999"               //const char *sqlValue;                                             
-        , "9999"               //const char *cValue;                                  
+        , "-9999"               //const char *cValue;                                  
         , SQL_C_SHORT                   //int CDataType;                                  
         , 2                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9699,14 +13087,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "9999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-9999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=485
           "-9999"               //const char *sqlValue;                                             
-        , "9999"               //const char *cValue;                                  
+        , "-9999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
         , 8                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9719,14 +13114,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "9999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-9999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=486
           "-9999"               //const char *sqlValue;                                             
-        , "9999"               //const char *cValue;                                  
+        , "-9999"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
         , 4                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9739,14 +13141,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "9999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-9999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=487
           "-9999"               //const char *sqlValue;                                             
-        , "9999"               //const char *cValue;                                  
+        , "-9999"               //const char *cValue;                                  
         , SQL_C_SSHORT                 //int CDataType;                                  
         , 2                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9759,14 +13168,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "9999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-9999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=488
           "-99999"               //const char *sqlValue;                                             
-        , "99999"               //const char *cValue;                                  
+        , "-99999"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
         , 4                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9779,14 +13195,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-99999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=489
           "-32768"               //const char *sqlValue;                                             
-        , "99999"               //const char *cValue;                                  
+        , "-32768"               //const char *cValue;                                  
         , SQL_C_SHORT                   //int CDataType;                                  
         , 2                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9799,14 +13222,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-32768"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SHORT  "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=490
           "-99999"               //const char *sqlValue;                                             
-        , "99999"               //const char *cValue;                                  
+        , "-99999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
         , 8                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9819,14 +13249,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-99999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=491
           "-99999"               //const char *sqlValue;                                             
-        , "99999"               //const char *cValue;                                  
+        , "-99999"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
         , 4                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9839,14 +13276,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-99999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=492
           "-32768"               //const char *sqlValue;                                             
-        , "99999"               //const char *cValue;                                  
+        , "-32768"               //const char *cValue;                                  
         , SQL_C_SSHORT                 //int CDataType;                                  
         , 2                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9859,14 +13303,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-32768"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SSHORT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=493
           "-999999"               //const char *sqlValue;                                             
-        , "999999"               //const char *cValue;                                  
+        , "-999999"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
         , 4                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9879,14 +13330,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=494
           "-999999"               //const char *sqlValue;                                             
-        , "999999"               //const char *cValue;                                  
+        , "-999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
         , 8                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9899,14 +13357,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=495
           "-999999"               //const char *sqlValue;                                             
-        , "999999"               //const char *cValue;                                  
+        , "-999999"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
         , 4                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9919,14 +13384,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=496
           "-9999999"               //const char *sqlValue;                                             
-        , "9999999"               //const char *cValue;                                  
+        , "-9999999"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
         , 4                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9939,14 +13411,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "9999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-9999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=497
           "-9999999"               //const char *sqlValue;                                             
-        , "9999999"               //const char *cValue;                                  
+        , "-9999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
         , 8                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9959,14 +13438,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "9999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-9999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=498
           "-9999999"               //const char *sqlValue;                                             
-        , "9999999"               //const char *cValue;                                  
+        , "-9999999"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
         , 4                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9979,14 +13465,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "9999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-9999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=499
           "-99999999"               //const char *sqlValue;                                             
-        , "99999999"               //const char *cValue;                                  
+        , "-99999999"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
         , 4                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -9999,14 +13492,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-99999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=500
           "-99999999"               //const char *sqlValue;                                             
-        , "99999999"               //const char *cValue;                                  
+        , "-99999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
         , 8                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -10019,14 +13519,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-99999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=501
           "-99999999"               //const char *sqlValue;                                             
-        , "99999999"               //const char *cValue;                                  
+        , "-99999999"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
         , 4                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -10039,14 +13546,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-99999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=502
           "-999999999"               //const char *sqlValue;                                             
-        , "999999999"               //const char *cValue;                                  
+        , "-999999999"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
         , 4                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -10059,14 +13573,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=503
           "-999999999"               //const char *sqlValue;                                             
-        , "999999999"               //const char *cValue;                                  
+        , "-999999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
         , 8                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -10079,14 +13600,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=504
           "-999999999"               //const char *sqlValue;                                             
-        , "999999999"               //const char *cValue;                                  
+        , "-999999999"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
         , 4                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -10099,14 +13627,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=505
           "-2147483648"               //const char *sqlValue;                                             
-        , "9999999999"               //const char *cValue;                                  
+        , "-2147483648"               //const char *cValue;                                  
         , SQL_C_LONG                    //int CDataType;                                  
         , 4                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -10119,14 +13654,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "9999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-2147483648"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_LONG   "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=506
           "-9999999999"               //const char *sqlValue;                                             
-        , "9999999999"               //const char *cValue;                                  
+        , "-9999999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
         , 8                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -10139,14 +13681,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "9999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-9999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=507
           "-2147483648"               //const char *sqlValue;                                             
-        , "9999999999"               //const char *cValue;                                  
+        , "-2147483648"               //const char *cValue;                                  
         , SQL_C_SLONG	                 //int CDataType;                                  
         , 4                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -10159,14 +13708,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "9999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-2147483648"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SLONG	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=508
           "-99999999999"               //const char *sqlValue;                                             
-        , "99999999999"               //const char *cValue;                                  
+        , "-99999999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
         , 8                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -10179,14 +13735,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-99999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=509
           "-999999999999"               //const char *sqlValue;                                             
-        , "999999999999"               //const char *cValue;                                  
+        , "-999999999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
         , 8                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -10199,14 +13762,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=510
           "-9999999999999"               //const char *sqlValue;                                             
-        , "9999999999999"               //const char *cValue;                                  
+        , "-9999999999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
         , 8                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -10219,14 +13789,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "9999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-9999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=511
           "-99999999999999"               //const char *sqlValue;                                             
-        , "99999999999999"               //const char *cValue;                                  
+        , "-99999999999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
         , 8                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -10239,14 +13816,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-99999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=512
           "-999999999999999"               //const char *sqlValue;                                             
-        , "999999999999999"               //const char *cValue;                                  
+        , "-999999999999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
         , 8                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -10259,14 +13843,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=513
           "-9999999999999999"               //const char *sqlValue;                                             
-        , "9999999999999999"               //const char *cValue;                                  
+        , "-9999999999999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
         , 8                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -10279,14 +13870,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "9999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-9999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=514
           "-99999999999999999"               //const char *sqlValue;                                             
-        , "99999999999999999"               //const char *cValue;                                  
+        , "-99999999999999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
         , 8                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -10299,14 +13897,21 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-99999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=515
           "-999999999999999999"               //const char *sqlValue;                                             
-        , "999999999999999999"               //const char *cValue;                                  
+        , "-999999999999999999"               //const char *cValue;                                  
         , SQL_C_SBIGINT                 //int CDataType;                                  
         , 8                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -10319,9 +13924,16 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "-999999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_SBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=516
@@ -10342,6 +13954,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=517
@@ -10362,6 +13981,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=518
@@ -10382,6 +14008,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UTINYINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=519
@@ -10402,6 +14035,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=520
@@ -10422,6 +14062,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=521
@@ -10442,6 +14089,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=522
@@ -10462,6 +14116,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UTINYINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=523
@@ -10482,6 +14143,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=524
@@ -10502,6 +14170,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=525
@@ -10522,11 +14197,18 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=526
           "255"               //const char *sqlValue;                                             
-        , "999"               //const char *cValue;                                  
+        , "255"               //const char *cValue;                                  
         , SQL_C_UTINYINT                 //int CDataType;                                  
         , 1                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -10539,9 +14221,16 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "255"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UTINYINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=527
@@ -10562,6 +14251,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=528
@@ -10582,6 +14278,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=529
@@ -10602,6 +14305,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=530
@@ -10622,6 +14332,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=531
@@ -10642,11 +14359,18 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=532
           "65535"               //const char *sqlValue;                                             
-        , "99999"               //const char *cValue;                                  
+        , "65535"               //const char *cValue;                                  
         , SQL_C_USHORT                 //int CDataType;                                  
         , 2                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -10659,9 +14383,16 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "65535"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_USHORT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=533
@@ -10682,6 +14413,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=534
@@ -10702,6 +14440,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=535
@@ -10722,6 +14467,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=536
@@ -10742,6 +14494,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=537
@@ -10762,6 +14521,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=538
@@ -10782,6 +14548,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=539
@@ -10802,6 +14575,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=540
@@ -10822,6 +14602,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=541
@@ -10842,11 +14629,18 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=542
           "4294967295"               //const char *sqlValue;                                             
-        , "9999999999"               //const char *cValue;                                  
+        , "4294967295"               //const char *cValue;                                  
         , SQL_C_ULONG	                 //int CDataType;                                  
         , 4                 //int CDataLen;                                  
         , SQL_NUMERIC        //int m_ODBCDataType;                                  
@@ -10859,9 +14653,16 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "9999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "4294967295"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_ULONG	"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=543
@@ -10882,6 +14683,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=544
@@ -10902,6 +14710,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=545
@@ -10922,6 +14737,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=546
@@ -10942,6 +14764,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=547
@@ -10962,6 +14791,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=548
@@ -10982,6 +14818,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=549
@@ -11002,6 +14845,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=550
@@ -11022,6 +14872,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=551
@@ -11042,6 +14899,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_UBIGINT"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=552
@@ -11062,6 +14926,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=553
@@ -11082,6 +14953,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=554
@@ -11102,6 +14980,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=555
@@ -11122,6 +15007,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=556
@@ -11142,6 +15034,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=557
@@ -11162,6 +15061,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=558
@@ -11182,6 +15088,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=559
@@ -11202,6 +15115,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=560
@@ -11222,6 +15142,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=561
@@ -11242,6 +15169,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=562
@@ -11262,6 +15196,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=563
@@ -11282,6 +15223,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=564
@@ -11302,6 +15250,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=565
@@ -11322,6 +15277,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=566
@@ -11342,6 +15304,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=567
@@ -11362,6 +15331,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=568
@@ -11382,6 +15358,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=569
@@ -11402,6 +15385,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=570
@@ -11422,6 +15412,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=571
@@ -11442,6 +15439,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=572
@@ -11462,6 +15466,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=573
@@ -11482,6 +15493,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=574
@@ -11502,6 +15520,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=575
@@ -11522,6 +15547,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=576
@@ -11542,6 +15574,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=577
@@ -11562,6 +15601,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=578
@@ -11582,6 +15628,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=579
@@ -11602,6 +15655,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=580
@@ -11622,6 +15682,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=581
@@ -11642,6 +15709,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=582
@@ -11662,6 +15736,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=583
@@ -11682,6 +15763,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=584
@@ -11702,6 +15790,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=585
@@ -11722,6 +15817,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=586
@@ -11742,6 +15844,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=587
@@ -11762,6 +15871,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=588
@@ -11782,6 +15898,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=589
@@ -11802,6 +15925,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=590
@@ -11822,6 +15952,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=591
@@ -11842,6 +15979,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=592
@@ -11862,6 +16006,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=593
@@ -11882,6 +16033,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=594
@@ -11902,6 +16060,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=595
@@ -11922,6 +16087,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=596
@@ -11942,6 +16114,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=597
@@ -11962,6 +16141,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=598
@@ -11982,6 +16168,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=599
@@ -12002,6 +16195,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=600
@@ -12022,6 +16222,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=601
@@ -12042,6 +16249,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=602
@@ -12062,6 +16276,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=603
@@ -12082,6 +16303,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=604
@@ -12102,6 +16330,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=605
@@ -12122,6 +16357,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=606
@@ -12142,6 +16384,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=607
@@ -12162,6 +16411,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=608
@@ -12182,6 +16438,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=609
@@ -12202,6 +16465,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=610
@@ -12222,6 +16492,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=611
@@ -12242,6 +16519,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=612
@@ -12262,6 +16546,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=613
@@ -12282,6 +16573,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=614
@@ -12302,6 +16600,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=615
@@ -12322,6 +16627,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=616
@@ -12342,6 +16654,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=617
@@ -12362,6 +16681,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=618
@@ -12382,6 +16708,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=619
@@ -12402,6 +16735,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=620
@@ -12422,6 +16762,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=621
@@ -12442,6 +16789,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=622
@@ -12462,6 +16816,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=623
@@ -12482,6 +16843,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=624
@@ -12502,6 +16870,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=625
@@ -12522,6 +16897,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=626
@@ -12542,6 +16924,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=627
@@ -12562,6 +16951,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=628
@@ -12582,6 +16978,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=629
@@ -12602,6 +17005,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=630
@@ -12622,6 +17032,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=631
@@ -12642,6 +17059,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=632
@@ -12662,6 +17086,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=633
@@ -12682,6 +17113,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=634
@@ -12702,6 +17140,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=635
@@ -12722,6 +17167,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=636
@@ -12742,6 +17194,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=637
@@ -12762,6 +17221,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=638
@@ -12782,6 +17248,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=639
@@ -12802,6 +17275,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=640
@@ -12822,6 +17302,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=641
@@ -12842,6 +17329,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=642
@@ -12862,6 +17356,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=643
@@ -12882,6 +17383,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=644
@@ -12902,6 +17410,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=645
@@ -12922,6 +17437,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=646
@@ -12942,6 +17464,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=647
@@ -12962,6 +17491,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=648
@@ -12982,6 +17518,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=649
@@ -13002,6 +17545,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=650
@@ -13022,6 +17572,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=651
@@ -13042,6 +17599,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=652
@@ -13062,6 +17626,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=653
@@ -13082,6 +17653,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=654
@@ -13102,6 +17680,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=655
@@ -13122,6 +17707,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=656
@@ -13142,6 +17734,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "99999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=657
@@ -13162,6 +17761,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=658
@@ -13182,6 +17788,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=659
@@ -13202,6 +17815,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=660
@@ -13222,6 +17842,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=661
@@ -13242,6 +17869,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=662
@@ -13262,6 +17896,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=663
@@ -13282,6 +17923,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=664
@@ -13302,6 +17950,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=665
@@ -13322,6 +17977,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=666
@@ -13342,6 +18004,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=667
@@ -13362,6 +18031,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=668
@@ -13382,6 +18058,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=669
@@ -13402,6 +18085,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=670
@@ -13422,6 +18112,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=671
@@ -13442,6 +18139,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=672
@@ -13462,6 +18166,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=673
@@ -13482,6 +18193,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=674
@@ -13502,6 +18220,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=675
@@ -13522,6 +18247,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=676
@@ -13542,6 +18274,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=677
@@ -13562,6 +18301,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=678
@@ -13582,6 +18328,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=679
@@ -13602,6 +18355,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=680
@@ -13622,6 +18382,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=681
@@ -13642,6 +18409,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=682
@@ -13662,6 +18436,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=683
@@ -13682,6 +18463,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=684
@@ -13702,6 +18490,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=685
@@ -13722,6 +18517,13 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=686
@@ -13742,729 +18544,9088 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , "9999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DOUBLE "                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     {
                              //count=687
-          "0.9999999999999999"               //const char *sqlValue;                                             
-        , "9999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 17                 //int Precision;                                  
-        , 16                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "9999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,1
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
     },
     {
                              //count=688
-          "1e+16"               //const char *sqlValue;                                             
-        , "99999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 17                 //int Precision;                                  
-        , 1                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,1
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
     },
     {
                              //count=689
-          "1000000000000000.0"               //const char *sqlValue;                                             
-        , "99999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 17                 //int Precision;                                  
-        , 2                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,1
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
     },
     {
                              //count=690
-          "100000000000000.0"               //const char *sqlValue;                                             
-        , "99999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 17                 //int Precision;                                  
-        , 3                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,1
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
     },
     {
                              //count=691
-          "10000000000000.0"               //const char *sqlValue;                                             
-        , "99999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 17                 //int Precision;                                  
-        , 4                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,2
+        ,28
+        ,0
+        ,0
+        ,0
+        ,"1"
     },
     {
                              //count=692
-          "1000000000000.0"               //const char *sqlValue;                                             
-        , "99999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 17                 //int Precision;                                  
-        , 5                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,2
+        ,28
+        ,12
+        ,30
+        ,30
+        ,"2"
     },
     {
                              //count=693
-          "100000000000.0"               //const char *sqlValue;                                             
-        , "99999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 17                 //int Precision;                                  
-        , 6                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,2
+        ,28
+        ,18
+        ,45
+        ,45
+        ,"3"
     },
     {
                              //count=694
-          "10000000000.0"               //const char *sqlValue;                                             
-        , "99999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 17                 //int Precision;                                  
-        , 7                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,2
+        ,28
+        ,23
+        ,59
+        ,59
+        ,"4"
     },
     {
                              //count=695
-          "1000000000.0"               //const char *sqlValue;                                             
-        , "99999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 17                 //int Precision;                                  
-        , 8                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,3
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
     },
     {
                              //count=696
-          "100000000.0"               //const char *sqlValue;                                             
-        , "99999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 17                 //int Precision;                                  
-        , 9                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,3
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
     },
     {
                              //count=697
-          "10000000.0"               //const char *sqlValue;                                             
-        , "99999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 17                 //int Precision;                                  
-        , 10                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,3
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
     },
     {
                              //count=698
-          "1000000.0"               //const char *sqlValue;                                             
-        , "99999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 17                 //int Precision;                                  
-        , 11                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,3
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
     },
     {
                              //count=699
-          "100000.0"               //const char *sqlValue;                                             
-        , "99999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 17                 //int Precision;                                  
-        , 12                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,4
+        ,30
+        ,0
+        ,0
+        ,0
+        ,"1"
     },
     {
                              //count=700
-          "10000.0"               //const char *sqlValue;                                             
-        , "99999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 17                 //int Precision;                                  
-        , 13                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,4
+        ,30
+        ,12
+        ,30
+        ,30
+        ,"2"
     },
     {
                              //count=701
-          "1000.0"               //const char *sqlValue;                                             
-        , "99999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 17                 //int Precision;                                  
-        , 14                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,4
+        ,30
+        ,18
+        ,45
+        ,45
+        ,"3"
     },
     {
                              //count=702
-          "100.0"               //const char *sqlValue;                                             
-        , "99999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 17                 //int Precision;                                  
-        , 15                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,4
+        ,30
+        ,23
+        ,59
+        ,59
+        ,"4"
     },
     {
                              //count=703
-          "10.0"               //const char *sqlValue;                                             
-        , "99999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 17                 //int Precision;                                  
-        , 16                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,5
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
     },
     {
                              //count=704
-          "1.0"               //const char *sqlValue;                                             
-        , "99999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 17                 //int Precision;                                  
-        , 17                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "99999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,5
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
     },
     {
                              //count=705
-          "1e+17"               //const char *sqlValue;                                             
-        , "999999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 18                 //int Precision;                                  
-        , 1                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,5
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
     },
     {
                              //count=706
-          "1e+16"               //const char *sqlValue;                                             
-        , "999999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 18                 //int Precision;                                  
-        , 2                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,5
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
     },
     {
                              //count=707
-          "1000000000000000.0"               //const char *sqlValue;                                             
-        , "999999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 18                 //int Precision;                                  
-        , 3                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,6
+        ,30
+        ,0
+        ,0
+        ,0
+        ,"1"
     },
     {
                              //count=708
-          "100000000000000.0"               //const char *sqlValue;                                             
-        , "999999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 18                 //int Precision;                                  
-        , 4                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,6
+        ,30
+        ,12
+        ,30
+        ,30
+        ,"2"
     },
     {
                              //count=709
-          "10000000000000.0"               //const char *sqlValue;                                             
-        , "999999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 18                 //int Precision;                                  
-        , 5                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,6
+        ,30
+        ,18
+        ,45
+        ,45
+        ,"3"
     },
     {
                              //count=710
-          "1000000000000.0"               //const char *sqlValue;                                             
-        , "999999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 18                 //int Precision;                                  
-        , 6                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,6
+        ,30
+        ,23
+        ,59
+        ,59
+        ,"4"
     },
     {
                              //count=711
-          "100000000000.0"               //const char *sqlValue;                                             
-        , "999999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 18                 //int Precision;                                  
-        , 7                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,7
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
     },
     {
                              //count=712
-          "10000000000.0"               //const char *sqlValue;                                             
-        , "999999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 18                 //int Precision;                                  
-        , 8                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,7
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
     },
     {
                              //count=713
-          "1000000000.0"               //const char *sqlValue;                                             
-        , "999999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 18                 //int Precision;                                  
-        , 9                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,7
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
     },
     {
                              //count=714
-          "100000000.0"               //const char *sqlValue;                                             
-        , "999999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 18                 //int Precision;                                  
-        , 10                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,7
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
     },
     {
                              //count=715
-          "10000000.0"               //const char *sqlValue;                                             
-        , "999999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 18                 //int Precision;                                  
-        , 11                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,8
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
     },
     {
                              //count=716
-          "1000000.0"               //const char *sqlValue;                                             
-        , "999999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 18                 //int Precision;                                  
-        , 12                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,8
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
     },
     {
                              //count=717
-          "100000.0"               //const char *sqlValue;                                             
-        , "999999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 18                 //int Precision;                                  
-        , 13                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,8
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
     },
     {
                              //count=718
-          "10000.0"               //const char *sqlValue;                                             
-        , "999999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 18                 //int Precision;                                  
-        , 14                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,8
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
     },
     {
                              //count=719
-          "1000.0"               //const char *sqlValue;                                             
-        , "999999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 18                 //int Precision;                                  
-        , 15                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,9
+        ,30
+        ,0
+        ,0
+        ,0
+        ,"1"
     },
     {
                              //count=720
-          "100.0"               //const char *sqlValue;                                             
-        , "999999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 18                 //int Precision;                                  
-        , 16                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,9
+        ,30
+        ,12
+        ,30
+        ,30
+        ,"2"
     },
     {
                              //count=721
-          "10.0"               //const char *sqlValue;                                             
-        , "999999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 18                 //int Precision;                                  
-        , 17                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,9
+        ,30
+        ,18
+        ,45
+        ,45
+        ,"3"
     },
     {
                              //count=722
-          "1.0"               //const char *sqlValue;                                             
-        , "999999999999999999"               //const char *cValue;                                  
-        , SQL_C_DOUBLE                  //int CDataType;                                  
-        , 8                 //int CDataLen;                                  
-        , SQL_NUMERIC        //int m_ODBCDataType;                                  
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
         , 0                  //int m_SQLDataType;                                  
         , 0                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 18                 //int Precision;                                  
-        , 18                 //int Scale;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
         , 0                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
-        , "999999999999999999"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
-        , "SQL_C_DOUBLE "                 // C typename
-        , "SQL_NUMERIC"                 // SRC type name
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,9
+        ,30
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=723
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,10
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=724
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,10
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=725
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,10
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=726
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,10
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=727
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,11
+        ,30
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=728
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,11
+        ,30
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=729
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,11
+        ,30
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=730
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,11
+        ,30
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=731
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,12
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=732
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,12
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=733
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,12
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=734
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,12
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=735
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,1
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=736
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,1
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=737
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,1
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=738
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,1
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=739
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,2
+        ,28
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=740
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,2
+        ,28
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=741
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,2
+        ,28
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=742
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,2
+        ,28
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=743
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,3
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=744
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,3
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=745
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,3
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=746
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,3
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=747
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,4
+        ,30
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=748
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,4
+        ,30
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=749
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,4
+        ,30
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=750
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,4
+        ,30
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=751
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,5
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=752
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,5
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=753
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,5
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=754
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,5
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=755
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,6
+        ,30
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=756
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,6
+        ,30
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=757
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,6
+        ,30
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=758
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,6
+        ,30
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=759
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,7
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=760
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,7
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=761
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,7
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=762
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,7
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=763
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,8
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=764
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,8
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=765
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,8
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=766
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,8
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=767
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,9
+        ,30
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=768
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,9
+        ,30
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=769
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,9
+        ,30
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=770
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,9
+        ,30
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=771
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,10
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=772
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,10
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=773
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,10
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=774
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,10
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=775
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,11
+        ,30
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=776
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,11
+        ,30
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=777
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,11
+        ,30
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=778
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,11
+        ,30
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=779
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,12
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=780
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,12
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=781
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,12
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=782
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_DATE                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_DATE"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,12
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=783
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,1
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=784
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,1
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=785
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,1
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=786
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,1
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=787
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,2
+        ,28
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=788
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,2
+        ,28
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=789
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,2
+        ,28
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=790
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,2
+        ,28
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=791
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,3
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=792
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,3
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=793
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,3
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=794
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,3
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=795
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,4
+        ,30
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=796
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,4
+        ,30
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=797
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,4
+        ,30
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=798
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,4
+        ,30
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=799
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,5
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=800
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,5
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=801
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,5
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=802
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,5
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=803
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,6
+        ,30
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=804
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,6
+        ,30
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=805
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,6
+        ,30
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=806
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,6
+        ,30
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=807
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,7
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=808
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,7
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=809
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,7
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=810
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,7
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=811
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,8
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=812
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,8
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=813
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,8
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=814
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,8
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=815
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,9
+        ,30
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=816
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,9
+        ,30
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=817
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,9
+        ,30
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=818
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,9
+        ,30
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=819
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,10
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=820
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,10
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=821
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,10
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=822
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,10
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=823
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,11
+        ,30
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=824
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,11
+        ,30
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=825
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,11
+        ,30
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=826
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,11
+        ,30
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=827
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,12
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=828
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,12
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=829
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,12
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=830
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,12
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=831
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,1
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=832
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,1
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=833
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,1
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=834
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,1
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=835
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,2
+        ,28
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=836
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,2
+        ,28
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=837
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,2
+        ,28
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=838
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,2
+        ,28
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=839
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,3
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=840
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,3
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=841
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,3
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=842
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,3
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=843
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,4
+        ,30
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=844
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,4
+        ,30
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=845
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,4
+        ,30
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=846
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,4
+        ,30
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=847
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,5
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=848
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,5
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=849
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,5
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=850
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,5
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=851
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,6
+        ,30
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=852
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,6
+        ,30
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=853
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,6
+        ,30
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=854
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,6
+        ,30
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=855
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,7
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=856
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,7
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=857
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,7
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=858
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,7
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=859
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,8
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=860
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,8
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=861
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,8
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=862
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,8
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=863
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,9
+        ,30
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=864
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,9
+        ,30
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=865
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,9
+        ,30
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=866
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,9
+        ,30
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=867
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,10
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=868
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,10
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=869
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,10
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=870
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,10
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=871
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,11
+        ,30
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=872
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,11
+        ,30
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=873
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,11
+        ,30
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=874
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,11
+        ,30
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=875
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,12
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=876
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,12
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=877
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,12
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=878
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIME                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIME"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,12
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=879
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,1
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=880
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,1
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=881
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,1
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=882
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,1
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=883
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,2
+        ,28
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=884
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,2
+        ,28
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=885
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,2
+        ,28
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=886
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,2
+        ,28
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=887
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,3
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=888
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,3
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=889
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,3
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=890
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,3
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=891
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,4
+        ,30
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=892
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,4
+        ,30
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=893
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,4
+        ,30
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=894
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,4
+        ,30
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=895
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,5
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=896
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,5
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=897
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,5
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=898
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,5
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=899
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,6
+        ,30
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=900
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,6
+        ,30
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=901
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,6
+        ,30
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=902
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,6
+        ,30
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=903
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,7
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=904
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,7
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=905
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,7
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=906
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,7
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=907
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,8
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=908
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,8
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=909
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,8
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=910
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,8
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=911
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,9
+        ,30
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=912
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,9
+        ,30
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=913
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,9
+        ,30
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=914
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,9
+        ,30
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=915
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,10
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=916
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,10
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=917
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,10
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=918
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,10
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=919
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,11
+        ,30
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=920
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,11
+        ,30
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=921
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,11
+        ,30
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=922
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,11
+        ,30
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=923
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,12
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=924
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,12
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=925
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,12
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=926
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_DATE                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_DATE"                 // SRC type name
+        ,2017
+        ,12
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=927
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,1
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=928
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,1
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=929
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,1
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=930
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,1
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=931
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,2
+        ,28
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=932
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,2
+        ,28
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=933
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,2
+        ,28
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=934
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,2
+        ,28
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=935
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,3
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=936
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,3
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=937
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,3
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=938
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,3
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=939
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,4
+        ,30
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=940
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,4
+        ,30
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=941
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,4
+        ,30
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=942
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,4
+        ,30
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=943
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,5
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=944
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,5
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=945
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,5
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=946
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,5
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=947
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,6
+        ,30
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=948
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,6
+        ,30
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=949
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,6
+        ,30
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=950
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,6
+        ,30
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=951
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,7
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=952
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,7
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=953
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,7
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=954
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,7
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=955
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,8
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=956
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,8
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=957
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,8
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=958
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,8
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=959
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,9
+        ,30
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=960
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,9
+        ,30
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=961
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,9
+        ,30
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=962
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,9
+        ,30
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=963
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,10
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=964
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,10
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=965
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,10
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=966
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,10
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=967
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,11
+        ,30
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=968
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,11
+        ,30
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=969
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,11
+        ,30
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=970
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,11
+        ,30
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=971
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,12
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=972
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,12
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=973
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,12
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=974
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIME                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIME"                 // SRC type name
+        ,2017
+        ,12
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=975
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,1
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=976
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,1
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=977
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,1
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=978
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,1
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=979
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,2
+        ,28
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=980
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,2
+        ,28
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=981
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,2
+        ,28
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=982
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,2
+        ,28
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=983
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,3
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=984
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,3
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=985
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,3
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=986
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,3
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=987
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,4
+        ,30
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=988
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,4
+        ,30
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=989
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,4
+        ,30
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=990
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,4
+        ,30
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=991
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,5
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=992
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,5
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=993
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,5
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=994
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,5
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=995
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,6
+        ,30
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=996
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,6
+        ,30
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=997
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,6
+        ,30
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=998
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,6
+        ,30
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=999
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,7
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=1000
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,7
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=1001
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,7
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=1002
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,7
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=1003
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,8
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=1004
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,8
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=1005
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,8
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=1006
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,8
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=1007
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,9
+        ,30
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=1008
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,9
+        ,30
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=1009
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,9
+        ,30
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=1010
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,9
+        ,30
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=1011
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,10
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=1012
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,10
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=1013
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,10
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=1014
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,10
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=1015
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,11
+        ,30
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=1016
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,11
+        ,30
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=1017
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,11
+        ,30
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=1018
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,11
+        ,30
+        ,23
+        ,59
+        ,59
+        ,"4"
+    },
+    {
+                             //count=1019
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,12
+        ,31
+        ,0
+        ,0
+        ,0
+        ,"1"
+    },
+    {
+                             //count=1020
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,12
+        ,31
+        ,12
+        ,30
+        ,30
+        ,"2"
+    },
+    {
+                             //count=1021
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,12
+        ,31
+        ,18
+        ,45
+        ,45
+        ,"3"
+    },
+    {
+                             //count=1022
+          ""               //const char *sqlValue;                                             
+        , ""               //const char *cValue;                                  
+        , SQL_C_TIMESTAMP                 //int CDataType;                                  
+        , 0                 //int CDataLen;                                  
+        , SQL_TIMESTAMP                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , 0                 //int m_SQLMaxLength;                                  
+        , 0                 //int m_DescUnsigned;                                  
+        , 0                 //int Precision;                                  
+        , 0                 //int Scale;                                  
+        , 0                 //int m_SQLCharset;                                  
+        , 0                 //int m_SQLDatetimeCode;                       
+        , 0                 //int m_SQLOctetLength;                       
+        , '0'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "SQL_C_TIMESTAMP"                 // C typename
+        , "SQL_TIMESTAMP"                 // SRC type name
+        ,2017
+        ,12
+        ,31
+        ,23
+        ,59
+        ,59
+        ,"4"
     },
     
 };
 #endif
-//0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,336,337,338,339,340,341,342,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401,402,403,404,405,407,408,409,410,411,412,413,414,415,416,417,418,419,420,421,422,423,424,425,426,427,428,429,430,431,432,433,434,435,436,437,438,439,440,441,442,443,444,445,446,447,448,449,450,451,452,453,454,455,456,457,458,459,460,461,462,463,464,465,466,467,468,469,470,471,472,473,474,475,476,477,478,479,480,481,482,483,484,485,486,487,488,489,490,491,492,493,494,495,496,497,498,499,500,501,502,503,504,505,506,507,508,509,510,511,512,513,514,515,516,517,518,519,520,521,522,523,524,525,526,527,528,529,530,531,532,533,534,535,536,537,538,539,540,541,542,543,544,545,546,547,548,549,550,551,552,553,554,555,556,557,558,559,560,561,562,563,564,565,566,567,568,569,570,571,572,573,574,575,576,577,578,579,580,581,582,583,584,585,586,587,588,589,590,591,592,593,594,595,596,597,598,599,600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617,618,619,620,621,622,623,624,625,626,627,628,629,630,631,632,633,634,635,636,637,638,639,640,641,642,643,644,645,646,647,648,649,650,651,652,653,654,655,656,657,658,659,660,661,662,663,664,665,666,667,668,669,670,671,672,673,674,675,676,677,678,679,680,681,682,683,684,685,686,687,688,689,690,691,692,693,694,695,696,697,698,699,700,701,702,703,704,705,706,707,708,709,710,711,712,713,714,715,716,717,718,719,720,721,722,723,
+//0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,336,337,338,339,340,341,342,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,397,398,399,400,401,402,403,404,405,407,408,409,410,411,412,413,414,415,416,417,418,419,420,421,422,423,424,425,426,427,428,429,430,431,432,433,434,435,436,437,438,439,440,441,442,443,444,445,446,447,448,449,450,451,452,453,454,455,456,457,458,459,460,461,462,463,464,465,466,467,468,469,470,471,472,473,474,475,476,477,478,479,480,481,482,483,484,485,486,487,488,489,490,491,492,493,494,495,496,497,498,499,500,501,502,503,504,505,506,507,508,509,510,511,512,513,514,515,516,517,518,519,520,521,522,523,524,525,526,527,528,529,530,531,532,533,534,535,536,537,538,539,540,541,542,543,544,545,546,547,548,549,550,551,552,553,554,555,556,557,558,559,560,561,562,563,564,565,566,567,568,569,570,571,572,573,574,575,576,577,578,579,580,581,582,583,584,585,586,587,588,589,590,591,592,593,594,595,596,597,598,599,600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617,618,619,620,621,622,623,624,625,626,627,628,629,630,631,632,633,634,635,636,637,638,639,640,641,642,643,644,645,646,647,648,649,650,651,652,653,654,655,656,657,658,659,660,661,662,663,664,665,666,667,668,669,670,671,672,673,674,675,676,677,678,679,680,681,682,683,684,685,686,687,688,689,690,691,692,693,694,695,696,697,698,699,700,701,702,703,704,705,706,707,708,709,710,711,712,713,714,715,716,717,718,719,720,721,722,723,724,725,726,727,728,729,730,731,732,733,734,735,736,737,738,739,740,741,742,743,744,745,746,747,748,749,750,751,752,753,754,755,756,757,758,759,760,761,762,763,764,765,766,767,768,769,770,771,772,773,774,775,776,777,778,779,780,781,782,783,784,785,786,787,788,789,790,791,792,793,794,795,796,797,798,799,800,801,802,803,804,805,806,807,808,809,810,811,812,813,814,815,816,817,818,819,820,821,822,823,824,825,826,827,828,829,830,831,832,833,834,835,836,837,838,839,840,841,842,843,844,845,846,847,848,849,850,851,852,853,854,855,856,857,858,859,860,861,862,863,864,865,866,867,868,869,870,871,872,873,874,875,876,877,878,879,880,881,882,883,884,885,886,887,888,889,890,891,892,893,894,895,896,897,898,899,900,901,902,903,904,905,906,907,908,909,910,911,912,913,914,915,916,917,918,919,920,921,922,923,924,925,926,927,928,929,930,931,932,933,934,935,936,937,938,939,940,941,942,943,944,945,946,947,948,949,950,951,952,953,954,955,956,957,958,959,960,961,962,963,964,965,966,967,968,969,970,971,972,973,974,975,976,977,978,979,980,981,982,983,984,985,986,987,988,989,990,991,992,993,994,995,996,997,998,999,1000,1001,1002,1003,1004,1005,1006,1007,1008,1009,1010,1011,1012,1013,1014,1015,1016,1017,1018,1019,1020,1021,1022,1023,
         

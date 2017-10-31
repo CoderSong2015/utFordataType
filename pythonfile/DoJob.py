@@ -2,7 +2,7 @@ from preDefine import defType
 from createTestData import functionList,functionListForUnsign
 from createTestData import return0
 from printTofile import printToFile,printNumeric,printNumericTest
-
+from printTofile import printTimeStamp
 def doSignedJob(count, countStr):
     for sql_k, sql_v in defType.sql_type_max_min.items():
         for c_k, c_v in defType.sql_c_max_min.items():
@@ -50,7 +50,7 @@ def doNumericJob(count, countStr):
             if  num > defType.sql_c_max_min[c_k][2]:
                 count = count + 1
                 countStr = countStr + str(count) + ','
-                printNumeric(precision, 0, 0, defType.sql_c_max_min[c_k][2], count, c_k, num)
+                printNumeric(precision, 0, 0, defType.sql_c_max_min[c_k][2], count, c_k, defType.sql_c_max_min[c_k][2])
             else:
                 count = count + 1
                 countStr = countStr + str(count) + ','
@@ -70,11 +70,11 @@ def doNumericJobMinus(count, countStr):
             if num > defType.sql_c_max_min[c_k][2]:
                 count = count + 1
                 countStr = countStr + str(count) + ','
-                printNumeric(precision, 0, 0, -(defType.sql_c_max_min[c_k][2] + 1), count, c_k, num)
+                printNumeric(precision, 0, 0, -(defType.sql_c_max_min[c_k][2] + 1), count, c_k, -(defType.sql_c_max_min[c_k][2] + 1))
             else:
                 count = count + 1
                 countStr = countStr + str(count) + ','
-                printNumeric(precision, 0, 0, -num, count, c_k, num)
+                printNumeric(precision, 0, 0, -num, count, c_k, -num)
     #countStr = countStr + '||'
     return count, countStr
 
@@ -90,7 +90,7 @@ def doNumericJobUnsigned(count, countStr):
             if num > defType.sql_c_max_min[c_k][2]:
                 count = count + 1
                 countStr = countStr + str(count) + ','
-                printNumeric(precision, 0, 0, defType.sql_c_max_min[c_k][2], count, c_k, num)
+                printNumeric(precision, 0, 0, defType.sql_c_max_min[c_k][2], count, c_k, defType.sql_c_max_min[c_k][2])
             else:
                 count = count + 1
                 countStr = countStr + str(count) + ','
@@ -113,11 +113,33 @@ def doNumericJobScale(count, countStr):
             if data2 < 1:
                 nowPre = nowPre + 1
 
+            if nowPre > 16:
+                continue
             count = count + 1
             countStr = countStr + str(count) + ','
             printNumeric(nowPre, scale + 1, 0, data2 , count, defType.SQL_C_DOUBLE, num)
     #countStr = countStr + '||'
     return count, countStr
 
-def doTimeStamp(count):
-    pass
+def doTimeStamp(count, countStr):
+    for k,v in defType.sql_timestamp_exchange.items():
+        Ctype = v.split(':')[0]
+        SQLtype = v.split(':')[1]
+        year = 2017
+        for i in range(12):
+            mon = i + 1
+            for j in range(4):
+                timeIndex = j
+                count = count + 1
+                countStr = countStr + str(count) + ','
+                printTimeStamp(Ctype,
+                               SQLtype,
+                               year,
+                               mon,
+                               defType.sql_monthDay[mon],
+                               defType.sql_time_hour[timeIndex],
+                               defType.sql_time_min[timeIndex],
+                               defType.sql_time_second[timeIndex],
+                               defType.sql_time_fac[timeIndex],
+                               count)
+    return count,countStr

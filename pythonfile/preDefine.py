@@ -65,7 +65,7 @@ class defType:
         SQL_INTEGER		    :	[-2147483648, 0, 2147483647],
         SQL_SMALLINT	    :	[-32768, 0,32767],
         SQL_FLOAT		    :	[-1.7976931348623157e+308, 0, 1.7976931348623157e+308],
-        SQL_REAL		    :	[-1.17549435e-38, 0, 1.17549435e-38],
+        SQL_REAL		    :	[-1.17549435e-38, 0, 1.17549435e+38],
         SQL_DOUBLE		    :	[-1.7976931348623157e+308, 0, 1.7976931348623157e+308],
         #SQL_DATETIME		:	[],
         #SQL_VARCHAR			:	[]
@@ -192,7 +192,7 @@ class defType:
         SQL_FLOAT		    : 4           ,
         SQL_REAL		    : 4           ,
         SQL_DOUBLE		    : 8           ,
-        # SQL_DATETIME		:	'SQL_DATETIME'          ,
+        #SQL_DATETIME		:	'SQL_DATETIME'          ,
         # SQL_VARCHAR			:	'SQL_VARCHAR'
     }
     sql_type_Datatype = {
@@ -208,7 +208,7 @@ class defType:
         SQL_FLOAT		    : 'SQLTYPECODE_IEEE_FLOAT'           ,
         SQL_REAL		    : 'SQLTYPECODE_IEEE_REAL'           ,
         SQL_DOUBLE		    : 'SQLTYPECODE_IEEE_DOUBLE',
-        # SQL_DATETIME		:	'SQL_DATETIME'          ,
+        #SQL_DATETIME		:	'SQL_DATETIME'          ,
         # SQL_VARCHAR			:	'SQL_VARCHAR'
     }
 
@@ -229,3 +229,45 @@ class defType:
         SQL_C_UBIGINT       :   20,
 
     }
+
+    SQL_JAN = 1
+    SQL_FEB = 2
+    SQL_MAR = 3
+    SQL_APR = 4
+    SQL_MAY = 5
+    SQL_JUN = 6
+    SQL_JLY = 7
+    SQL_AUG = 8
+    SQL_SEP = 9
+    SQL_OCT = 10
+    SQL_NOV = 11
+    SQL_DEC = 12
+
+    sql_monthDay = {
+        SQL_JAN : 31,
+        SQL_FEB : 28,
+        SQL_MAR : 31,
+        SQL_APR : 30,
+        SQL_MAY : 31,
+        SQL_JUN : 30,
+        SQL_JLY : 31,
+        SQL_AUG : 31,
+        SQL_SEP : 30,
+        SQL_OCT : 31,
+        SQL_NOV : 30,
+        SQL_DEC : 31,
+    }
+
+    sql_timestamp_exchange = {
+        1:'SQL_C_DATE:SQL_DATE',
+        2:'SQL_C_DATE:SQL_TIMESTAMP',
+        3:'SQL_C_TIME:SQL_TIME',
+        4:'SQL_C_TIME:SQL_TIMESTAMP',
+        5:'SQL_C_TIMESTAMP:SQL_DATE',
+        6:'SQL_C_TIMESTAMP:SQL_TIME',
+        7:'SQL_C_TIMESTAMP:SQL_TIMESTAMP'
+    }
+    sql_time_hour =   ['0', '12', '18','23']
+    sql_time_min =    ['0', '30', '45','59']
+    sql_time_second = ['0', '30', '45','59']
+    sql_time_fac =    ['1', '2' , '3' ,'4' ]

@@ -37,6 +37,7 @@ def doJob():
     result = DoJob.doNumericJobMinus(result[0], result[1])
     result = DoJob.doNumericJobUnsigned(result[0], result[1])
     result = DoJob.doNumericJobScale(result[0], result[1])
+    result = DoJob.doTimeStamp(result[0], result[1])
     return result[1]
 
 

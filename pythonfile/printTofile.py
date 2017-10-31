@@ -21,6 +21,13 @@ def printToFile(c_k, sql_k, outputData, count, isunsigned):
         , "%s"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "%s"                 // C typename
         , "%s"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     '''%(
           count-1                  ,
@@ -66,6 +73,13 @@ def printNumericTest(precision, scale, isUnsigned, outputData, count):
         , "%s"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , ""                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+                ,0
+                ,0
+                ,0
+                ,0
+                ,0
+                ,""
     },
     '''%(
           count-1                  ,
@@ -109,6 +123,13 @@ def printNumeric(precision, scale, isUnsigned, outputData, count, c_k, outputDat
         , "%s"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "%s"                 // C typename
         , "SQL_NUMERIC"                 // SRC type name
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,0
+        ,""
     },
     '''%(
           count-1                  ,
@@ -129,3 +150,72 @@ def printNumeric(precision, scale, isUnsigned, outputData, count, c_k, outputDat
 
           )
         )
+
+def printTimeStamp(Ctype,
+                   SQLtype,
+                   year,
+                   mon,
+                   monthDay,
+                   hour,
+                   min,
+                   second,
+                   fac,
+                   count = 0):
+    with open('testData.h', 'a') as f:
+        f.write(
+            '''{
+                             //count=%d
+          "%s"               //const char *sqlValue;                                             
+        , "%s"               //const char *cValue;                                  
+        , %s                 //int CDataType;                                  
+        , %d                 //int CDataLen;                                  
+        , %s                 //int m_ODBCDataType;                                  
+        , 0                  //int m_SQLDataType;                                  
+        , %d                 //int m_SQLMaxLength;                                  
+        , %d                 //int m_DescUnsigned;                                  
+        , %d                 //int Precision;                                  
+        , %d                 //int Scale;                                  
+        , %d                 //int m_SQLCharset;                                  
+        , %d                 //int m_SQLDatetimeCode;                       
+        , %d                 //int m_SQLOctetLength;                       
+        , '%d'               //char numeric_sign;  /* 1=+ 0=- */        
+        , "%s"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
+        , "%s"                 // C typename
+        , "%s"                 // SRC type name
+        ,%d
+        ,%d
+        ,%d
+        ,%s
+        ,%s
+        ,%s
+        ,"%s"
+    },
+    '''%(
+          count-1    ,
+          ""         ,
+          ""         ,
+          Ctype,
+          0,
+          SQLtype,
+          0,
+          0             ,
+          0               ,
+          0                   ,
+          0,
+          0                        ,
+          0,
+          0 ,
+          0,
+          Ctype,
+          SQLtype,
+          year,
+          mon,
+          monthDay,
+          hour,
+          min,
+          second,
+          fac
+          )
+        )
+
+    pass
