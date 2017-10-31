@@ -18,6 +18,14 @@ typedef struct TESTDATATABLE{
     const char *numeric_value;
     const char *CTypeName;
     const char *SQLTypeName;
+    
+    unsigned short year;
+    unsigned char  month;
+    unsigned char  day;
+    unsigned char  hour;
+    unsigned char minute;
+    unsigned char second;
+    unsigned char *fraction;
 }TESTDATA_TABLE;
 
 #endif
