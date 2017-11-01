@@ -33,7 +33,7 @@ class defType:
         #SQL_DECIMAL		    :	'SQL_DECIMAL'           ,
         SQL_INTEGER		    :	'SQL_INTEGER'           ,
         SQL_SMALLINT	    :	'SQL_SMALLINT'          ,
-        SQL_FLOAT		    :	'SQL_FLOAT'             ,
+        #SQL_FLOAT		    :	'SQL_FLOAT'             ,
         SQL_REAL		    :	'SQL_REAL'              ,
         SQL_DOUBLE		    :	'SQL_DOUBLE'            ,
         #SQL_DATETIME		:	'SQL_DATETIME'          ,
@@ -49,7 +49,7 @@ class defType:
         # SQL_DECIMAL		    :	'SQL_DECIMAL'           ,
         SQL_INTEGER		    : 0,
         SQL_SMALLINT	    : 0,
-        SQL_FLOAT		    : 0,
+        #SQL_FLOAT		    : 0,
         SQL_REAL		    : 0,
         SQL_DOUBLE		    : 0,
         # SQL_DATETIME		:	'SQL_DATETIME'          ,
@@ -64,7 +64,7 @@ class defType:
         #SQL_DECIMAL		    :	[],
         SQL_INTEGER		    :	[-2147483648, 0, 2147483647],
         SQL_SMALLINT	    :	[-32768, 0,32767],
-        SQL_FLOAT		    :	[-1.7976931348623157e+308, 0, 1.7976931348623157e+308],
+        #SQL_FLOAT		    :	[-1.7976931348623157e+308, 0, 1.7976931348623157e+308],
         SQL_REAL		    :	[-1.17549435e-38, 0, 1.17549435e+38],
         SQL_DOUBLE		    :	[-1.7976931348623157e+308, 0, 1.7976931348623157e+308],
         #SQL_DATETIME		:	[],
@@ -189,7 +189,7 @@ class defType:
         # SQL_DECIMAL		    :	'SQL_DECIMAL'           ,
         SQL_INTEGER		    : 4           ,
         SQL_SMALLINT	    : 2           ,
-        SQL_FLOAT		    : 4           ,
+        #SQL_FLOAT		    : 4           ,
         SQL_REAL		    : 4           ,
         SQL_DOUBLE		    : 8           ,
         #SQL_DATETIME		:	'SQL_DATETIME'          ,
@@ -205,7 +205,7 @@ class defType:
         # SQL_DECIMAL		    :	'SQL_DECIMAL'           ,
         SQL_INTEGER		    : 'SQLTYPECODE_INTEGER'           ,
         SQL_SMALLINT	    : 'SQLTYPECODE_SMALLINT'           ,
-        SQL_FLOAT		    : 'SQLTYPECODE_IEEE_FLOAT'           ,
+        #SQL_FLOAT		    : 'SQLTYPECODE_IEEE_FLOAT'           ,
         SQL_REAL		    : 'SQLTYPECODE_IEEE_REAL'           ,
         SQL_DOUBLE		    : 'SQLTYPECODE_IEEE_DOUBLE',
         #SQL_DATETIME		:	'SQL_DATETIME'          ,
@@ -266,6 +266,14 @@ class defType:
         5:'SQL_C_TIMESTAMP:SQL_DATE',
         6:'SQL_C_TIMESTAMP:SQL_TIME',
         7:'SQL_C_TIMESTAMP:SQL_TIMESTAMP'
+    }
+    sql_time_len = {
+        'SQL_C_DATE' : 6,
+        'SQL_C_TIME' : 6,
+        'SQL_C_TIMESTAMP' : 16,
+        'SQL_DATE'   :4,
+        'SQL_TIME'   :7,
+        'SQL_TIMESTAMP' :11
     }
     sql_time_hour =   ['0', '12', '18','23']
     sql_time_min =    ['0', '30', '45','59']
