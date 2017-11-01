@@ -135,6 +135,9 @@ def doTimeStamp(count, countStr):
                 timeIndex = j
                 countStr = countStr + str(count) + ','
                 count = count + 1
+                FRAC = defType.sql_time_fac[timeIndex]
+                if (Ctype == 'SQL_C_DATE' or Ctype == 'SQL_C_TIME'):
+                    FRAC = "0"
                 printTimeStamp(Ctype,
                                SQLtype,
                                year,
@@ -143,7 +146,7 @@ def doTimeStamp(count, countStr):
                                defType.sql_time_hour[timeIndex],
                                defType.sql_time_min[timeIndex],
                                defType.sql_time_second[timeIndex],
-                               defType.sql_time_fac[timeIndex],
+                               FRAC,
                                defType.sql_time_len[Ctype],
                                defType.sql_time_len[SQLtype],
                                defType.sql_time_len[OCTtype],
