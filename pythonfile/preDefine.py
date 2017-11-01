@@ -259,13 +259,13 @@ class defType:
     }
 
     sql_timestamp_exchange = {
-        1:'SQL_C_DATE:SQL_DATE',
-        2:'SQL_C_DATE:SQL_TIMESTAMP',
-        3:'SQL_C_TIME:SQL_TIME',
-        4:'SQL_C_TIME:SQL_TIMESTAMP',
-        5:'SQL_C_TIMESTAMP:SQL_DATE',
-        6:'SQL_C_TIMESTAMP:SQL_TIME',
-        7:'SQL_C_TIMESTAMP:SQL_TIMESTAMP'
+        1:'SQL_C_DATE:SQL_DATE:OCT_DATE',
+        2:'SQL_C_DATE:SQL_TIMESTAMP:OCT_TIMESTAMP',
+        3:'SQL_C_TIME:SQL_TIME:OCT_TIME',
+        4:'SQL_C_TIME:SQL_TIMESTAMP:OCT_TIMESTAMP',
+        5:'SQL_C_TIMESTAMP:SQL_DATE:OCT_DATE',
+        6:'SQL_C_TIMESTAMP:SQL_TIME:OCT_TIME',
+        7:'SQL_C_TIMESTAMP:SQL_TIMESTAMP:OCT_TIMESTAMP'
     }
     sql_time_len = {
         'SQL_C_DATE' : 6,
@@ -273,7 +273,10 @@ class defType:
         'SQL_C_TIMESTAMP' : 16,
         'SQL_DATE'   :4,
         'SQL_TIME'   :7,
-        'SQL_TIMESTAMP' :11
+        'SQL_TIMESTAMP' :11,
+        'OCT_DATE'      :11,
+        'OCT_TIME'      :9,
+        'OCT_TIMESTAMP' :19,
     }
     sql_time_hour =   ['0', '12', '18','23']
     sql_time_min =    ['0', '30', '45','59']

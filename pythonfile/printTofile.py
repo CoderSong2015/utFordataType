@@ -162,6 +162,7 @@ def printTimeStamp(Ctype,
                    fac,
                    cTypeLen,
                    sqlTypeLen,
+                   octLen,
                    count = 0):
     with open('testData.h', 'a') as f:
         f.write(
@@ -205,7 +206,7 @@ def printTimeStamp(Ctype,
           0                   ,
           0,
           0                        ,
-          0,
+          octLen,
           0 ,
           0,
           Ctype,

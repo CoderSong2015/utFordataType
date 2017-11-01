@@ -127,6 +127,7 @@ def doTimeStamp(count, countStr):
     for k,v in defType.sql_timestamp_exchange.items():
         Ctype = v.split(':')[0]
         SQLtype = v.split(':')[1]
+        OCTtype = v.split(':')[2]
         year = 2017
         for i in range(12):
             mon = i + 1
@@ -145,5 +146,6 @@ def doTimeStamp(count, countStr):
                                defType.sql_time_fac[timeIndex],
                                defType.sql_time_len[Ctype],
                                defType.sql_time_len[SQLtype],
+                               defType.sql_time_len[OCTtype],
                                count)
     return count,countStr
