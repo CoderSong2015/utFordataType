@@ -25,7 +25,7 @@ typedef struct TESTDATATABLE{
     unsigned char  hour;
     unsigned char minute;
     unsigned char second;
-    unsigned char *fraction;
+    const char *fraction;
 }TESTDATA_TABLE;
 
 #endif
