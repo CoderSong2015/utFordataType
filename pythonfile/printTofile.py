@@ -133,8 +133,8 @@ def printNumeric(precision, scale, isUnsigned, outputData, count, c_k, outputDat
     },
     '''%(
           count-1                  ,
-          str(outputData)          ,
           str(outputDataNumeric)          ,
+          str(outputData)          ,
           defType.sql_c_type[c_k],
           defType.sql_c_Len[c_k],
           0 ,

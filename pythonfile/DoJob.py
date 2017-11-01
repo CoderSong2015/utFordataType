@@ -109,11 +109,12 @@ def doNumericJobScale(count, countStr):
             numZore = 10 **(scale + 1)
             data = divmod(num, numZore)
             data2 = data[0] + data[1] / numZore
+
             nowPre = precision
             if data2 < 1:
                 nowPre = nowPre + 1
 
-            if nowPre > 16:
+            if nowPre > 15:
                 continue
             count = count + 1
             countStr = countStr + str(count) + ','

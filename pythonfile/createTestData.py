@@ -30,14 +30,14 @@ def doJob():
     result = [0, '']
     result[0] = count
     result[1] = ''
-    result = DoJob.doSignedJob(result[0], result[1])
-    result = DoJob.doUnsignedJob(result[0], result[1])
+    #result = DoJob.doSignedJob(result[0], result[1])
+    #result = DoJob.doUnsignedJob(result[0], result[1])
                                         #result[0] =DoJob. doNumericJobTest(count)
-    result = DoJob.doNumericJob(result[0], result[1])
-    result = DoJob.doNumericJobMinus(result[0], result[1])
-    result = DoJob.doNumericJobUnsigned(result[0], result[1])
+    #result = DoJob.doNumericJob(result[0], result[1])
+    #result = DoJob.doNumericJobMinus(result[0], result[1])
+    #result = DoJob.doNumericJobUnsigned(result[0], result[1])
     result = DoJob.doNumericJobScale(result[0], result[1])
-    result = DoJob.doTimeStamp(result[0], result[1])
+    #result = DoJob.doTimeStamp(result[0], result[1])
     return result[1]
 
 
