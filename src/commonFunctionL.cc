@@ -57,6 +57,8 @@ void callSubCtosql(int n, CDescRec* tmpDesc){
 
     initDesc(tmpDesc, TESTDATA_MAPL[n]); 
     switch(TESTDATA_MAPL[n].CDataType){
+		case SQL_C_DEFAULT:
+            break;
         case SQL_C_TINYINT:
         case SQL_C_STINYINT:{
             char testSrc = stringToNum<int>(s); 
@@ -160,6 +162,28 @@ void callSubCtosql(int n, CDescRec* tmpDesc){
  
                               
         }
+        case SQL_C_NUMERIC:
+        case SQL_C_WCHAR:
+        case SQL_C_CHAR:
+        case SQL_C_DATE:
+        case SQL_C_TYPE_DATE:
+        case SQL_C_TIMESTAMP:
+        case SQL_C_TYPE_TIMESTAMP:
+        case SQL_C_BINARY:
+        case SQL_C_INTERVAL_MONTH:
+        case SQL_C_INTERVAL_YEAR:
+        case SQL_C_INTERVAL_YEAR_TO_MONTH:
+        case SQL_C_INTERVAL_DAY:
+        case SQL_C_INTERVAL_HOUR:
+        case SQL_C_INTERVAL_MINUTE:
+        case SQL_C_INTERVAL_SECOND:
+        case SQL_C_INTERVAL_DAY_TO_HOUR:
+        case SQL_C_INTERVAL_DAY_TO_MINUTE:
+        case SQL_C_INTERVAL_DAY_TO_SECOND:
+        case SQL_C_INTERVAL_HOUR_TO_MINUTE:
+        case SQL_C_INTERVAL_HOUR_TO_SECOND:
+        case SQL_C_INTERVAL_MINUTE_TO_SECOND:
+        break;
         default:
         break;
     }

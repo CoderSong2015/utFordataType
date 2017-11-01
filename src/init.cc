@@ -14,6 +14,7 @@ void initDesc(CDescRec *cdr, TESTDATA_TABLE  map){
     cdr->m_SQLDatetimeCode  = map.m_SQLDatetimeCode  ;                 
     cdr->m_SQLOctetLength   = map.m_SQLOctetLength   ;    
     cdr->m_ODBCPrecision    = map.Precision;
+    cdr->m_ODBCScale        = map.Scale;
 }
 
 
