@@ -8,11 +8,54 @@ using namespace ODBC;
 void callSubCtosql(int n, CDescRec* tmpDesc){
    
     string s = TESTDATA_MAPL[n].cValue;
-    initDesc(tmpDesc, TESTDATA_MAPL[n]); 
     ICUConverter* iconv;
     char* tmpbuf = NULL;
+    switch (TESTDATA_MAPL[n].Precision)
+    {
+        case 1:
+        case 2:
+        case 3:
+        case 4:
+            if(TESTDATA_MAPL[n].m_DescUnsigned)
+                TESTDATA_MAPL[n].m_SQLDataType = SQLTYPECODE_SMALLINT_UNSIGNED;
+            else
+                TESTDATA_MAPL[n].m_SQLDataType = SQLTYPECODE_SMALLINT;
+            break;
+        case 5:
+        case 6:
+        case 7:
+        case 8:
+        case 9:
+            if(TESTDATA_MAPL[n].m_DescUnsigned)
+                TESTDATA_MAPL[n].m_SQLDataType = SQLTYPECODE_INTEGER_UNSIGNED;
+            else 
 
- 
+                TESTDATA_MAPL[n].m_SQLDataType = SQLTYPECODE_INTEGER;
+            break;
+        case 10:
+        case 11:
+        case 12:
+        case 13:
+        case 14:
+        case 15:
+        case 16:
+        case 17:
+        case 18:
+            if(TESTDATA_MAPL[n].m_DescUnsigned)
+                TESTDATA_MAPL[n].m_SQLDataType  =SQLTYPECODE_LARGEINT_UNSIGNED;
+            else 
+                TESTDATA_MAPL[n].m_SQLDataType  =SQLTYPECODE_LARGEINT;
+            break;
+         default:
+            if(TESTDATA_MAPL[n].m_DescUnsigned)
+               TESTDATA_MAPL[n].m_SQLDataType  = SQLTYPECODE_NUMERIC_UNSIGNED;
+            else
+               TESTDATA_MAPL[n].m_SQLDataType  = SQLTYPECODE_NUMERIC;
+            break;
+
+    }
+
+    initDesc(tmpDesc, TESTDATA_MAPL[n]); 
     switch(TESTDATA_MAPL[n].CDataType){
         case SQL_C_TINYINT:
         case SQL_C_STINYINT:{
