@@ -16996,11 +16996,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17011,7 +17011,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=630
@@ -17023,11 +17023,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17038,7 +17038,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=631
@@ -17050,11 +17050,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17065,7 +17065,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=632
@@ -17077,11 +17077,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17092,7 +17092,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=633
@@ -17104,11 +17104,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17119,7 +17119,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=634
@@ -17131,11 +17131,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17146,7 +17146,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=635
@@ -17158,11 +17158,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17173,7 +17173,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=636
@@ -17185,11 +17185,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17200,7 +17200,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=637
@@ -17212,11 +17212,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17227,7 +17227,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=638
@@ -17239,11 +17239,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17254,7 +17254,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=639
@@ -17266,11 +17266,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17281,7 +17281,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=640
@@ -17293,11 +17293,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17308,7 +17308,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=641
@@ -17320,11 +17320,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17335,7 +17335,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=642
@@ -17347,11 +17347,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17362,7 +17362,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=643
@@ -17374,11 +17374,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17389,7 +17389,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=644
@@ -17401,11 +17401,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17416,7 +17416,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=645
@@ -17428,11 +17428,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17443,7 +17443,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=646
@@ -17455,11 +17455,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17470,7 +17470,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=647
@@ -17482,11 +17482,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17497,7 +17497,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=648
@@ -17509,11 +17509,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17524,7 +17524,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=649
@@ -17536,11 +17536,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17551,7 +17551,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=650
@@ -17563,11 +17563,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17578,7 +17578,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=651
@@ -17590,11 +17590,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17605,7 +17605,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=652
@@ -17617,11 +17617,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17632,7 +17632,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=653
@@ -17644,11 +17644,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17659,7 +17659,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=654
@@ -17671,11 +17671,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17686,7 +17686,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=655
@@ -17698,11 +17698,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17713,7 +17713,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=656
@@ -17725,11 +17725,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17740,7 +17740,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=657
@@ -17752,11 +17752,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17767,7 +17767,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=658
@@ -17779,11 +17779,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17794,7 +17794,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=659
@@ -17806,11 +17806,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17821,7 +17821,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=660
@@ -17833,11 +17833,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17848,7 +17848,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=661
@@ -17860,11 +17860,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17875,7 +17875,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=662
@@ -17887,11 +17887,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17902,7 +17902,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=663
@@ -17914,11 +17914,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17929,7 +17929,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=664
@@ -17941,11 +17941,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17956,7 +17956,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=665
@@ -17968,11 +17968,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -17983,7 +17983,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=666
@@ -17995,11 +17995,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18010,7 +18010,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=667
@@ -18022,11 +18022,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18037,7 +18037,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=668
@@ -18049,11 +18049,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18064,7 +18064,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=669
@@ -18076,11 +18076,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18091,7 +18091,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=670
@@ -18103,11 +18103,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18118,7 +18118,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=671
@@ -18130,11 +18130,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18145,7 +18145,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=672
@@ -18157,11 +18157,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18172,7 +18172,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=673
@@ -18184,11 +18184,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18199,7 +18199,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=674
@@ -18211,11 +18211,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18226,7 +18226,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=675
@@ -18238,11 +18238,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18253,7 +18253,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=676
@@ -18265,11 +18265,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18280,7 +18280,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=677
@@ -18292,11 +18292,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18307,7 +18307,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=678
@@ -18319,11 +18319,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18334,7 +18334,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=679
@@ -18346,11 +18346,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18361,7 +18361,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=680
@@ -18373,11 +18373,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18388,7 +18388,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=681
@@ -18400,11 +18400,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18415,7 +18415,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=682
@@ -18427,11 +18427,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18442,7 +18442,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=683
@@ -18454,11 +18454,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18469,7 +18469,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=684
@@ -18481,11 +18481,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18496,7 +18496,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=685
@@ -18508,11 +18508,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18523,7 +18523,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=686
@@ -18535,11 +18535,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18550,7 +18550,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=687
@@ -18562,11 +18562,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18577,7 +18577,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=688
@@ -18589,11 +18589,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18604,7 +18604,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=689
@@ -18616,11 +18616,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18631,7 +18631,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=690
@@ -18643,11 +18643,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18658,7 +18658,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=691
@@ -18670,11 +18670,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18685,7 +18685,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=692
@@ -18697,11 +18697,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18712,7 +18712,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=693
@@ -18724,11 +18724,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18739,7 +18739,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=694
@@ -18751,11 +18751,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18766,7 +18766,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=695
@@ -18778,11 +18778,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18793,7 +18793,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=696
@@ -18805,11 +18805,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18820,7 +18820,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=697
@@ -18832,11 +18832,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18847,7 +18847,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=698
@@ -18859,11 +18859,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18874,7 +18874,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=699
@@ -18886,11 +18886,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18901,7 +18901,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=700
@@ -18913,11 +18913,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18928,7 +18928,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=701
@@ -18940,11 +18940,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18955,7 +18955,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=702
@@ -18967,11 +18967,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -18982,7 +18982,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=703
@@ -18994,11 +18994,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -19009,7 +19009,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=704
@@ -19021,11 +19021,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -19036,7 +19036,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=705
@@ -19048,11 +19048,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -19063,7 +19063,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=706
@@ -19075,11 +19075,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -19090,7 +19090,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=707
@@ -19102,11 +19102,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -19117,7 +19117,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=708
@@ -19129,11 +19129,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -19144,7 +19144,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=709
@@ -19156,11 +19156,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -19171,7 +19171,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=710
@@ -19183,11 +19183,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -19198,7 +19198,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=711
@@ -19210,11 +19210,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -19225,7 +19225,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=712
@@ -19237,11 +19237,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -19252,7 +19252,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=713
@@ -19264,11 +19264,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -19279,7 +19279,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=714
@@ -19291,11 +19291,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -19306,7 +19306,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=715
@@ -19318,11 +19318,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -19333,7 +19333,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=716
@@ -19345,11 +19345,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -19360,7 +19360,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=717
@@ -19372,11 +19372,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -19387,7 +19387,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=718
@@ -19399,11 +19399,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -19414,7 +19414,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=719
@@ -19426,11 +19426,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -19441,7 +19441,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=720
@@ -19453,11 +19453,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -19468,7 +19468,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=721
@@ -19480,11 +19480,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -19495,7 +19495,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=722
@@ -19507,11 +19507,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -19522,7 +19522,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=723
@@ -19534,11 +19534,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -19549,7 +19549,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=724
@@ -19561,11 +19561,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_DATE"                 // C typename
@@ -19576,7 +19576,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=725
@@ -19588,11 +19588,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -19603,7 +19603,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=726
@@ -19615,11 +19615,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -19630,7 +19630,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=727
@@ -19642,11 +19642,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -19657,7 +19657,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=728
@@ -19669,11 +19669,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -19684,7 +19684,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=729
@@ -19696,11 +19696,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -19711,7 +19711,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=730
@@ -19723,11 +19723,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -19738,7 +19738,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=731
@@ -19750,11 +19750,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -19765,7 +19765,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=732
@@ -19777,11 +19777,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -19792,7 +19792,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=733
@@ -19804,11 +19804,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -19819,7 +19819,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=734
@@ -19831,11 +19831,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -19846,7 +19846,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=735
@@ -19858,11 +19858,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -19873,7 +19873,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=736
@@ -19885,11 +19885,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -19900,7 +19900,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=737
@@ -19912,11 +19912,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -19927,7 +19927,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=738
@@ -19939,11 +19939,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -19954,7 +19954,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=739
@@ -19966,11 +19966,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -19981,7 +19981,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=740
@@ -19993,11 +19993,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20008,7 +20008,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=741
@@ -20020,11 +20020,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20035,7 +20035,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=742
@@ -20047,11 +20047,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20062,7 +20062,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=743
@@ -20074,11 +20074,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20089,7 +20089,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=744
@@ -20101,11 +20101,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20116,7 +20116,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=745
@@ -20128,11 +20128,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20143,7 +20143,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=746
@@ -20155,11 +20155,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20170,7 +20170,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=747
@@ -20182,11 +20182,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20197,7 +20197,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=748
@@ -20209,11 +20209,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20224,7 +20224,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=749
@@ -20236,11 +20236,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20251,7 +20251,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=750
@@ -20263,11 +20263,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20278,7 +20278,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=751
@@ -20290,11 +20290,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20305,7 +20305,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=752
@@ -20317,11 +20317,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20332,7 +20332,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=753
@@ -20344,11 +20344,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20359,7 +20359,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=754
@@ -20371,11 +20371,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20386,7 +20386,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=755
@@ -20398,11 +20398,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20413,7 +20413,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=756
@@ -20425,11 +20425,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20440,7 +20440,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=757
@@ -20452,11 +20452,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20467,7 +20467,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=758
@@ -20479,11 +20479,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20494,7 +20494,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=759
@@ -20506,11 +20506,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20521,7 +20521,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=760
@@ -20533,11 +20533,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20548,7 +20548,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=761
@@ -20560,11 +20560,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20575,7 +20575,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=762
@@ -20587,11 +20587,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20602,7 +20602,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=763
@@ -20614,11 +20614,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20629,7 +20629,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=764
@@ -20641,11 +20641,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20656,7 +20656,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=765
@@ -20668,11 +20668,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20683,7 +20683,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=766
@@ -20695,11 +20695,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20710,7 +20710,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=767
@@ -20722,11 +20722,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20737,7 +20737,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=768
@@ -20749,11 +20749,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20764,7 +20764,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=769
@@ -20776,11 +20776,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20791,7 +20791,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=770
@@ -20803,11 +20803,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20818,7 +20818,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=771
@@ -20830,11 +20830,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20845,7 +20845,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=772
@@ -20857,11 +20857,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20872,7 +20872,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=773
@@ -20884,11 +20884,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20899,7 +20899,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=774
@@ -20911,11 +20911,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20926,7 +20926,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=775
@@ -20938,11 +20938,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20953,7 +20953,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=776
@@ -20965,11 +20965,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -20980,7 +20980,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=777
@@ -20992,11 +20992,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21007,7 +21007,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=778
@@ -21019,11 +21019,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21034,7 +21034,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=779
@@ -21046,11 +21046,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21061,7 +21061,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=780
@@ -21073,11 +21073,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21088,7 +21088,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=781
@@ -21100,11 +21100,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21115,7 +21115,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=782
@@ -21127,11 +21127,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21142,7 +21142,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=783
@@ -21154,11 +21154,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21169,7 +21169,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=784
@@ -21181,11 +21181,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21196,7 +21196,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=785
@@ -21208,11 +21208,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21223,7 +21223,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=786
@@ -21235,11 +21235,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21250,7 +21250,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=787
@@ -21262,11 +21262,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21277,7 +21277,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=788
@@ -21289,11 +21289,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21304,7 +21304,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=789
@@ -21316,11 +21316,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21331,7 +21331,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=790
@@ -21343,11 +21343,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21358,7 +21358,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=791
@@ -21370,11 +21370,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21385,7 +21385,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=792
@@ -21397,11 +21397,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21412,7 +21412,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=793
@@ -21424,11 +21424,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21439,7 +21439,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=794
@@ -21451,11 +21451,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21466,7 +21466,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=795
@@ -21478,11 +21478,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21493,7 +21493,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=796
@@ -21505,11 +21505,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21520,7 +21520,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=797
@@ -21532,11 +21532,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21547,7 +21547,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=798
@@ -21559,11 +21559,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21574,7 +21574,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=799
@@ -21586,11 +21586,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21601,7 +21601,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=800
@@ -21613,11 +21613,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21628,7 +21628,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=801
@@ -21640,11 +21640,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21655,7 +21655,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=802
@@ -21667,11 +21667,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21682,7 +21682,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=803
@@ -21694,11 +21694,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21709,7 +21709,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=804
@@ -21721,11 +21721,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21736,7 +21736,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=805
@@ -21748,11 +21748,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21763,7 +21763,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=806
@@ -21775,11 +21775,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21790,7 +21790,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=807
@@ -21802,11 +21802,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21817,7 +21817,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=808
@@ -21829,11 +21829,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21844,7 +21844,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=809
@@ -21856,11 +21856,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21871,7 +21871,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=810
@@ -21883,11 +21883,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21898,7 +21898,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=811
@@ -21910,11 +21910,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21925,7 +21925,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=812
@@ -21937,11 +21937,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21952,7 +21952,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=813
@@ -21964,11 +21964,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -21979,7 +21979,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=814
@@ -21991,11 +21991,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -22006,7 +22006,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=815
@@ -22018,11 +22018,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -22033,7 +22033,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=816
@@ -22045,11 +22045,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -22060,7 +22060,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=817
@@ -22072,11 +22072,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -22087,7 +22087,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=818
@@ -22099,11 +22099,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -22114,7 +22114,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=819
@@ -22126,11 +22126,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -22141,7 +22141,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=820
@@ -22153,11 +22153,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIME"                 // C typename
@@ -22168,7 +22168,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=821
@@ -22180,11 +22180,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -22195,7 +22195,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=822
@@ -22207,11 +22207,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -22222,7 +22222,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=823
@@ -22234,11 +22234,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -22249,7 +22249,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=824
@@ -22261,11 +22261,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -22276,7 +22276,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=825
@@ -22288,11 +22288,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -22303,7 +22303,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=826
@@ -22315,11 +22315,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -22330,7 +22330,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=827
@@ -22342,11 +22342,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -22357,7 +22357,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=828
@@ -22369,11 +22369,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -22384,7 +22384,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=829
@@ -22396,11 +22396,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -22411,7 +22411,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=830
@@ -22423,11 +22423,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -22438,7 +22438,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=831
@@ -22450,11 +22450,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -22465,7 +22465,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=832
@@ -22477,11 +22477,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -22492,7 +22492,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=833
@@ -22504,11 +22504,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -22519,7 +22519,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=834
@@ -22531,11 +22531,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -22546,7 +22546,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=835
@@ -22558,11 +22558,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -22573,7 +22573,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=836
@@ -22585,11 +22585,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -22600,7 +22600,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=837
@@ -22612,11 +22612,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -22627,7 +22627,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=838
@@ -22639,11 +22639,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -22654,7 +22654,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=839
@@ -22666,11 +22666,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -22681,7 +22681,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=840
@@ -22693,11 +22693,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -22708,7 +22708,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=841
@@ -22720,11 +22720,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -22735,7 +22735,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=842
@@ -22747,11 +22747,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -22762,7 +22762,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=843
@@ -22774,11 +22774,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -22789,7 +22789,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=844
@@ -22801,11 +22801,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -22816,7 +22816,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=845
@@ -22828,11 +22828,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -22843,7 +22843,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=846
@@ -22855,11 +22855,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -22870,7 +22870,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=847
@@ -22882,11 +22882,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -22897,7 +22897,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=848
@@ -22909,11 +22909,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -22924,7 +22924,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=849
@@ -22936,11 +22936,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -22951,7 +22951,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=850
@@ -22963,11 +22963,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -22978,7 +22978,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=851
@@ -22990,11 +22990,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23005,7 +23005,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=852
@@ -23017,11 +23017,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23032,7 +23032,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=853
@@ -23044,11 +23044,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23059,7 +23059,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=854
@@ -23071,11 +23071,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23086,7 +23086,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=855
@@ -23098,11 +23098,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23113,7 +23113,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=856
@@ -23125,11 +23125,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23140,7 +23140,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=857
@@ -23152,11 +23152,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23167,7 +23167,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=858
@@ -23179,11 +23179,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23194,7 +23194,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=859
@@ -23206,11 +23206,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23221,7 +23221,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=860
@@ -23233,11 +23233,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23248,7 +23248,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=861
@@ -23260,11 +23260,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23275,7 +23275,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=862
@@ -23287,11 +23287,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23302,7 +23302,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=863
@@ -23314,11 +23314,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23329,7 +23329,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=864
@@ -23341,11 +23341,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23356,7 +23356,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=865
@@ -23368,11 +23368,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23383,7 +23383,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=866
@@ -23395,11 +23395,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23410,7 +23410,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=867
@@ -23422,11 +23422,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23437,7 +23437,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=868
@@ -23449,11 +23449,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 4                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 11                 //int m_SQLOctetLength;                       
+        , 10                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23464,7 +23464,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=869
@@ -23476,11 +23476,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23491,7 +23491,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=870
@@ -23503,11 +23503,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23518,7 +23518,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=871
@@ -23530,11 +23530,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23545,7 +23545,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=872
@@ -23557,11 +23557,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23572,7 +23572,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=873
@@ -23584,11 +23584,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23599,7 +23599,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=874
@@ -23611,11 +23611,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23626,7 +23626,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=875
@@ -23638,11 +23638,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23653,7 +23653,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=876
@@ -23665,11 +23665,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23680,7 +23680,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=877
@@ -23692,11 +23692,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23707,7 +23707,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=878
@@ -23719,11 +23719,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23734,7 +23734,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=879
@@ -23746,11 +23746,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23761,7 +23761,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=880
@@ -23773,11 +23773,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23788,7 +23788,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=881
@@ -23800,11 +23800,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23815,7 +23815,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=882
@@ -23827,11 +23827,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23842,7 +23842,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=883
@@ -23854,11 +23854,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23869,7 +23869,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=884
@@ -23881,11 +23881,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23896,7 +23896,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=885
@@ -23908,11 +23908,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23923,7 +23923,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=886
@@ -23935,11 +23935,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23950,7 +23950,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=887
@@ -23962,11 +23962,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -23977,7 +23977,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=888
@@ -23989,11 +23989,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24004,7 +24004,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=889
@@ -24016,11 +24016,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24031,7 +24031,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=890
@@ -24043,11 +24043,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24058,7 +24058,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=891
@@ -24070,11 +24070,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24085,7 +24085,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=892
@@ -24097,11 +24097,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24112,7 +24112,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=893
@@ -24124,11 +24124,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24139,7 +24139,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=894
@@ -24151,11 +24151,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24166,7 +24166,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=895
@@ -24178,11 +24178,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24193,7 +24193,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=896
@@ -24205,11 +24205,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24220,7 +24220,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=897
@@ -24232,11 +24232,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24247,7 +24247,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=898
@@ -24259,11 +24259,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24274,7 +24274,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=899
@@ -24286,11 +24286,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24301,7 +24301,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=900
@@ -24313,11 +24313,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24328,7 +24328,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=901
@@ -24340,11 +24340,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24355,7 +24355,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=902
@@ -24367,11 +24367,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24382,7 +24382,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=903
@@ -24394,11 +24394,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24409,7 +24409,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=904
@@ -24421,11 +24421,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24436,7 +24436,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=905
@@ -24448,11 +24448,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24463,7 +24463,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=906
@@ -24475,11 +24475,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24490,7 +24490,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=907
@@ -24502,11 +24502,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24517,7 +24517,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=908
@@ -24529,11 +24529,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24544,7 +24544,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=909
@@ -24556,11 +24556,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24571,7 +24571,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=910
@@ -24583,11 +24583,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24598,7 +24598,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=911
@@ -24610,11 +24610,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24625,7 +24625,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=912
@@ -24637,11 +24637,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24652,7 +24652,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=913
@@ -24664,11 +24664,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24679,7 +24679,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=914
@@ -24691,11 +24691,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24706,7 +24706,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=915
@@ -24718,11 +24718,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24733,7 +24733,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=916
@@ -24745,11 +24745,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 7                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 9                 //int m_SQLOctetLength;                       
+        , 8                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24760,7 +24760,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=917
@@ -24772,11 +24772,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24787,7 +24787,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=918
@@ -24799,11 +24799,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24814,7 +24814,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=919
@@ -24826,11 +24826,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24841,7 +24841,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=920
@@ -24853,11 +24853,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24868,7 +24868,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=921
@@ -24880,11 +24880,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24895,7 +24895,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=922
@@ -24907,11 +24907,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24922,7 +24922,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=923
@@ -24934,11 +24934,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24949,7 +24949,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=924
@@ -24961,11 +24961,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -24976,7 +24976,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=925
@@ -24988,11 +24988,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25003,7 +25003,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=926
@@ -25015,11 +25015,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25030,7 +25030,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=927
@@ -25042,11 +25042,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25057,7 +25057,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=928
@@ -25069,11 +25069,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25084,7 +25084,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=929
@@ -25096,11 +25096,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25111,7 +25111,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=930
@@ -25123,11 +25123,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25138,7 +25138,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=931
@@ -25150,11 +25150,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25165,7 +25165,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=932
@@ -25177,11 +25177,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25192,7 +25192,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=933
@@ -25204,11 +25204,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25219,7 +25219,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=934
@@ -25231,11 +25231,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25246,7 +25246,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=935
@@ -25258,11 +25258,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25273,7 +25273,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=936
@@ -25285,11 +25285,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25300,7 +25300,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=937
@@ -25312,11 +25312,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25327,7 +25327,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=938
@@ -25339,11 +25339,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25354,7 +25354,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=939
@@ -25366,11 +25366,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25381,7 +25381,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=940
@@ -25393,11 +25393,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25408,7 +25408,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=941
@@ -25420,11 +25420,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25435,7 +25435,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=942
@@ -25447,11 +25447,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25462,7 +25462,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=943
@@ -25474,11 +25474,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25489,7 +25489,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=944
@@ -25501,11 +25501,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25516,7 +25516,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=945
@@ -25528,11 +25528,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25543,7 +25543,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=946
@@ -25555,11 +25555,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25570,7 +25570,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=947
@@ -25582,11 +25582,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25597,7 +25597,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=948
@@ -25609,11 +25609,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25624,7 +25624,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=949
@@ -25636,11 +25636,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25651,7 +25651,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=950
@@ -25663,11 +25663,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25678,7 +25678,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=951
@@ -25690,11 +25690,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25705,7 +25705,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=952
@@ -25717,11 +25717,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25732,7 +25732,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=953
@@ -25744,11 +25744,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25759,7 +25759,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=954
@@ -25771,11 +25771,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25786,7 +25786,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=955
@@ -25798,11 +25798,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25813,7 +25813,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=956
@@ -25825,11 +25825,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25840,7 +25840,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=957
@@ -25852,11 +25852,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25867,7 +25867,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=958
@@ -25879,11 +25879,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25894,7 +25894,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=959
@@ -25906,11 +25906,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25921,7 +25921,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=960
@@ -25933,11 +25933,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25948,7 +25948,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     {
                              //count=961
@@ -25960,11 +25960,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -25975,7 +25975,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,0
         ,0
         ,0
-        ,"1"
+        ,"123456000"
     },
     {
                              //count=962
@@ -25987,11 +25987,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -26002,7 +26002,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,12
         ,30
         ,30
-        ,"2"
+        ,"234567000"
     },
     {
                              //count=963
@@ -26014,11 +26014,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -26029,7 +26029,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,18
         ,45
         ,45
-        ,"3"
+        ,"345678000"
     },
     {
                              //count=964
@@ -26041,11 +26041,11 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         , 0                  //int m_SQLDataType;                                  
         , 11                 //int m_SQLMaxLength;                                  
         , 0                 //int m_DescUnsigned;                                  
-        , 0                 //int Precision;                                  
+        , 6                 //int Precision;                                  
         , 0                 //int Scale;                                  
         , 0                 //int m_SQLCharset;                                  
         , 0                 //int m_SQLDatetimeCode;                       
-        , 19                 //int m_SQLOctetLength;                       
+        , 26                 //int m_SQLOctetLength;                       
         , '0'               //char numeric_sign;  /* 1=+ 0=- */        
         , "0"                 //char numeric_value[SQL_MAX_NUMERIC_LEN];
         , "SQL_C_TIMESTAMP"                 // C typename
@@ -26056,7 +26056,7 @@ TESTDATA_TABLE TESTDATA_MAP[] = {
         ,23
         ,59
         ,59
-        ,"4"
+        ,"999999000"
     },
     
 };
