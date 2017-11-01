@@ -124,7 +124,6 @@ class defType:
         SQL_C_UTINYINT		:	'SQL_C_UTINYINT'  ,
         SQL_C_SBIGINT       :   'SQL_C_SBIGINT'   ,
         SQL_C_UBIGINT       :   'SQL_C_UBIGINT'   ,
-
     }
 
     sql_c_type_isUnsigned = {
@@ -274,11 +273,11 @@ class defType:
         'SQL_DATE'   :4,
         'SQL_TIME'   :7,
         'SQL_TIMESTAMP' :11,
-        'OCT_DATE'      :11,
-        'OCT_TIME'      :9,
-        'OCT_TIMESTAMP' :19,
+        'OCT_DATE'      :10,
+        'OCT_TIME'      :8,
+        'OCT_TIMESTAMP' :26,
     }
     sql_time_hour =   ['0', '12', '18','23']
     sql_time_min =    ['0', '30', '45','59']
     sql_time_second = ['0', '30', '45','59']
-    sql_time_fac =    ['1', '2' , '3' ,'4' ]
+    sql_time_fac =    ['123456000', '234567000' , '345678000' ,'999999000' ]
