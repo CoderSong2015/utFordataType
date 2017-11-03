@@ -37,7 +37,8 @@ class defType:
         SQL_REAL		    :	'SQL_REAL'              ,
         SQL_DOUBLE		    :	'SQL_DOUBLE'            ,
         #SQL_DATETIME		:	'SQL_DATETIME'          ,
-        #SQL_VARCHAR			:	'SQL_VARCHAR'
+        #SQL_VARCHAR			:	'SQL_VARCHAR'           ,
+        #SQL_LONGVARCHAR     :'SQL_LONGVARCHAR'
     }
     sql_isunsigned = {
         SQL_BIGINT	        : 0,
@@ -53,7 +54,7 @@ class defType:
         SQL_REAL		    : 0,
         SQL_DOUBLE		    : 0,
         # SQL_DATETIME		:	'SQL_DATETIME'          ,
-        # SQL_VARCHAR			:	'SQL_VARCHAR'
+        #SQL_VARCHAR			:	'SQL_VARCHAR'
     }
     sql_type_max_min = {
         SQL_BIGINT			:   [-2**63, 0, 2**63 -1],
@@ -184,7 +185,7 @@ class defType:
         #SQL_BIT			 :	1              ,
         SQL_UNKNOWN_TYPE :	0              ,
         # SQL_CHAR		    :	'SQL_CHAR'              ,
-        # SQL_NUMERIC		    :	'SQL_NUMERIC'           ,
+        #SQL_NUMERIC		    :	'SQL_NUMERIC'           ,
         # SQL_DECIMAL		    :	'SQL_DECIMAL'           ,
         SQL_INTEGER		    : 4           ,
         SQL_SMALLINT	    : 2           ,
@@ -200,7 +201,7 @@ class defType:
         #SQL_BIT			 :	'SQLTYPECODE_BPINT_UNSIGNED'              ,
         SQL_UNKNOWN_TYPE :	'0'              ,
         # SQL_CHAR		    :	'SQL_CHAR'              ,
-        # SQL_NUMERIC		    :	'SQL_NUMERIC'           ,
+        #SQL_NUMERIC		    :	'SQL_NUMERIC'           ,
         # SQL_DECIMAL		    :	'SQL_DECIMAL'           ,
         SQL_INTEGER		    : 'SQLTYPECODE_INTEGER'           ,
         SQL_SMALLINT	    : 'SQLTYPECODE_SMALLINT'           ,
@@ -275,9 +276,25 @@ class defType:
         'SQL_TIMESTAMP' :11,
         'OCT_DATE'      :10,
         'OCT_TIME'      :8,
-        'OCT_TIMESTAMP' :26,
+        'OCT_TIMESTAMP' :2
     }
-    sql_time_hour =   ['0', '12', '18','23']
-    sql_time_min =    ['0', '30', '45','59']
-    sql_time_second = ['0', '30', '45','59']
+    sql_time_hour =   [0, 12, 18, 23]
+    sql_time_min =    [0,  30, 45,59]
+    sql_time_second = [0,  30, 45,59]
     sql_time_fac =    ['123456000', '234567000' , '345678000' ,'999999000' ]
+
+    sql_SQL_CHAR = [
+        200 ,#precision
+        201 ,#octlen
+    ]
+
+    sql_SQL_VARCHAR = [
+        [
+            200, #presion
+            203, #octlen
+        ],
+        [
+            40000,#presion
+            40003,#octlen
+        ]
+    ]

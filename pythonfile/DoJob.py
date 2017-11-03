@@ -1,8 +1,8 @@
 from preDefine import defType
 from createTestData import functionList,functionListForUnsign
 from createTestData import return0
-from printTofile import printToFile,printNumeric,printNumericTest
-from printTofile import printTimeStamp
+from printTofile import printToFile
+
 def doSignedJob(count, countStr):
     for sql_k, sql_v in defType.sql_type_max_min.items():
         for c_k, c_v in defType.sql_c_max_min.items():
@@ -10,7 +10,16 @@ def doSignedJob(count, countStr):
                 countStr = countStr + str(count) + ','
                 count += 1
                 outputData = functionList.get(i, return0)(sql_v[i], c_v[i])
-                printToFile(c_k, sql_k, outputData, count, 0)
+                printToFile(CDataType= defType.sql_c_type[c_k],
+                            CDataLen= defType.sql_c_Len[c_k] ,
+                            ODBCDataType= defType.sql_type[sql_k],
+                            SQLDataType= defType.sql_type_Datatype[sql_k],
+                            SQLMaxLength= defType.sql_type_len[sql_k],
+                            sqlValue = outputData,
+                            cValue = outputData,
+                            count = count,
+                            SQLOctetLength =  defType.sql_type_len[sql_k],
+                            DescUnsigned = 0)
     #countStr = countStr + '||'
     return count, countStr
 
@@ -21,10 +30,19 @@ def doUnsignedJob(count, countStr):
                 countStr = countStr + str(count) + ','
                 count += 1
                 outputData = functionListForUnsign.get(i, return0)(sql_v[i], c_v[i + 1])
-                printToFile(c_k, sql_k, outputData, count, 1)
+                printToFile(CDataType= defType.sql_c_type[c_k],
+                            CDataLen= defType.sql_c_Len[c_k] ,
+                            ODBCDataType= defType.sql_type[sql_k],
+                            SQLDataType= defType.sql_type_Datatype[sql_k],
+                            SQLMaxLength= defType.sql_type_len[sql_k],
+                            sqlValue = outputData,
+                            cValue = outputData,
+                            count = count,
+                            SQLOctetLength =  defType.sql_type_len[sql_k],
+                            DescUnsigned = 1)
     return count, countStr
 
-
+'''
 def doNumericJobTest(count, countStr):
     num = 0
     for i in range(18):
@@ -37,7 +55,7 @@ def doNumericJobTest(count, countStr):
 
     #countStr = countStr + '||'
     return count, countStr
-
+'''
 def doNumericJob(count, countStr):
     num = 0
 
@@ -47,15 +65,31 @@ def doNumericJob(count, countStr):
         for c_k, c_v in defType.sql_c_max_min.items():
             if (defType.sql_c_type_isUnsigned[c_k] == 1) or (precision > defType.sql_c_max_numlen[c_k]):
                 continue
-            if  num > defType.sql_c_max_min[c_k][2]:
-                countStr = countStr + str(count) + ','
-                count = count + 1
 
-                printNumeric(precision, 0, 0, defType.sql_c_max_min[c_k][2], count, c_k, defType.sql_c_max_min[c_k][2])
+            outNum = 0
+            if  num > defType.sql_c_max_min[c_k][2]:
+                outNum = defType.sql_c_max_min[c_k][2]
             else:
-                countStr = countStr + str(count) + ','
-                count = count + 1
-                printNumeric(precision, 0, 0, num, count, c_k, num)
+                outNum = num
+
+            countStr = countStr + str(count) + ','
+            count = count + 1
+
+            printToFile(
+                CDataType = defType.sql_c_type[c_k],
+                CDataLen = defType.sql_c_Len[c_k],
+                ODBCDataType = 'SQL_NUMERIC',
+                SQLDataType = 'SQL_NUMERIC',
+                SQLMaxLength = 0,
+                sqlValue=outNum,
+                cValue=outNum,
+                numeric_value=outNum,
+                count=count,
+                SQLOctetLength = 0 ,
+                DescUnsigned=0,
+                Precision = precision,
+                Scale = 0
+            )
     #countStr = countStr + '||'
     return count, countStr
 
@@ -68,14 +102,29 @@ def doNumericJobMinus(count, countStr):
         for c_k, c_v in defType.sql_c_max_min.items():
             if (defType.sql_c_type_isUnsigned[c_k] == 1) or (precision > defType.sql_c_max_numlen[c_k]):
                 continue
+
+            outNum = 0
             if num > defType.sql_c_max_min[c_k][2]:
-                countStr = countStr + str(count) + ','
-                count = count + 1
-                printNumeric(precision, 0, 0, -(defType.sql_c_max_min[c_k][2] + 1), count, c_k, -(defType.sql_c_max_min[c_k][2] + 1))
+                outNum = -(defType.sql_c_max_min[c_k][2] + 1)
             else:
-                countStr = countStr + str(count) + ','
-                count = count + 1
-                printNumeric(precision, 0, 0, -num, count, c_k, -num)
+                outNum = -num
+            countStr = countStr + str(count) + ','
+            count = count + 1
+            printToFile(
+                CDataType=defType.sql_c_type[c_k],
+                CDataLen=defType.sql_c_Len[c_k],
+                ODBCDataType='SQL_NUMERIC',
+                SQLDataType='SQL_NUMERIC',
+                SQLMaxLength=0,
+                sqlValue=outNum,
+                cValue=outNum,
+                numeric_value=outNum,
+                count=count,
+                SQLOctetLength=0,
+                DescUnsigned=0,
+                Precision=precision,
+                Scale=0
+            )
     #countStr = countStr + '||'
     return count, countStr
 
@@ -88,14 +137,30 @@ def doNumericJobUnsigned(count, countStr):
         for c_k, c_v in defType.sql_c_max_min.items():
             if (defType.sql_c_type_isUnsigned[c_k] == 0) or (precision > defType.sql_c_max_numlen[c_k]):
                 continue
+            outNum = 0
             if num > defType.sql_c_max_min[c_k][2]:
-                countStr = countStr + str(count) + ','
-                count = count + 1
-                printNumeric(precision, 0, 0, defType.sql_c_max_min[c_k][2], count, c_k, defType.sql_c_max_min[c_k][2])
+                outNum = defType.sql_c_max_min[c_k][2]
             else:
-                countStr = countStr + str(count) + ','
-                count = count + 1
-                printNumeric(precision, 0, 1, num, count, c_k, num)
+                outNum = num
+
+            countStr = countStr + str(count) + ','
+            count = count + 1
+
+            printToFile(
+                CDataType=defType.sql_c_type[c_k],
+                CDataLen=defType.sql_c_Len[c_k],
+                ODBCDataType='SQL_NUMERIC',
+                SQLDataType='SQL_NUMERIC',
+                SQLMaxLength=0,
+                sqlValue=outNum,
+                cValue=outNum,
+                count=count,
+                SQLOctetLength=0,
+                DescUnsigned=1,
+                Precision=precision,
+                numeric_value=outNum,
+                Scale=0
+            )
     #countStr = countStr + '||'
     return count, countStr
 
@@ -119,10 +184,89 @@ def doNumericJobScale(count, countStr):
                 continue
             countStr = countStr + str(count) + ','
             count = count + 1
-            printNumeric(nowPre, scale + 1, 0, data2 , count, defType.SQL_C_DOUBLE, num)
+            printToFile(Precision = nowPre,
+                        Scale= scale + 1,
+                        DescUnsigned = 0,
+                        cValue = data2 ,
+                        count = count,
+                        CDataType= 'SQL_C_DOUBLE',
+                        CDataLen= 8,
+                        ODBCDataType='SQL_NUMERIC',
+                        sqlValue= num,
+                        numeric_value= num,
+                        numeric_sign = 0)
     #countStr = countStr + '||'
     return count, countStr
 
+def doCNumericScale(count, countStr):
+    num = 0
+    for i in range(18):
+        num = num * 10 + 9
+        precision = i + 1
+
+        for scale in range(precision):
+            numZore = 10 ** (scale + 1)
+            data = divmod(num, numZore)
+            data2 = data[0] + data[1] / numZore
+
+            nowPre = precision
+            if data2 < 1:
+                nowPre = nowPre + 1
+
+            if nowPre > 15:
+                continue
+            countStr = countStr + str(count) + ','
+            count = count + 1
+            printToFile(Precision=nowPre,
+                        Scale=scale + 1,
+                        DescUnsigned=0,
+                        cValue= num ,
+                        count=count,
+                        CDataType='SQL_C_NUMERIC',
+                        CDataLen=8,
+                        ODBCDataType='SQL_DOUBLE',
+                        numeric_value=num,
+                        sqlValue=data2,
+                        numeric_sign=0)
+    # countStr = countStr + '||'
+    return count, countStr
+
+def doCNumericJob(count, countStr):
+    num = 0
+
+    for i in range(18):
+        num = num * 10 + 9
+        precision = i + 1
+        for sql_k, sql_v in defType.sql_type_max_min.items():
+            if  (precision > defType.sql_type_len[sql_k]):
+                continue
+
+            outNum = 0
+            if  num > defType.sql_type_max_min[sql_k][2]:
+                outNum = defType.sql_type_max_min[sql_k][2]
+            else:
+                outNum = num
+
+            countStr = countStr + str(count) + ','
+            count = count + 1
+
+            printToFile(
+                CDataType = 'SQL_C_NUMERIC',
+                CDataLen =  0,
+                ODBCDataType = defType.sql_type[sql_k],
+                SQLMaxLength = defType.sql_type_len[sql_k],
+                sqlValue=outNum,
+                cValue=outNum,
+                count=count,
+                SQLOctetLength = 0 ,
+                numeric_value=outNum,
+                DescUnsigned=0,
+                Precision = precision,
+
+                Scale = 0
+            )
+    #countStr = countStr + '||'
+    return count, countStr
 def doTimeStamp(count, countStr):
     for k,v in defType.sql_timestamp_exchange.items():
         Ctype = v.split(':')[0]
@@ -138,17 +282,28 @@ def doTimeStamp(count, countStr):
                 FRAC = defType.sql_time_fac[timeIndex]
                 if (Ctype == 'SQL_C_DATE' or Ctype == 'SQL_C_TIME'):
                     FRAC = "0"
-                printTimeStamp(Ctype,
-                               SQLtype,
-                               year,
-                               mon,
-                               defType.sql_monthDay[mon],
-                               defType.sql_time_hour[timeIndex],
-                               defType.sql_time_min[timeIndex],
-                               defType.sql_time_second[timeIndex],
-                               FRAC,
-                               defType.sql_time_len[Ctype],
-                               defType.sql_time_len[SQLtype],
-                               defType.sql_time_len[OCTtype],
-                               count)
+                printToFile(   CDataType= Ctype,
+                               SQLDataType=SQLtype,
+                               ODBCDataType=SQLtype,
+                               year=year,
+                               mon=mon,
+                               day=defType.sql_monthDay[mon],
+                               hour=defType.sql_time_hour[timeIndex],
+                               min=defType.sql_time_min[timeIndex],
+                               second=defType.sql_time_second[timeIndex],
+                               frac= FRAC,
+                               CDataLen=defType.sql_time_len[Ctype],
+                               SQLMaxLength=defType.sql_time_len[SQLtype],
+                               SQLOctetLength=defType.sql_time_len[OCTtype],
+                               count=count
+                )
     return count,countStr
+
+
+
+
+def doChar(count, countStr):
+    for c_k, c_v in defType.sql_c_max_min.items():
+
+        pass
+    return count, countStr
