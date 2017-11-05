@@ -190,8 +190,9 @@ def doNumericJobScale(count, countStr):
                         cValue = data2 ,
                         count = count,
                         CDataType= 'SQL_C_DOUBLE',
-                        CDataLen= 8,
+                        CDataLen= 19,
                         ODBCDataType='SQL_NUMERIC',
+                        SQLOctetLength = 0,
                         sqlValue= num,
                         numeric_value= num,
                         numeric_sign = 0)
@@ -223,8 +224,9 @@ def doCNumericScale(count, countStr):
                         cValue= num ,
                         count=count,
                         CDataType='SQL_C_NUMERIC',
-                        CDataLen=8,
+                        CDataLen=19,
                         ODBCDataType='SQL_DOUBLE',
+                        SQLOctetLength=0,
                         numeric_value=num,
                         sqlValue=data2,
                         numeric_sign=0)
@@ -252,7 +254,7 @@ def doCNumericJob(count, countStr):
 
             printToFile(
                 CDataType = 'SQL_C_NUMERIC',
-                CDataLen =  0,
+                CDataLen =  19,
                 ODBCDataType = defType.sql_type[sql_k],
                 SQLMaxLength = defType.sql_type_len[sql_k],
                 sqlValue=outNum,
@@ -304,6 +306,66 @@ def doTimeStamp(count, countStr):
 
 def doChar(count, countStr):
     for c_k, c_v in defType.sql_c_max_min.items():
+        for i in range(3):
+           countStr = countStr + str(count) + ','
+           count += 1
 
+           outputData = defType.sql_c_max_min[c_k][i]
+           printToFile(CDataType=defType.sql_c_type[c_k],
+               CDataLen=defType.sql_c_Len[c_k],
+               ODBCDataType= 'SQL_CHAR',
+               SQLDataType=  'SQL_CHAR',
+               SQLMaxLength= 200,
+               sqlValue=outputData,
+               cValue=outputData,
+               count=count,
+               Precision=200,
+               SQLOctetLength= 201,
+               DescUnsigned=0)
+        pass
+    return count, countStr
+
+
+
+def doCChar(count, countStr):
+    for sql_k, sql_v in defType.sql_type_max_min.items():
+        for i in range(3):
+           countStr = countStr + str(count) + ','
+           count += 1
+
+           outputData = defType.sql_type_max_min[sql_k][0]
+           printToFile(CDataType='SQL_C_CHAR',
+               CDataLen=200,
+               ODBCDataType= defType.sql_type[sql_k],
+               SQLDataType=  defType.sql_type[sql_k],
+               SQLMaxLength= defType.sql_type_len[sql_k],
+               sqlValue=outputData,
+               cValue=outputData,
+               count=count,
+               Precision=200,
+               SQLOctetLength= 201,
+               DescUnsigned=0)
+        pass
+    return count, countStr
+
+
+def doCCharUnsigned(count, countStr):
+    for sql_k, sql_v in defType.sql_type_max_min_unsigned.items():
+        for i in range(3):
+           countStr = countStr + str(count) + ','
+           count += 1
+
+           outputData = defType.sql_type_max_min_unsigned[sql_k][0]
+           printToFile(CDataType='SQL_C_CHAR',
+               CDataLen=200,
+               ODBCDataType= defType.sql_type[sql_k],
+               SQLDataType=  defType.sql_type[sql_k],
+               SQLMaxLength= defType.sql_type_len[sql_k],
+               sqlValue=outputData,
+               cValue=outputData,
+               count=count,
+               Precision=200,
+               SQLOctetLength= 201,
+               DescUnsigned=1)
         pass
     return count, countStr
