@@ -42,6 +42,12 @@ def doJob():
     result = DoJob.doCNumericJob(result[0], result[1])
     result = DoJob.doTimeStamp(result[0], result[1])
     result = DoJob.doChar(result[0], result[1])
+    result = DoJob.doCChar(result[0], result[1])
+    result = DoJob.doCCharUnsigned(result[0], result[1])
+    result = DoJob.doWChar(result[0], result[1])
+    result = DoJob.doWCChar(result[0], result[1])
+    result = DoJob.doWCCharUnsigned(result[0], result[1])
+    result = DoJob.doNumericChar(result[0], result[1])
     return result[1]
 
 
