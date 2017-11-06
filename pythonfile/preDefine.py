@@ -276,7 +276,7 @@ class defType:
         'SQL_TIMESTAMP' :11,
         'OCT_DATE'      :10,
         'OCT_TIME'      :8,
-        'OCT_TIMESTAMP' :2
+        'OCT_TIMESTAMP' :26
     }
     sql_time_hour =   [0, 12, 18, 23]
     sql_time_min =    [0,  30, 45,59]
