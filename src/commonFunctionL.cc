@@ -217,22 +217,18 @@ void callSubCtosql(int n, CDescRec* tmpDesc){
                               break;
                           }
         case SQL_C_WCHAR:
-#if 0
                           {
-                             ICUConverter::m_AppUnicodeType = 1;
-                              wchar_t testSrc[256] = L"22";
-                              //wchar_t testScr[256] = LCHAR(TESTDATA_MAPL[n].cValue);
-                              //int len = swprintf(testSrc,256,L"%s",TESTDATA_MAPL[n].cValue);
-
-                              //int len = swprintf(testSrc,256,L"%S","22");
+                              int translateLength = 0;
+                              char tmp[60] = "";
+                              ICUConverter::m_AppUnicodeType = 1;
+                              int  rc = iconv->LocaleToWChar((char*)TESTDATA_MAPL[n].cValue, 30, (UChar *)tmp, 60, &translateLength, (char *)error);
                               SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength);
                               memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength);
                               SQLLEN size;
-                              ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, SQL_NTS, testP, tmpDesc, false, iconv,error);
+                              ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, (void *)tmp, SQL_NTS, testP, tmpDesc, false, iconv,error);
                               commonSwitchctosql(TESTDATA_MAPL[n].m_ODBCDataType, testP, n);    
                               break;
                           }
-#endif
         case SQL_C_CHAR:
                           {
                               SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength);
