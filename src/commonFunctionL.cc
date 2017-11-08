@@ -1,65 +1,95 @@
 #include "commonFunctionL.h"
 #include "testDataL.h"
 #include "init.h"
+#define LCHAR (c)  L##"##c##""
 using namespace ODBC;
 #include "ctosqlconv.h"
 
 
-void callSubCtosql(int n, CDescRec* tmpDesc){
+void tconvert(unsigned long long aa,SQL_NUMERIC_STRUCT * ptr)
+{
+    int i = 0;
+    unsigned long long last = aa;
+    unsigned long long n = 1;
+    int                m = 0;
+    for(i=0;i<15;i++) 
+    {
+        if(aa > 0)
+        {
 
+            m  = last % 256;
+            ptr->val[i] = m;
+            last = last/256;
+
+        }
+    }
+
+}
+void callSubCtosql(int n, CDescRec* tmpDesc){
+    unsigned char error[256]={
+        0
+    };
     string s = TESTDATA_MAPL[n].cValue;
+    string t = TESTDATA_MAPL[n].sqlValue;
     ICUConverter* iconv = new ICUConverter;
     char* tmpbuf = NULL;
-    switch (TESTDATA_MAPL[n].Precision)
+    if(TESTDATA_MAPL[n].m_ODBCDataType == SQL_NUMERIC)
     {
-        case 1:
-        case 2:
-        case 3:
-        case 4:
-            if(TESTDATA_MAPL[n].m_DescUnsigned)
-                TESTDATA_MAPL[n].m_SQLDataType = SQLTYPECODE_SMALLINT_UNSIGNED;
-            else
-                TESTDATA_MAPL[n].m_SQLDataType = SQLTYPECODE_SMALLINT;
-            break;
-        case 5:
-        case 6:
-        case 7:
-        case 8:
-        case 9:
-            if(TESTDATA_MAPL[n].m_DescUnsigned)
-                TESTDATA_MAPL[n].m_SQLDataType = SQLTYPECODE_INTEGER_UNSIGNED;
-            else 
 
-                TESTDATA_MAPL[n].m_SQLDataType = SQLTYPECODE_INTEGER;
-            break;
-        case 10:
-        case 11:
-        case 12:
-        case 13:
-        case 14:
-        case 15:
-        case 16:
-        case 17:
-        case 18:
-            if(TESTDATA_MAPL[n].m_DescUnsigned)
-                TESTDATA_MAPL[n].m_SQLDataType  =SQLTYPECODE_LARGEINT_UNSIGNED;
-            else 
-                TESTDATA_MAPL[n].m_SQLDataType  =SQLTYPECODE_LARGEINT;
-            break;
-        default:
-            if(TESTDATA_MAPL[n].m_DescUnsigned)
-                TESTDATA_MAPL[n].m_SQLDataType  = SQLTYPECODE_NUMERIC_UNSIGNED;
-            else
-                TESTDATA_MAPL[n].m_SQLDataType  = SQLTYPECODE_NUMERIC;
-            break;
+        switch (TESTDATA_MAPL[n].Precision)
+        {
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+                if(TESTDATA_MAPL[n].m_DescUnsigned)
+                    TESTDATA_MAPL[n].m_SQLDataType = SQLTYPECODE_SMALLINT_UNSIGNED;
+                else
+                    TESTDATA_MAPL[n].m_SQLDataType = SQLTYPECODE_SMALLINT;
+                break;
+            case 5:
+            case 6:
+            case 7:
+            case 8:
+            case 9:
+                if(TESTDATA_MAPL[n].m_DescUnsigned)
+                    TESTDATA_MAPL[n].m_SQLDataType = SQLTYPECODE_INTEGER_UNSIGNED;
+                else 
+
+                    TESTDATA_MAPL[n].m_SQLDataType = SQLTYPECODE_INTEGER;
+                break;
+            case 10:
+            case 11:
+            case 12:
+            case 13:
+            case 14:
+            case 15:
+            case 16:
+            case 17:
+            case 18:
+                if(TESTDATA_MAPL[n].m_DescUnsigned)
+                    TESTDATA_MAPL[n].m_SQLDataType  =SQLTYPECODE_LARGEINT_UNSIGNED;
+                else 
+                    TESTDATA_MAPL[n].m_SQLDataType  =SQLTYPECODE_LARGEINT;
+                break;
+            default:
+                if(TESTDATA_MAPL[n].m_DescUnsigned)
+                    TESTDATA_MAPL[n].m_SQLDataType  = SQLTYPECODE_NUMERIC_UNSIGNED;
+                else
+                    TESTDATA_MAPL[n].m_SQLDataType  = SQLTYPECODE_NUMERIC;
+                break;
+
+        }
 
     }
 
     initDesc(tmpDesc, TESTDATA_MAPL[n]); 
 
-    TESTDATA_MAPL[n].m_ODBCDataType  = SQL_WCHAR;//
-    TESTDATA_MAPL[n].m_SQLOctetLength = 402;
+#if 0
+    TESTDATA_MAPL[n].m_ODBCDataType  = SQL_WVARCHAR;//
+    TESTDATA_MAPL[n].m_SQLOctetLength = 404;
     TESTDATA_MAPL[n].Precision = 200;
+#endif 
 
     switch(TESTDATA_MAPL[n].CDataType){
         case SQL_C_DEFAULT:
@@ -70,7 +100,7 @@ void callSubCtosql(int n, CDescRec* tmpDesc){
                                 SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength);
                                 memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength);
                                 SQLLEN size;
-                                ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv);
+                                ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv,error);
                                 commonSwitchctosql(TESTDATA_MAPL[n].m_ODBCDataType, testP, n);    
                                 break;
                             }
@@ -80,7 +110,7 @@ void callSubCtosql(int n, CDescRec* tmpDesc){
                                 SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength);
                                 memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength);
                                 SQLLEN size;
-                                ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv);
+                                ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv,error);
                                 commonSwitchctosql(TESTDATA_MAPL[n].m_ODBCDataType, testP, n);    
                                 break;
 
@@ -92,7 +122,7 @@ void callSubCtosql(int n, CDescRec* tmpDesc){
                               SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength);
                               memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength);
                               SQLLEN size;
-                              ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv);
+                              ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv,error);
                               commonSwitchctosql(TESTDATA_MAPL[n].m_ODBCDataType, testP, n);    
                               break;
                           } 
@@ -101,7 +131,7 @@ void callSubCtosql(int n, CDescRec* tmpDesc){
                               SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength);
                               memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength);
                               SQLLEN size;
-                              ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv);
+                              ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv,error);
                               commonSwitchctosql(TESTDATA_MAPL[n].m_ODBCDataType, testP, n);    
                               break;
 
@@ -112,7 +142,7 @@ void callSubCtosql(int n, CDescRec* tmpDesc){
                             SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength);
                             memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength);
                             SQLLEN size;
-                            ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv);
+                            ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv,error);
                             commonSwitchctosql(TESTDATA_MAPL[n].m_ODBCDataType, testP, n);    
                             break;
 
@@ -122,7 +152,7 @@ void callSubCtosql(int n, CDescRec* tmpDesc){
                              SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength);
                              memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength);
                              SQLLEN size;
-                             ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv);
+                             ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv,error);
                              commonSwitchctosql(TESTDATA_MAPL[n].m_ODBCDataType, testP, n);    
                              break;
                          }
@@ -131,7 +161,7 @@ void callSubCtosql(int n, CDescRec* tmpDesc){
                                SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength);
                                memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength);
                                SQLLEN size;
-                               ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv);
+                               ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv,error);
                                commonSwitchctosql(TESTDATA_MAPL[n].m_ODBCDataType, testP, n);    
                                break;
 
@@ -141,18 +171,17 @@ void callSubCtosql(int n, CDescRec* tmpDesc){
                                SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength);
                                memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength);
                                SQLLEN size;
-                               ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv);
+                               ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv,error);
                                commonSwitchctosql(TESTDATA_MAPL[n].m_ODBCDataType, testP, n);    
                                break;
 
                            }
-#if 0
         case SQL_C_FLOAT:{
                              float testSrc = stringToNum<float>(s); 
                              SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength);
                              memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength);
                              SQLLEN size;
-                             ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv);
+                             ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv,error);
                              commonSwitchctosql(TESTDATA_MAPL[n].m_ODBCDataType, testP, n);    
                              break;
 
@@ -162,21 +191,54 @@ void callSubCtosql(int n, CDescRec* tmpDesc){
                               SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength);
                               memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength);
                               SQLLEN size;
-                              ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv);
+                              ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv,error);
                               commonSwitchctosql(TESTDATA_MAPL[n].m_ODBCDataType, testP, n);    
                               break;
 
 
                           }
-#endif
         case SQL_C_NUMERIC:
+                          {
+
+                              unsigned  long long testLong = stringToNum<unsigned long long >(s); 
+                              SQL_NUMERIC_STRUCT testSrc;
+                              testSrc.precision = TESTDATA_MAPL[n].Precision;
+                              testSrc.scale = TESTDATA_MAPL[n].Scale;
+                              testSrc.sign  = TESTDATA_MAPL[n].m_DescUnsigned ? 0 : 1;
+                              for(int i =0;i<16;i++)
+                                  testSrc.val[i] = 0;
+                              tconvert(testLong,&testSrc);
+                              SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength);
+                              memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength);
+                              SQLLEN size;
+                              ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv,error);
+                              commonSwitchctosql(TESTDATA_MAPL[n].m_ODBCDataType, testP, n);    
+
+                              break;
+                          }
         case SQL_C_WCHAR:
+#if 0
+                          {
+                             ICUConverter::m_AppUnicodeType = 1;
+                              wchar_t testSrc[256] = L"22";
+                              //wchar_t testScr[256] = LCHAR(TESTDATA_MAPL[n].cValue);
+                              //int len = swprintf(testSrc,256,L"%s",TESTDATA_MAPL[n].cValue);
+
+                              //int len = swprintf(testSrc,256,L"%S","22");
+                              SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength);
+                              memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength);
+                              SQLLEN size;
+                              ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, SQL_NTS, testP, tmpDesc, false, iconv,error);
+                              commonSwitchctosql(TESTDATA_MAPL[n].m_ODBCDataType, testP, n);    
+                              break;
+                          }
+#endif
         case SQL_C_CHAR:
                           {
                               SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength);
                               memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength);
                               SQLLEN size;
-                              ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, (void *)TESTDATA_MAPL[n].cValue, strlen(TESTDATA_MAPL[n].cValue), testP, tmpDesc, false, iconv);
+                              ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, (void *)TESTDATA_MAPL[n].cValue, strlen(TESTDATA_MAPL[n].cValue), testP, tmpDesc, false, iconv,error);
                               commonSwitchctosql(TESTDATA_MAPL[n].m_ODBCDataType, testP, n);    
                               break;
 
@@ -193,7 +255,7 @@ void callSubCtosql(int n, CDescRec* tmpDesc){
                               SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength+1);
                               memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength+1);
                               SQLLEN size;
-                              ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv);
+                              ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv,error);
                               commonSwitchctosql(TESTDATA_MAPL[n].m_ODBCDataType, testP, n);    
                               break;
                           }
@@ -207,7 +269,7 @@ void callSubCtosql(int n, CDescRec* tmpDesc){
                               SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength+1);
                               memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength+1);
                               SQLLEN size;
-                              ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv);
+                              ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv,error);
                               commonSwitchctosql(TESTDATA_MAPL[n].m_ODBCDataType, testP, n);    
                               break;
                           }
@@ -227,7 +289,7 @@ void callSubCtosql(int n, CDescRec* tmpDesc){
                               SQLPOINTER testP = malloc(sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength+1);
                               memset(testP, 0,sizeof(char) * TESTDATA_MAPL[n].m_SQLOctetLength+1);
                               SQLLEN size;
-                              ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv);
+                              ConvertCToSQL(3,TESTDATA_MAPL[n].CDataType, &testSrc, sizeof(testSrc), testP, tmpDesc, false, iconv,error);
                               commonSwitchctosql(TESTDATA_MAPL[n].m_ODBCDataType, testP, n);    
                               break;
 
@@ -360,7 +422,11 @@ void commonSwitchctosql(int m_ODBCDataType, SQLPOINTER testP, int n){
                         break;//TODO
         case SQL_DOUBLE:{
                             double mtarget = *(double *)testP;
-                            double sqldata = stringToNum<double>(TESTDATA_MAPL[n].sqlValue);
+                            double sqldata = 0;
+                            if(TESTDATA_MAPL[n].CDataType == SQL_C_NUMERIC)
+                            sqldata = stringToNum<double>(TESTDATA_MAPL[n].cValue);
+                                else
+                            sqldata = stringToNum<double>(TESTDATA_MAPL[n].sqlValue);
                             EXPECT_FLOAT_EQ(sqldata, mtarget) << "Data type is: " <<TESTDATA_MAPL[n].CTypeName  << "targettype is: " <<TESTDATA_MAPL[n].SQLTypeName ;
                             delete((double *)testP);
                             break; 
@@ -378,10 +444,10 @@ void commonSwitchctosql(int m_ODBCDataType, SQLPOINTER testP, int n){
                                         char timestamptmp[30]= {0};
                                         sprintf(timestamptmp,"%04d-%02d-%02d",TESTDATA_MAPL[n].year,TESTDATA_MAPL[n].month,TESTDATA_MAPL[n].day);
 
-                                        char tmp[60]= {0};
+                                        UChar tmp[60]= {0};
 
-                                        int  rc = iconv->TranslateISO88591((bool)false, (char*)timestamptmp, 30, (char*)tmp, 60, &translateLength, error);
-                                        if(NULL == wcsstr((wchar_t *)testP,(wchar_t *)tmp))
+                                        int  rc = iconv->LocaleToWChar((char*)timestamptmp, 30, (UChar *)tmp, 60, &translateLength, (char *)error);
+                                        if(NULL == wcsstr((wchar_t *)testP+1,(wchar_t *)tmp))
                                             flag = 0;
                                         else 
                                             flag = 1;
@@ -397,9 +463,9 @@ void commonSwitchctosql(int m_ODBCDataType, SQLPOINTER testP, int n){
                                         char timestamptmp[30]= {0};
                                         sprintf(timestamptmp,"%02d:%02d:%02d",TESTDATA_MAPL[n].hour,TESTDATA_MAPL[n].minute,TESTDATA_MAPL[n].second);
 
-                                        char tmp[60]= {0};
+                                        UChar tmp[60]= {0};
                                         
-                                        int  rc = iconv->TranslateISO88591((bool)false, (char*)timestamptmp, 30, (char*)tmp, 60, &translateLength, error);
+                                        int  rc = iconv->LocaleToWChar((char*)timestamptmp, 30, (UChar *)tmp, 60, &translateLength, (char *)error);
 
                                         if(NULL == wcsstr((wchar_t *)testP,(wchar_t *)tmp))
                                             flag = 0;
@@ -421,10 +487,10 @@ void commonSwitchctosql(int m_ODBCDataType, SQLPOINTER testP, int n){
 
 
 
-                                        char tmp[60]= {0};
+                                        UChar tmp[60]= {0};
                                         
                                        // int  rc = iconv->TranslateISO88591(0, (char*)timestamptmp, 30, (char*)tmp, 60, &translateLength, error);
-                                        int  rc = iconv->TranslateISO88591((bool)false, (char*)timestamptmp, 30, (char*)tmp, 60, &translateLength, error);
+                                        int  rc = iconv->LocaleToWChar((char*)timestamptmp, 30, (UChar *)tmp, 60, (int *)&translateLength, (char *)error);
                                         int m = strlen(timestamptmp);
                                         if(NULL == wcsstr((wchar_t *)testP,(wchar_t *)tmp))
                                             flag = 0;
@@ -442,12 +508,144 @@ void commonSwitchctosql(int m_ODBCDataType, SQLPOINTER testP, int n){
                                     {
 
                                         char timetmp[30]={0};
+                                        UChar tmp[60]= {0};
                                         int m = strlen(TESTDATA_MAPL[n].cValue);
                                         strncpy(timetmp,TESTDATA_MAPL[n].cValue,m);
-                                        if(NULL == strstr(timetmp,(char*)timetmp))
+
+                                        //if(TESTDATA_MAPL[n].CDataType == SQL_C_FLOAT||TESTDATA_MAPL[n].CDataType == SQL_C_DOUBLE)
+                                        if(1)
+                                        {
+                                            if(*(char * )testP == timetmp[0])
+                                                flag = 1;
+                                            else 
+                                                flag = 0;
+                                        }
+                                        else
+                                        {
+
+                                            int  rc = iconv->LocaleToWChar((char*)timetmp, 30, (UChar *)tmp, 60, (int*)&translateLength,(char *) error);
+
+                                            u_memset((UChar*)tmp+m,L' ',60-m);
+                                            if(NULL == wcsstr((wchar_t *)testP,(wchar_t *)tmp))
+                                                flag = 0;
+                                            else 
+                                                flag = 1;
+                                        }
+
+
+                                        EXPECT_TRUE(flag) << "Data type is: " <<TESTDATA_MAPL[n].CTypeName  << "targettype is: " <<TESTDATA_MAPL[n].SQLTypeName ;
+                                        delete((char *)testP);
+
+                                        break;//TODO
+
+                                    }
+
+                            }
+                            break;
+                        }
+        case SQL_WVARCHAR: 
+                        {
+                            int offset = 2;
+                            char error[256] ={
+                                0                            
+                            };
+                            switch (TESTDATA_MAPL[n].CDataType)
+                            {
+                                case SQL_C_TYPE_DATE:
+                                case SQL_C_DATE:
+                                    {
+                                        char timestamptmp[30]= {0};
+                                        sprintf(timestamptmp,"%04d-%02d-%02d",TESTDATA_MAPL[n].year,TESTDATA_MAPL[n].month,TESTDATA_MAPL[n].day);
+
+                                        UChar tmp[60]= {0};
+                                        int  rc = iconv->LocaleToWChar((char*)timestamptmp, 30, (UChar *)tmp, 60, &translateLength, (char *)error);
+                                        if(NULL == wcsstr((wchar_t *)(testP+offset),(wchar_t *)tmp))
                                             flag = 0;
                                         else 
                                             flag = 1;
+
+                                        EXPECT_TRUE(flag) << "Data type is: " <<TESTDATA_MAPL[n].CTypeName  << "targettype is: " <<TESTDATA_MAPL[n].SQLTypeName ;
+                                        delete((char *)testP);
+
+                                        break;
+                                    }
+                                case SQL_C_TYPE_TIME:
+                                case SQL_C_TIME:
+                                    {
+                                        char timestamptmp[30]= {0};
+                                        sprintf(timestamptmp,"%02d:%02d:%02d",TESTDATA_MAPL[n].hour,TESTDATA_MAPL[n].minute,TESTDATA_MAPL[n].second);
+
+
+                                        UChar tmp[60]= {0};
+                                        int  rc = iconv->LocaleToWChar((char*)timestamptmp, 30, (UChar *)tmp, 60, &translateLength, (char *)error);
+
+
+                                        if(NULL == wcsstr((wchar_t *)(testP+offset),(wchar_t *)tmp))
+                                            flag = 0;
+                                        else 
+                                            flag = 1;
+
+
+
+                                        EXPECT_TRUE(flag) << "Data type is: " <<TESTDATA_MAPL[n].CTypeName  << "targettype is: " <<TESTDATA_MAPL[n].SQLTypeName ;
+                                        delete((char *)testP);
+                                        break;
+
+                                    }
+                                case SQL_C_TIMESTAMP:
+                                case SQL_C_TYPE_TIMESTAMP:
+                                    {
+                                        char timestamptmp[30]= {0};
+                                        sprintf(timestamptmp,"%04d-%02d-%02d %02d:%02d:%02d.%06d",TESTDATA_MAPL[n].year,TESTDATA_MAPL[n].month,TESTDATA_MAPL[n].day,TESTDATA_MAPL[n].hour,TESTDATA_MAPL[n].minute,TESTDATA_MAPL[n].second,atol(TESTDATA_MAPL[n].fraction)/1000);
+
+
+                                        UChar tmp[60]= {0};
+                                        int  rc = iconv->LocaleToWChar((char*)timestamptmp, 30, (UChar *)tmp, 60, &translateLength, (char *)error);
+
+                                        int m = strlen(timestamptmp);
+                                        if(NULL == wcsstr((wchar_t *)(testP+offset),(wchar_t *)tmp))
+                                            flag = 0;
+                                        else 
+                                            flag = 1;
+
+
+                                        EXPECT_TRUE(flag) << "Data type is: " <<TESTDATA_MAPL[n].CTypeName  << "targettype is: " <<TESTDATA_MAPL[n].SQLTypeName ;
+                                        delete((char *)testP);
+                                        break;
+
+                                    }
+
+                                default:
+                                    {
+
+                                        char timetmp[30]={0};
+                                        UChar tmp[60]= {0};
+                                        wchar_t  tmp1[256] = L"";
+                                        int m = strlen(TESTDATA_MAPL[n].cValue);
+                                        strncpy(timetmp,TESTDATA_MAPL[n].cValue,m);
+
+                                        //if(TESTDATA_MAPL[n].CDataType == SQL_C_FLOAT||TESTDATA_MAPL[n].CDataType == SQL_C_DOUBLE)
+                                        if(1)
+                                        {
+                                            if(*(char * )(testP+offset) == timetmp[0])
+                                                flag = 1;
+                                            else 
+                                                flag = 0;
+                                        }
+                                        else
+                                        {
+
+
+                                            //int  rc = iconv->LocaleToWChar((char*)timetmp, 30, (UChar *)tmp, 60, &translateLength, (char *)error);
+                                           // u_memset((UChar*)(tmp+18),L' ',60-18);
+                                           swprintf(tmp1,256,L"%s",TESTDATA_MAPL[n].cValue);
+
+                                           EXPECT_STREQ((wchar_t *)(testP+offset),tmp1) << "Data type is: " <<TESTDATA_MAPL[n].CTypeName  << "targettype is: " <<TESTDATA_MAPL[n].SQLTypeName ;
+                                            if(NULL == wcsstr((wchar_t *)(testP+offset),(wchar_t *)tmp))
+                                                flag = 0;
+                                            else 
+                                                flag = 1;
+                                        }
 
 
                                         EXPECT_TRUE(flag) << "Data type is: " <<TESTDATA_MAPL[n].CTypeName  << "targettype is: " <<TESTDATA_MAPL[n].SQLTypeName ;
@@ -462,7 +660,6 @@ void commonSwitchctosql(int m_ODBCDataType, SQLPOINTER testP, int n){
 
 
                         }
-        case SQL_WVARCHAR: 
                         {
                             break;
                         }
